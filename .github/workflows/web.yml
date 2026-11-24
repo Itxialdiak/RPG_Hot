@@ -1,0 +1,68 @@
+# Publica la carpeta web/ (la versión instalable) en GitHub Pages, con la música.
+# Antes, una vez: Settings → Pages → Source: «GitHub Actions».
+# Mientras Pages no esté activado, el flujo termina sin publicar nada (y sin dar error).
+name: Web instalable
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'web/**'
+      - 'musica/**'
+      - 'herramientas/musica.mjs'
+      - '.github/workflows/web.yml'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  comprobar:
+    runs-on: ubuntu-latest
+    outputs:
+      activo: ${{ steps.pages.outputs.activo }}
+    steps:
+      - id: pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh api "repos/${{ github.repository }}/pages" --silent 2>/dev/null; then
+            echo "activo=si" >> "$GITHUB_OUTPUT"
+          else
+            echo "::notice::GitHub Pages no está activado (Settings → Pages → Source: GitHub Actions). No se publica nada."
+            echo "activo=no" >> "$GITHUB_OUTPUT"
+          fi
+
+  publicar:
+    needs: comprobar
+    if: needs.comprobar.outputs.activo == 'si'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Instalar ffmpeg
+        run: command -v ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+      - name: Caché de la música
+        uses: actions/cache@v4
+        with:
+          path: musica/salida
+          key: musica-${{ hashFiles('musica/catalogo.json', 'herramientas/musica.mjs') }}
+      - name: Preparar la música
+        run: node herramientas/musica.mjs --destino web/musica
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+      - id: despliegue
+        uses: actions/deploy-pages@v4

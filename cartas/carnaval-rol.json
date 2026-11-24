@@ -1,0 +1,44 @@
+{
+  "carnaval/rol/salon": [
+    {"id":"rs1","t":"El Mismo Minueto","n":1,"tags":[],"x":"Los músicos tocan el minueto de hace un año. Saca a bailar a tu pareja y, en personaje, dile al oído en qué compás exacto empezó todo aquella noche. Puede ser verdad o no: que suene a verdad."},
+    {"id":"rs2","t":"El Guante","n":1,"tags":["prenda"],"x":"Quítale a tu pareja un guante (o un calcetín, o el reloj) dedo a dedo, despacio, como quien recupera algo que le pertenece. En personaje, dile que se lo devolverás cuando te diga su nombre."},
+    {"id":"rs3","t":"La Máscara Desconocida","n":2,"tags":["voz"],"x":"Una máscara desconocida no deja de mirar a tu pareja desde el otro lado del Salón. En personaje, deja claro que esta noche no baila con nadie más: susúrrale lo que harías para quitarle las ganas de mirar a otro lado, mientras tus manos lo demuestran sobre la ropa."},
+    {"id":"rs4","t":"El Recuerdo Equivocado","n":2,"tags":[],"x":"Recuérdale a tu pareja, en personaje, un detalle de hace un año que no pasó: una caricia, un sitio, una palabra. Tu pareja tiene que corregirte con las manos, sobre tu ropa, enseñándote cómo fue de verdad."},
+    {"id":"rs5","t":"La Apuesta del Salón","n":2,"tags":[],"x":"Apostad en personaje: quien haga reír primero a su pareja elige dónde van sus manos durante la próxima canción, siempre sobre la ropa."},
+    {"id":"rs6","t":"El Pulso","n":1,"tags":[],"x":"Besa el interior de la muñeca de tu pareja y quédate ahí, notando el pulso. En personaje, dile si late igual que hace un año: más deprisa, más despacio o como nunca."},
+    {"id":"rs7","t":"Alguien Pregunta","n":2,"tags":[],"x":"Un criado avisa de que alguien pregunta por una de las dos máscaras. Escondeos detrás de una cortina o de una puerta, sin espacio entre los cuerpos y sin hacer ruido, hasta que acabe la canción. Las manos, donde puedan."},
+    {"id":"rs8","t":"La Confesión a Medias","n":2,"tags":["voz"],"x":"En personaje, empieza a contarle a tu pareja qué es lo que más echaste de menos de aquella noche, y para justo antes de lo más importante. Tu pareja puede intentar sacártelo con las manos, sobre la ropa; si lo consigue, termínalo."},
+    {"id":"rs9","t":"Por Dentro de la Manga","n":2,"tags":[],"x":"Mientras bailáis, desliza la mano por dentro de la manga de tu pareja, tan arriba como llegue, y déjala ahí. Es lo más cerca de la piel que permite el Salón, y en personaje lo sabes muy bien."}
+  ],
+  "carnaval/rol/galeria": [
+    {"id":"rg1","t":"El Guante Devuelto","n":2,"tags":["prenda"],"x":"En personaje, devuélvele a tu pareja lo que se le cayó hace un año: una prenda tuya, un pañuelo, lo que tengas. Pónselo tú, despacio, y quítale a cambio una prenda suya."},
+    {"id":"rg2","t":"El Espejo que Recuerda","n":2,"tags":["espejo","voz","prenda"],"x":"Ponte a la espalda de tu pareja, frente al espejo. En personaje, cuéntale qué hiciste con su ropa aquella noche, prenda a prenda, y hazlo otra vez mientras lo cuentas."},
+    {"id":"rg3","t":"La Carta Interceptada","n":2,"tags":["voz"],"x":"Encuentras una carta en un bolsillo de tu pareja (inventa qué dice: es una carta de amor sin destinatario). Léesela en voz alta, en personaje, y exige saber para quién era. Tu pareja responde con besos, menos en la boca, hasta convencerte."},
+    {"id":"rg4","t":"El Retrato sin Terminar","n":2,"tags":["prenda","voz"],"x":"Hace un año alguien empezó un retrato de tu pareja y no lo terminó. Termínalo tú: tu pareja posa con la ropa que quiera quitarse, y tú le describes en voz alta lo que le falta al cuadro."},
+    {"id":"rg5","t":"Las Manos se Acuerdan","n":3,"tags":["intimo"],"x":"En personaje, demuestra que te acuerdas: recorre el cuerpo de tu pareja con las manos, por debajo de la ropa, por el mismo camino que hace un año, sin dudar ni una vez. Si dudas, paga un zecchino."},
+    {"id":"rg6","t":"El Espejo Roto","n":2,"tags":["espejo"],"x":"Se ha roto un espejo de la Galería: siete años de mala suerte, salvo que alguien bese frente a él cada trozo de piel que se refleje. Rompe la maldición durante una canción: todo menos la boca."},
+    {"id":"rg7","t":"La Mentira","n":2,"tags":["voz","prenda"],"x":"Cuéntale a tu pareja una mentira sobre aquella noche, en personaje y con todo detalle. Tu pareja tiene que descubrirla: si la descubre, te quita una prenda; si no, le quitas tú una."},
+    {"id":"rg8","t":"Lo que Vio el Espejo","n":3,"tags":["espejo"],"x":"Frente al espejo, piel con piel. En personaje, cuenta lo que vio el espejo hace un año mientras tus manos lo repiten sobre tu pareja. Las bocas, a un dedo de distancia: todavía no."},
+    {"id":"rg9","t":"¿Sigo?","n":2,"tags":[],"x":"Para todo. En personaje, pregúntale a tu pareja, mirándole a los ojos en el espejo: «¿Sigo?». Si dice que sí, sigue donde lo dejaste, el doble de despacio."}
+  ],
+  "carnaval/rol/biblioteca": [
+    {"id":"rb1","t":"La Razón","n":3,"tags":["venda","voz"],"x":"Tu pareja lleva la venda. En personaje, cuéntale al oído por qué la historia de hace un año terminó como terminó, y no te pares aunque te tiemble la voz. Mientras hablas, tus labios recorren su cuello."},
+    {"id":"rb2","t":"El Beso Pendiente","n":3,"tags":["venda"],"x":"Tú llevas la venda. Tu pareja te da el beso que quedó pendiente hace un año: tan largo como le haga falta. Tú no puedes moverte hasta que termine."},
+    {"id":"rb3","t":"La Carta que no se Envió","n":3,"tags":["venda","voz"],"extra":true,"x":"Tu pareja lleva la venda. Abre la Carta encontrada y léela en voz alta, despacio, con los labios rozando su oído: en personaje, es la carta que escribiste hace un año y nunca enviaste. Mientras lees, tu mano libre puede ir a donde quiera."},
+    {"id":"rb4","t":"Lo que Faltó","n":3,"tags":["venda","intimo"],"x":"Tu pareja lleva la venda. En personaje, dile qué faltó aquella noche y dáselo ahora, despacio, con la boca, donde te parezca que lo dejasteis."},
+    {"id":"rb5","t":"Así me Dejaste","n":3,"tags":["venda","intimo"],"x":"Tú llevas la venda. Tu pareja recorre tu cuerpo entero con la boca, despacio, y se detiene cada vez que estás a punto de pedirle más. En personaje, al oído: «así me dejaste»."},
+    {"id":"rb6","t":"El Nombre","n":3,"tags":["venda","confesion"],"x":"Tu pareja lleva la venda. Dile al oído tu nombre real, el de verdad. Después, decide si se lo vuelves a decir más tarde, en otro sitio y en otro tono."},
+    {"id":"rb7","t":"La Campana Adelantada","n":3,"tags":["venda","silencio"],"x":"Tú llevas la venda. Tu pareja imita una campana a lo lejos y, en personaje, temes que sea la de San Marcos. Tu pareja tiene una canción para convencerte de que no lo es, sin decir una sola palabra."},
+    {"id":"rb8","t":"Esta Vez No te Vas","n":3,"tags":["venda","atar"],"x":"Tu pareja lleva la venda. Si quiere, átale las muñecas por delante con un pañuelo, flojo y fácil de soltar, y dile en personaje: «esta vez no te vas». Durante una canción, tus manos y tu boca deciden el camino. «Rojo» lo deshace al instante."},
+    {"id":"rb9","t":"El Perdón","n":4,"tags":["venda","intimo"],"x":"Tú llevas la venda. En personaje, tu pareja te pide perdón, o te lo concede, sin una sola palabra: con la boca, por todo el cuerpo, hasta que digas «te perdono»."}
+  ],
+  "carnaval/rol/alcoba": [
+    {"id":"ra1","t":"Esta Vez Nadie se Va","n":4,"tags":["intimo"],"x":"En personaje o sin él, haced lo que hace un año se quedó a medias, sin prisa y sin campana. Que dure lo que tenga que durar."},
+    {"id":"ra2","t":"Las Deudas","n":4,"tags":[],"x":"Cobrad ahora los zecchini, por turnos: quien cobra pide algo, en personaje si quiere; quien debe lo concede o lo perdona. Empieza quien tenga más."},
+    {"id":"ra3","t":"El Guion Roto","n":4,"tags":[],"x":"Romped el papel: durante una canción, cada persona hace lo que su personaje nunca se habría atrevido a hacer, y pide permiso solo con la mirada. Si la mirada dice que sí, adelante."},
+    {"id":"ra4","t":"Por qué te Quedas","n":4,"tags":["desnudez"],"x":"Sin ropa y en un abrazo, dile a tu pareja al oído por qué esta vez te quedas. Después, demuéstraselo durante una canción, sin decir nada más."},
+    {"id":"ra5","t":"Lo que Quedó Escrito","n":4,"tags":["voz"],"x":"Por turnos, leed en voz alta la carta del sobre pequeño, despacio y al oído. Después haced lo que diga, o algo mejor."},
+    {"id":"ra6","t":"La Última Máscara","n":4,"tags":["intimo"],"x":"Ponle a tu pareja tu máscara y quédate sin nada. En personaje por última vez: haz con su cuerpo lo que habrías hecho hace un año si te hubieras atrevido."},
+    {"id":"ra7","t":"Sin Campana","n":4,"tags":["intimo","desnudez"],"x":"Sin ropa, sin papeles y sin prisa: cada cual da placer a su pareja, a la vez, hasta que alguien pida tregua. La tregua dura una respiración; después empieza otra noche."}
+  ]
+}

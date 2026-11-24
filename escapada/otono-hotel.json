@@ -1,0 +1,63 @@
+{
+  "titulo": "Otoño en el pueblo",
+  "gancho": "Un pueblo de montaña que huele a humo de chimenea, castaños y hayedos encendidos de rojo, niebla al amanecer y una habitación donde la tarde se hace corta.",
+  "lugar": "Un pueblo pequeño de montaña o de valle, cerca de un hayedo o de un castañar. Mejor una casa rural u hotel pequeño con chimenea y bañera.",
+  "consejos": [
+    "Los fines de semana de otoño los hayedos famosos se llenan: id entre semana o buscad el bosque menos conocido del valle.",
+    "Anochece pronto y el monte se enfría deprisa: el paseo, por la mañana o a media tarde, y de vuelta con luz."
+  ],
+  "material": [
+    "Un jersey grande para prestar",
+    "Una vela o una luz cálida para la habitación"
+  ],
+  "cartas": {
+    "perdidos": {
+      "parrafos": [
+        "Os habéis perdido en el hayedo. El suelo es una alfombra roja que cruje, y el pueblo solo se adivina por el humo.",
+        "Antes de nada: nadie entre los árboles, nadie en el camino, y la vuelta clara antes de que anochezca. Aquí, a las seis ya es tarde.",
+        "Extended la manta sobre las hojas. Desde aquí las cartas suben hasta el final, con la ropa justa que permita el frío. Si aparece alguien, ropa y a otra cosa, sin dramas."
+      ]
+    },
+    "alcoba": {
+      "parrafos": [
+        "Fuera hace frío y huele a leña. Dentro, la habitación ya guarda el calor de la tarde.",
+        "Encended una luz cálida y sacad las cartas que escribisteis antes de salir. Leedlas en voz alta, bajo la manta.",
+        "Desde aquí no hay propuestas ni retos. Si queréis, quedan cartas para la noche; si no, solo vuestros NO, hasta que se levante la niebla."
+      ]
+    }
+  },
+  "propuestas": [
+    {"id": "otho-v1", "f": "viaje", "para": "copi", "t": "Cuando hay niebla", "x": "Si hay niebla en la carretera, nada de juegos: pon música suave y cuéntale a {O}, en voz baja, cómo te gustaría que acabara el día, con la niebla al otro lado de la ventana."},
+    {"id": "otho-v2", "f": "viaje", "para": "copi", "t": "Dos horas y una chimenea", "x": "Pregúntale a {O} qué haría con una chimenea, una alfombra y dos horas por delante. Que te lo cuente despacio: hay curvas."},
+    {"id": "otho-v3", "f": "viaje", "para": "copi", "t": "Tarde de lluvia", "x": "Si llueve, cuéntale a {O} qué te gustaría hacer una tarde de lluvia sin salir de la cama. Con detalles, y sin saltarte la merienda."},
+    {"id": "otho-l1", "f": "llegada", "para": "uno", "nivel": 1, "t": "El jersey prestado", "x": "Al llegar, ponle a {O} tu jersey, aunque no tenga frío. Esta noche se lo quitas tú."},
+    {"id": "otho-l2", "f": "llegada", "para": "ambos", "nivel": 1, "t": "Olor a leña", "x": "Una vuelta corta por el pueblo siguiendo el olor a leña. Delante de cada casa con humo en la chimenea, adivinad qué estará pasando dentro."},
+    {"id": "otho-l3", "f": "llegada", "para": "uno", "nivel": 2, "t": "Llenar la bañera", "x": "Llena la bañera mientras {O} deshace la maleta y llámale cuando esté. Tú decides si entras o si miras.", "tags": ["agua"]},
+    {"id": "otho-l4", "f": "llegada", "para": "uno", "nivel": 2, "t": "Manos frías", "x": "Asoma a {O} a la ventana a mirar el valle, abrázale por detrás y mete tus manos frías por debajo de su jersey hasta que se calienten."},
+    {"id": "otho-e1", "f": "explora", "para": "uno", "nivel": 1, "min": 30, "t": "Castañas", "x": "Recoged castañas por el camino, donde esté permitido. Cada erizo que abras, un beso a {O} donde quieras.", "suave": "Cada erizo que abras, un beso en la mano de {O}."},
+    {"id": "otho-e2", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "La bufanda", "x": "En el hayedo, bajo las hojas rojas, quítale a {O} la bufanda o el gorro y bésale donde estaban: el cuello, las orejas, la nuca.", "suave": "En el hayedo, un beso largo con las hojas cayendo."},
+    {"id": "otho-e3", "f": "explora", "para": "uno", "nivel": 2, "min": 40, "t": "Dos pasos fuera del camino", "x": "Aprovechad la niebla: a dos pasos del camino, donde ya no se os ve, un beso con las manos por dentro de los abrigos.", "suave": "Dentro de la niebla, un beso largo sin salir del camino."},
+    {"id": "otho-e4", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "La tarde corta", "x": "Volved a la habitación cuando empiece a oscurecer: la tarde se acaba fuera, pero dentro empieza. Desnuda a {O} con la última luz.", "suave": "Volved a la habitación con la última luz y echaos un rato en un abrazo.", "tags": ["desnudez"]},
+    {"id": "otho-e5", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "El banco del mirador", "x": "En el mirador, si no hay nadie, siéntate en el banco con {O} encima, y tus manos por dentro de su abrigo mientras miráis el valle encendido.", "suave": "En el mirador, un abrazo largo mirando el valle encendido.", "tags": ["aire"]},
+    {"id": "otho-e6", "f": "explora", "para": "uno", "nivel": 3, "min": 45, "t": "Setas", "x": "Buscad setas, solo para mirar salvo que sepáis de verdad. Cada vez que encuentres una, quítale a {O} algo pequeño: un guante, la bufanda, un botón.", "suave": "Cada seta que encontréis, un beso a {O}.", "tags": ["prenda"]},
+    {"id": "otho-e7", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "El castañar", "x": "En un castañar a solas, sobre la manta y el colchón de hojas, desabrocha a {O} lo que el frío permita y que tu boca haga el resto. El bosque cruje: si alguien se acerca, lo oiréis.", "suave": "En un castañar, tumbaos en la manta sobre las hojas, en un abrazo.", "tags": ["aire", "prenda", "intimo"]},
+    {"id": "otho-e8", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "La luz del fuego", "x": "Con la habitación a oscuras y una vela, o la chimenea si es solo vuestra, una manta y {O} sin nada debajo de ella. Lo demás, despacio.", "suave": "Junto a una vela o a la chimenea, un abrazo bajo la manta con tus manos bajo el jersey de {O}.", "tags": ["desnudez", "intimo"]},
+    {"id": "otho-p1", "f": "perdidos", "temp": "seda", "t": "Como un regalo", "x": "Tumba a {R} sobre la manta y las hojas, y desabrocha su abrigo como si abrieras un regalo. Debajo, tus manos frías piden permiso.", "tags": ["aire", "prenda"]},
+    {"id": "otho-p2", "f": "perdidos", "temp": "seda", "t": "Una hoja grande", "x": "Coge una hoja grande y suave y recorre con ella el cuello y el pecho de {R}, por dentro de la ropa. Donde se estremezca, tu boca.", "tags": ["aire", "pluma"]},
+    {"id": "otho-p3", "f": "perdidos", "temp": "seda", "t": "Dentro del abrigo", "x": "Abre tu abrigo y mete dentro a {R}, de espaldas a ti. Tus manos, por dentro de su ropa, despacio, mientras miráis el bosque.", "tags": ["aire"]},
+    {"id": "otho-p4", "f": "perdidos", "temp": "brasa", "t": "Lo justo", "x": "Quítale a {R} solo lo imprescindible, que hace fresco, y que tu boca encuentre el camino entre la ropa que queda.", "tags": ["aire", "prenda", "intimo"]},
+    {"id": "otho-p5", "f": "perdidos", "temp": "brasa", "t": "El calor se fabrica", "x": "Bajo la manta y sobre las hojas, con el cuerpo de {R} pegado al tuyo, lo que pida y como lo pida. El frío se queda fuera.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "otho-p6", "f": "perdidos", "temp": "brasa", "t": "Hasta que se vaya la luz", "x": "Que el bosque os retenga hasta que empiece a irse la luz. Lo que pase, al ritmo de {R}; después, ropa, abrazo y de vuelta con el frontal.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "otho-c1", "f": "cena", "para": "ambos", "t": "De cuchara", "x": "Pedid algo de cuchara y de pueblo: un guiso, una sopa, unas migas. Brindad por el frío que se ha quedado fuera."},
+    {"id": "otho-c2", "f": "cena", "para": "uno", "t": "Castaña caliente", "x": "Pela una castaña asada y dásela a {O} en la boca, todavía caliente. Después, sopla en sus labios.", "tags": ["comida"]},
+    {"id": "otho-c3", "f": "cena", "para": "ambos", "t": "El bolsillo ajeno", "x": "Volved a la habitación por la calle más oscura, con cada mano dentro del bolsillo de la otra persona."},
+    {"id": "otho-a1", "f": "alcoba", "temp": "seda", "t": "El jersey, de vuelta", "x": "Quítale a {R} el jersey que le prestaste al llegar, despacio, y lo demás, igual de despacio. Cada prenda, un beso donde estaba.", "tags": ["prenda", "desnudez"]},
+    {"id": "otho-a2", "f": "alcoba", "temp": "seda", "t": "Bañera con vela", "x": "Una bañera caliente con la luz apagada y una vela. Colócate detrás de {R} y lávale la espalda, el cuello y los hombros, sin prisa.", "tags": ["agua", "desnudez"]},
+    {"id": "otho-a3", "f": "alcoba", "temp": "seda", "t": "Gotas en el cristal", "x": "Si llueve, apagad la luz y escuchad. Al ritmo de las gotas, tus dedos recorren la espalda de {R}, cada vez más despacio.", "tags": []},
+    {"id": "otho-a4", "f": "alcoba", "temp": "brasa", "t": "El edredón más gordo", "x": "Bajo el edredón más gordo de la casa, sin nada encima, tu boca baja por el cuerpo de {R} hasta donde te pida.", "tags": ["desnudez", "intimo"]},
+    {"id": "otho-a5", "f": "alcoba", "temp": "brasa", "t": "Manos de fuego", "x": "A la luz de una vela, desnuda a {R} y recórrele con las manos calientes. Después, con la boca, sin dejarte nada de lo que te deje.", "tags": ["desnudez", "intimo"]},
+    {"id": "otho-a6", "f": "alcoba", "temp": "brasa", "t": "La noche más larga", "x": "Anochece a las seis: tenéis la noche entera. Lo que queráis, como queráis, sin mirar el reloj, hasta que {R} diga basta.", "tags": ["desnudez", "intimo"]},
+    {"id": "otho-p7", "f": "perdidos", "temp": "brasa", "t": "El abrigo como tienda", "tags": ["aire", "intimo"], "x": "Sobre la manta y las hojas, con el abrigo abierto como una tienda, ponte entre las piernas de {R} y dale calor con la boca hasta que se le olvide el frío."},
+    {"id": "otho-a7", "f": "alcoba", "temp": "brasa", "t": "Avivar la chimenea", "tags": ["borde", "intimo"], "x": "Frente a la chimenea o a una vela, acaricia a {R} donde más lo note y para justo cuando más lo esté disfrutando, como quien aviva un fuego. Tres veces. A la cuarta, que arda."}
+  ]
+}

@@ -1,0 +1,699 @@
+{
+ "_nota": "Música de Kevin MacLeod (incompetech.com), con licencia Creative Commons Atribución 4.0. La descarga herramientas/musica.mjs y la comprime para la app; los créditos salen en la propia app.",
+ "fuente": "incompetech.com",
+ "licencia": {
+  "n": "Creative Commons Atribución 4.0",
+  "corto": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/"
+ },
+ "credito": "«{t}», de Kevin MacLeod (incompetech.com). Licencia Creative Commons Atribución 4.0: creativecommons.org/licenses/by/4.0",
+ "listas": {
+  "clavecin": {
+   "n": "Laúd y clavecín",
+   "pistas": [
+    "suonatore-di-liuto",
+    "sinfonia-number-5",
+    "brandenburg-4-allegro"
+   ]
+  },
+  "baile": {
+   "n": "Baile de máscaras",
+   "pistas": [
+    "crinoline-dreams",
+    "duet-musette",
+    "canon-in-d-major",
+    "frost-waltz"
+   ]
+  },
+  "penumbra": {
+   "n": "Groove en penumbra",
+   "pistas": [
+    "soporific",
+    "dub-feral",
+    "groove-grove",
+    "comfortable-mystery"
+   ]
+  },
+  "madrugada": {
+   "n": "Jazz de madrugada",
+   "pistas": [
+    "night-on-the-docks-trumpet",
+    "late-night-radio",
+    "night-in-venice",
+    "just-as-soon"
+   ]
+  },
+  "piel": {
+   "n": "Soul lento",
+   "pistas": [
+    "slow-jam",
+    "smooth-lovin",
+    "clean-soul",
+    "ether-vox"
+   ]
+  },
+  "soul": {
+   "n": "Para bailar despacio",
+   "pistas": [
+    "last-kiss-goodnight",
+    "study-and-relax",
+    "thief-in-the-night",
+    "past-sadness"
+   ]
+  },
+  "bossa": {
+   "n": "Bossa nova y samba suave",
+   "pistas": [
+    "bossa-antigua",
+    "bossabossa",
+    "samba-isobel"
+   ]
+  },
+  "agua": {
+   "n": "Piano y cuerda lentos",
+   "pistas": [
+    "gymnopedie-no-1",
+    "water-lily",
+    "moonstone",
+    "reawakening"
+   ]
+  },
+  "arpa": {
+   "n": "Arpa y cuerda",
+   "pistas": [
+    "enchanted-journey",
+    "morning",
+    "evening"
+   ]
+  },
+  "folk": {
+   "n": "Folk antiguo",
+   "pistas": [
+    "angevin",
+    "teller-of-the-tales",
+    "midnight-tale",
+    "night-of-the-owl"
+   ]
+  },
+  "eter": {
+   "n": "Voces, arpa y flautas",
+   "pistas": [
+    "ascending-the-vale",
+    "frozen-star",
+    "willow-and-the-light"
+   ]
+  },
+  "gruta": {
+   "n": "Ecos y tambores lentos",
+   "pistas": [
+    "nightdreams",
+    "night-vigil",
+    "truth-in-the-stones"
+   ]
+  },
+  "tierra": {
+   "n": "Cuerda y percusión de tierra",
+   "pistas": [
+    "wholesome",
+    "drankin-song",
+    "heavy-heart"
+   ]
+  },
+  "tarde": {
+   "n": "Lounge de tarde",
+   "pistas": [
+    "local-forecast-slower",
+    "airport-lounge",
+    "dreamer"
+   ]
+  },
+  "cocina": {
+   "n": "Radio de cocina",
+   "pistas": [
+    "jazz-brunch",
+    "pleasant-porridge",
+    "bass-vibes"
+   ]
+  },
+  "camino": {
+   "n": "Para el camino",
+   "pistas": [
+    "fretless",
+    "on-my-way",
+    "porch-swing-days-slower"
+   ]
+  }
+ },
+ "pistas": {
+  "suonatore-di-liuto": {
+   "t": "Suonatore di Liuto",
+   "a": "Kevin MacLeod",
+   "dur": 144,
+   "bpm": 70,
+   "inst": "Lute",
+   "isrc": "USUAN1400023",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Suonatore%20di%20Liuto.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400023"
+  },
+  "sinfonia-number-5": {
+   "t": "Sinfonia Number 5",
+   "a": "Kevin MacLeod",
+   "dur": 128,
+   "bpm": 71,
+   "inst": "harpsichord",
+   "isrc": "USUAN1100673",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Sinfonia%20Number%205.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100673"
+  },
+  "brandenburg-4-allegro": {
+   "t": "Brandenburg Concerto No. 4 in G, Movement I (Allegro), BWV 1049",
+   "a": "Kevin MacLeod",
+   "dur": 437,
+   "bpm": 177,
+   "inst": "Orchestral - Flute, Violin, Viola, Cello, Harpsichord",
+   "isrc": "USUAN1100303",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Brandenburg%20No4-1%20BWV1049.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100303"
+  },
+  "crinoline-dreams": {
+   "t": "Crinoline Dreams",
+   "a": "Kevin MacLeod",
+   "dur": 246,
+   "bpm": 120,
+   "inst": "Piano, Violin, Viola, Bass, Cello, Double Bass",
+   "isrc": "USUAN1700073",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Crinoline%20Dreams.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700073"
+  },
+  "duet-musette": {
+   "t": "Duet Musette",
+   "a": "Kevin MacLeod",
+   "dur": 140,
+   "bpm": 60,
+   "inst": "Accordion, Violin",
+   "isrc": "USUAN1100250",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Duet%20Musette.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100250"
+  },
+  "canon-in-d-major": {
+   "t": "Canon in D Major",
+   "a": "Kevin MacLeod",
+   "dur": 355,
+   "bpm": 80,
+   "inst": "Orchestral - Bass, Violin, Harp",
+   "isrc": "USUAN1100301",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Canon%20in%20D%20Major.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100301"
+  },
+  "frost-waltz": {
+   "t": "Frost Waltz",
+   "a": "Kevin MacLeod",
+   "dur": 135,
+   "bpm": 99,
+   "inst": "Celesta, Glockenspiel, Basses, Cellos, Violas, Violins, French Horns,",
+   "isrc": "USUAN1100516",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Frost%20Waltz.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100516"
+  },
+  "soporific": {
+   "t": "Soporific",
+   "a": "Kevin MacLeod",
+   "dur": 290,
+   "bpm": 84,
+   "inst": "Electric Piano, Bells, Percussion",
+   "isrc": "USUAN1100582",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Soporific.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100582"
+  },
+  "dub-feral": {
+   "t": "Dub Feral",
+   "a": "Kevin MacLeod",
+   "dur": 233,
+   "bpm": 69,
+   "inst": "Bass, Kit, Piano, Guitar, Synth",
+   "isrc": "USUAN1200045",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Dub%20Feral.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200045"
+  },
+  "groove-grove": {
+   "t": "Groove Grove",
+   "a": "Kevin MacLeod",
+   "dur": 206,
+   "bpm": 70,
+   "inst": "Percussion, Electric Piano, Synth",
+   "isrc": "USUAN1200054",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Groove%20Grove.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200054"
+  },
+  "comfortable-mystery": {
+   "t": "Comfortable Mystery",
+   "a": "Kevin MacLeod",
+   "dur": 236,
+   "bpm": 65,
+   "inst": "Electric Piano",
+   "isrc": "USUAN1100287",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Comfortable%20Mystery.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100287"
+  },
+  "night-on-the-docks-trumpet": {
+   "t": "Night on the Docks - Trumpet",
+   "a": "Kevin MacLeod",
+   "dur": 174,
+   "bpm": 0,
+   "inst": "EP, Trumpet",
+   "isrc": "USUAN1100136",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Night%20on%20the%20Docks%20-%20Trumpet.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100136"
+  },
+  "late-night-radio": {
+   "t": "Late Night Radio",
+   "a": "Kevin MacLeod",
+   "dur": 264,
+   "bpm": 72,
+   "inst": "Electric Piano, Bass, Drums, Synth",
+   "isrc": "USUAN2100003",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Late%20Night%20Radio.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN2100003"
+  },
+  "night-in-venice": {
+   "t": "Night in Venice",
+   "a": "Kevin MacLeod",
+   "dur": 218,
+   "bpm": 114,
+   "inst": "Alto Sax, Electric Piano, Bass, Drums",
+   "isrc": "USUAN1900056",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Night%20in%20Venice.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900056"
+  },
+  "just-as-soon": {
+   "t": "Just As Soon",
+   "a": "Kevin MacLeod",
+   "dur": 228,
+   "bpm": 109,
+   "inst": "Bass, Acoustic Guitar, Brushed Kit, EP, Tenor Sax",
+   "isrc": "USUAN1100185",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Just%20As%20Soon.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100185"
+  },
+  "slow-jam": {
+   "t": "Slow Jam",
+   "a": "Kevin MacLeod",
+   "dur": 266,
+   "bpm": 75,
+   "inst": "EP, Piano, Synths, Percussion",
+   "isrc": "USUAN1600015",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Slow%20Jam.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600015"
+  },
+  "smooth-lovin": {
+   "t": "Smooth Lovin",
+   "a": "Kevin MacLeod",
+   "dur": 259,
+   "bpm": 75,
+   "inst": "Bass, Guitar, Drums, Piano, Organ",
+   "isrc": "USUAN1700077",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Smooth%20Lovin.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700077"
+  },
+  "clean-soul": {
+   "t": "Clean Soul",
+   "a": "Kevin MacLeod",
+   "dur": 307,
+   "bpm": 0,
+   "inst": "Electric Piano, Bass",
+   "isrc": "USUAN1300033",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Clean%20Soul.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300033"
+  },
+  "ether-vox": {
+   "t": "Ether Vox",
+   "a": "Kevin MacLeod",
+   "dur": 206,
+   "bpm": 60,
+   "inst": "Drums, Electric Piano, Guitar, Synths, Vocals",
+   "isrc": "USUAN2000022",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Ether%20Vox.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN2000022"
+  },
+  "last-kiss-goodnight": {
+   "t": "Last Kiss Goodnight",
+   "a": "Kevin MacLeod",
+   "dur": 186,
+   "bpm": 60,
+   "inst": "Guitar, Bass, Kit, Strings, Piano",
+   "isrc": "USUAN1100611",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Last%20Kiss%20Goodnight.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100611"
+  },
+  "study-and-relax": {
+   "t": "Study And Relax",
+   "a": "Kevin MacLeod",
+   "dur": 223,
+   "bpm": 72,
+   "inst": "Saxophones, Piano, Bass, Percussion",
+   "isrc": "USUAN1900030",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Study%20And%20Relax.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900030"
+  },
+  "thief-in-the-night": {
+   "t": "Thief in the Night",
+   "a": "Kevin MacLeod",
+   "dur": 185,
+   "bpm": 65,
+   "inst": "Guitar, Bass, Drums, Organ",
+   "isrc": "USUAN1600019",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Thief%20in%20the%20Night.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600019"
+  },
+  "past-sadness": {
+   "t": "Past Sadness",
+   "a": "Kevin MacLeod",
+   "dur": 213,
+   "bpm": 72,
+   "inst": "EP, Bass, Percussion",
+   "isrc": "USUAN1900007",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Past%20Sadness.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900007"
+  },
+  "bossa-antigua": {
+   "t": "Bossa Antigua",
+   "a": "Kevin MacLeod",
+   "dur": 283,
+   "bpm": 70,
+   "inst": "Guitar, Bass, Drums",
+   "isrc": "USUAN1700069",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Bossa%20Antigua.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700069"
+  },
+  "bossabossa": {
+   "t": "BossaBossa",
+   "a": "Kevin MacLeod",
+   "dur": 167,
+   "bpm": 77,
+   "inst": "Piano, Bass, Drums, Guitar",
+   "isrc": "USUAN1600055",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/BossaBossa.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600055"
+  },
+  "samba-isobel": {
+   "t": "Samba Isobel",
+   "a": "Kevin MacLeod",
+   "dur": 250,
+   "bpm": 95,
+   "inst": "Bass, Drums, Piano",
+   "isrc": "USUAN1700071",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Samba%20Isobel.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700071"
+  },
+  "gymnopedie-no-1": {
+   "t": "Gymnopedie No. 1",
+   "a": "Kevin MacLeod",
+   "dur": 187,
+   "bpm": 77,
+   "inst": "Piano",
+   "isrc": "USUAN1100787",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Gymnopedie%20No%201.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100787"
+  },
+  "water-lily": {
+   "t": "Water Lily",
+   "a": "Kevin MacLeod",
+   "dur": 130,
+   "bpm": 62,
+   "inst": "Piano, Basses, Cellos",
+   "isrc": "USUAN1400035",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Water%20Lily.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400035"
+  },
+  "moonstone": {
+   "t": "Moonstone",
+   "a": "Kevin MacLeod",
+   "dur": 255,
+   "bpm": 0,
+   "inst": "Piano",
+   "isrc": "USUAN1100145",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Moonstone.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100145"
+  },
+  "reawakening": {
+   "t": "Reawakening",
+   "a": "Kevin MacLeod",
+   "dur": 214,
+   "bpm": 56,
+   "inst": "Piano, Cello",
+   "isrc": "USUAN1400017",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Reawakening.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400017"
+  },
+  "enchanted-journey": {
+   "t": "Enchanted Journey",
+   "a": "Kevin MacLeod",
+   "dur": 270,
+   "bpm": 62,
+   "inst": "Harp",
+   "isrc": "USUAN1100799",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Enchanted%20Journey.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100799"
+  },
+  "morning": {
+   "t": "Morning",
+   "a": "Kevin MacLeod",
+   "dur": 153,
+   "bpm": 60,
+   "inst": "Classical Guitar, Harp, Flutes",
+   "isrc": "USUAN2300003",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Morning.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN2300003"
+  },
+  "evening": {
+   "t": "Evening",
+   "a": "Kevin MacLeod",
+   "dur": 186,
+   "bpm": 101,
+   "inst": "Guitar, Cello, Oboe",
+   "isrc": "USUAN2300002",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Evening.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN2300002"
+  },
+  "angevin": {
+   "t": "Angevin",
+   "a": "Kevin MacLeod",
+   "dur": 280,
+   "bpm": 70,
+   "inst": "Flute, Lute, Choir, Percussion",
+   "isrc": "USUAN1200110",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Angevin.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200110"
+  },
+  "teller-of-the-tales": {
+   "t": "Teller of the Tales",
+   "a": "Kevin MacLeod",
+   "dur": 212,
+   "bpm": 130,
+   "inst": "Lute, Guitar",
+   "isrc": "USUAN1400020",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Teller%20of%20the%20Tales.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400020"
+  },
+  "midnight-tale": {
+   "t": "Midnight Tale",
+   "a": "Kevin MacLeod",
+   "dur": 162,
+   "bpm": 73,
+   "inst": "Guitar, Lute",
+   "isrc": "USUAN1900004",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Midnight%20Tale.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900004"
+  },
+  "night-of-the-owl": {
+   "t": "Night of the Owl",
+   "a": "Kevin MacLeod",
+   "dur": 233,
+   "bpm": 68,
+   "inst": "Drums, Flute",
+   "isrc": "USUAN1100597",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Night%20of%20the%20Owl.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100597"
+  },
+  "ascending-the-vale": {
+   "t": "Ascending the Vale",
+   "a": "Kevin MacLeod",
+   "dur": 248,
+   "bpm": 90,
+   "inst": "Harp, Choir, Flute Percussion, Anyafil Horn",
+   "isrc": "USUAN1600064",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Ascending%20the%20Vale.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600064"
+  },
+  "frozen-star": {
+   "t": "Frozen Star",
+   "a": "Kevin MacLeod",
+   "dur": 221,
+   "bpm": 88,
+   "inst": "Harp, Choir, Helicons, Flutes",
+   "isrc": "USUAN1100356",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Frozen%20Star.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100356"
+  },
+  "willow-and-the-light": {
+   "t": "Willow and the Light",
+   "a": "Kevin MacLeod",
+   "dur": 192,
+   "bpm": 90,
+   "inst": "Percussion, Harp, Flute, Voice",
+   "isrc": "USUAN1100591",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Willow%20and%20the%20Light.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100591"
+  },
+  "nightdreams": {
+   "t": "Nightdreams",
+   "a": "Kevin MacLeod",
+   "dur": 396,
+   "bpm": 54,
+   "inst": "Drums, Hang Drum",
+   "isrc": "USUAN1700054",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Nightdreams.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700054"
+  },
+  "night-vigil": {
+   "t": "Night Vigil",
+   "a": "Kevin MacLeod",
+   "dur": 288,
+   "bpm": 54,
+   "inst": "Choir, Flute, Basses, Cellos",
+   "isrc": "USUAN1900047",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Night%20Vigil.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900047"
+  },
+  "truth-in-the-stones": {
+   "t": "Truth in the Stones",
+   "a": "Kevin MacLeod",
+   "dur": 373,
+   "bpm": 54,
+   "inst": "Drums, Harp",
+   "isrc": "USUAN1700059",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Truth%20in%20the%20Stones.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700059"
+  },
+  "wholesome": {
+   "t": "Wholesome",
+   "a": "Kevin MacLeod",
+   "dur": 364,
+   "bpm": 128,
+   "inst": "Cello, Viola, Marimba, Drums",
+   "isrc": "USUAN1900022",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Wholesome.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900022"
+  },
+  "drankin-song": {
+   "t": "Drankin Song",
+   "a": "Kevin MacLeod",
+   "dur": 246,
+   "bpm": 56,
+   "inst": "Violin, Bass, Guitar, Diddley Bow, Drums",
+   "isrc": "USUAN1500021",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Drankin%20Song.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500021"
+  },
+  "heavy-heart": {
+   "t": "Heavy Heart",
+   "a": "Kevin MacLeod",
+   "dur": 297,
+   "bpm": 110,
+   "inst": "Lute, Cellos, Basses, Penny Whistle",
+   "isrc": "USUAN1600002",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Heavy%20Heart.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600002"
+  },
+  "local-forecast-slower": {
+   "t": "Local Forecast - Slower",
+   "a": "Kevin MacLeod",
+   "dur": 199,
+   "bpm": 77,
+   "inst": "Piano, Bass, Kit, EP, Flute, Trumpet, Percussion, Guitar",
+   "isrc": "USUAN1300011",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Local%20Forecast%20-%20Slower.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300011"
+  },
+  "airport-lounge": {
+   "t": "Airport Lounge",
+   "a": "Kevin MacLeod",
+   "dur": 308,
+   "bpm": 129,
+   "inst": "Bass, Kit, EP, Vibes",
+   "isrc": "USUAN1100806",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Airport%20Lounge.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100806"
+  },
+  "dreamer": {
+   "t": "Dreamer",
+   "a": "Kevin MacLeod",
+   "dur": 204,
+   "bpm": 100,
+   "inst": "Piano, Percussion",
+   "isrc": "USUAN1600043",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Dreamer.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600043"
+  },
+  "jazz-brunch": {
+   "t": "Jazz Brunch",
+   "a": "Kevin MacLeod",
+   "dur": 323,
+   "bpm": 100,
+   "inst": "EP, Drums, Bass, Organ, Guitar",
+   "isrc": "USUAN1700074",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Jazz%20Brunch.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700074"
+  },
+  "pleasant-porridge": {
+   "t": "Pleasant Porridge",
+   "a": "Kevin MacLeod",
+   "dur": 171,
+   "bpm": 119,
+   "inst": "Electric Piano, Guitar, Bass, Drums",
+   "isrc": "USUAN2100004",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Pleasant%20Porridge.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN2100004"
+  },
+  "bass-vibes": {
+   "t": "Bass Vibes",
+   "a": "Kevin MacLeod",
+   "dur": 169,
+   "bpm": 116,
+   "inst": "Bass, Electric Piano, Kits",
+   "isrc": "USUAN1100462",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Bass%20Vibes.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100462"
+  },
+  "fretless": {
+   "t": "Fretless",
+   "a": "Kevin MacLeod",
+   "dur": 336,
+   "bpm": 100,
+   "inst": "Guitar, Ukulele, Drums, Bass, Glockenspiel, Music Box",
+   "isrc": "USUAN1500074",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Fretless.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500074"
+  },
+  "on-my-way": {
+   "t": "On My Way",
+   "a": "Kevin MacLeod",
+   "dur": 253,
+   "bpm": 126,
+   "inst": "Bass, Guitar, Flutes, Clarinets, Vibes, Drums",
+   "isrc": "USUAN1600062",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/On%20My%20Way.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600062"
+  },
+  "porch-swing-days-slower": {
+   "t": "Porch Swing Days - slower",
+   "a": "Kevin MacLeod",
+   "dur": 216,
+   "bpm": 110,
+   "inst": "Guitars, Bass, Kit, Percussion, Voice",
+   "isrc": "USUAN1100715",
+   "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Porch%20Swing%20Days%20-%20slower.mp3",
+   "pagina": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100715"
+  }
+ }
+}

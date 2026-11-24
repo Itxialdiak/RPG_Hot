@@ -1,0 +1,38 @@
+{
+  "cotidiana/prohibicion/cocina": [
+    {"id":"gk1","t":"El Ascensor","tags":["silencio"],"x":"Se oye el ascensor y unos pasos en el rellano. Quedaos inmóviles, sin hablar y sin separaros, hasta que se cierre una puerta: contad hasta veinte. Mientras tanto, cada cual puede mover una sola mano, sobre la ropa."},
+    {"id":"gk2","t":"La Cerrajería Llama","tags":[],"x":"Llama la cerrajería: va con retraso. En personaje, quien lea este giro decide cuánto: por cada media hora que diga, su pareja le debe un baile en la cocina, tan cerca como permita la prohibición."}
+  ],
+  "cotidiana/prohibicion/salon": [
+    {"id":"gs3","t":"El Timbre","tags":["silencio"],"x":"Llaman al timbre. Nadie se mueve: quien llama se cansará. Hasta que acabe la canción, nada de ruido y las manos quietas donde estaban; las bocas pueden moverse, pero no hacia la boca."},
+    {"id":"gs4","t":"La Escena de la Película","tags":[],"x":"En la película que nadie mira empieza una escena subida de tono. Mientras dure, imitadla en el sofá, hasta donde deje la prohibición del salón."}
+  ],
+  "cotidiana/prohibicion/apagon": [
+    {"id":"ga3","t":"Los Plomos","tags":[],"x":"Desde el patio, alguien del edificio grita que son los plomos y que va para largo. En personaje, quien lea este giro celebra la noticia como quiera, a oscuras y sin decir una sola palabra."},
+    {"id":"ga4","t":"La Linterna","tags":["voz"],"x":"Aparece una linterna en un cajón. Quien lea este giro puede encenderla una sola vez, diez segundos, y alumbrar lo que quiera de su pareja. Después le dice al oído lo que ha visto."}
+  ],
+  "cotidiana/encender/cocina": [
+    {"id":"gc5","t":"La Receta del Cajón","tags":["comida"],"x":"En un cajón aparece una receta escrita a mano por quien vivía antes en este piso, con una nota al margen: «para compartir con alguien que te guste». Quien lea este giro elige un ingrediente de lo que haya y se lo da a probar a su pareja, de su boca."},
+    {"id":"gc6","t":"La Ventana de Enfrente","tags":["voz"],"x":"En la ventana del edificio de enfrente se apaga una luz. En personaje, quien lea este giro cuenta qué cree que están haciendo allí, con detalle, y su pareja lo imita aquí, en la cocina, hasta donde quiera."}
+  ],
+  "cotidiana/encender/bano": [
+    {"id":"gb7","t":"Se Acaba el Agua Caliente","tags":[],"x":"Se acaba el agua caliente del edificio. Para no pasar frío, durante una canción nadie se separa de nadie: el calor tiene que salir de vuestros cuerpos."},
+    {"id":"gb8","t":"La Última Toalla","tags":[],"x":"Solo queda una toalla limpia en toda la casa. En personaje, decidid cómo os secáis con una sola toalla, sin que nadie pase frío y sin ninguna prisa."}
+  ],
+  "cotidiana/encender/apagon": [
+    {"id":"ga5","t":"La Vela se Apaga","tags":["silencio"],"x":"La vela se apaga sola. Durante media canción, a oscuras del todo, nadie habla: solo manos y respiración, hasta que alguien la vuelva a encender."},
+    {"id":"ga6","t":"Voces en el Patio","tags":["voz"],"x":"Por el patio de luces se oye una conversación del vecindario. En personaje, quien lea este giro le susurra a su pareja lo que diría esa gente si hablara de lo que está pasando en este piso."}
+  ],
+  "cotidiana/explicito/entrada": [
+    {"id":"gx7","t":"El Ascensor se Para","tags":["voz"],"x":"Se oye el ascensor pararse en vuestro piso. En personaje, quien lea este giro dice en voz alta, sin eufemismos, lo que haría si quien sale del ascensor fuera su pareja, y su pareja se lo hace ahora, aquí."},
+    {"id":"gx8","t":"La Llamada","tags":["voz"],"x":"Suena el móvil de quien lea este giro: es la cerrajería. Contesta (finge la llamada) y habla con toda la calma del mundo mientras su pareja hace todo lo posible por que se le note."}
+  ],
+  "cotidiana/explicito/sofa": [
+    {"id":"gx9","t":"La Mudanza de Arriba","tags":[],"x":"En el piso de arriba arrastran un mueble y tiembla el techo. Durante una canción, seguid el ritmo de los golpes, sea lo que sea lo que estéis haciendo."},
+    {"id":"gx10","t":"La Lista de la Compra","tags":["voz"],"x":"En la nevera hay una lista de la compra. En personaje, quien lea este giro dicta otra en voz alta, sin eufemismos, con lo que quiere de su pareja antes de que acabe la tarde. Su pareja tacha lo que quiera, y cumple el resto."}
+  ],
+  "cotidiana/explicito/ducha": [
+    {"id":"gx11","t":"Se Acaba el Agua Caliente","tags":[],"x":"Se acaba el agua caliente. A partir de ahora el calor tiene que salir de vuestros cuerpos: durante una canción, nadie se separa ni un centímetro."},
+    {"id":"gx12","t":"Las Siete en Punto","tags":["voz"],"x":"Suena el timbre: son las siete y es la cerrajería, puntual por una vez. Nadie va a abrir. Quien lea este giro le dice a su pareja al oído, sin eufemismos, por qué esta tarde ya no hacen falta las llaves, y se lo demuestra mientras el timbre insiste."}
+  ]
+}

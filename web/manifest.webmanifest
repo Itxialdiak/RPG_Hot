@@ -1,0 +1,30 @@
+{
+  "name": "Doble Llave",
+  "short_name": "Doble Llave",
+  "lang": "es",
+  "description": "Juegos de rol para dos, para encender una noche poco a poco.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#140610",
+  "theme_color": "#1a0811",
+  "icons": [
+    {
+      "src": "icono-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icono-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icono-adaptable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

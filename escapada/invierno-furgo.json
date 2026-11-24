@@ -1,0 +1,67 @@
+{
+  "titulo": "Invierno en furgo",
+  "gancho": "La furgo aparcada junto a un valle nevado, la calefacción en marcha, escarcha en los cristales y, fuera, un silencio blanco que solo se rompe desde dentro.",
+  "lugar": "Un aparcamiento permitido en un valle o un puerto de montaña con nieve, cerca de un pueblo por si acaso. Mirad las previsiones y no os quedéis en un sitio sin salida.",
+  "consejos": [
+    "Si la furgo tiene calefacción estacionaria, que esté bien instalada y con la salida de gases fuera, y llevad detector de monóxido. Nunca estufas de gas ni hornillos para calentar.",
+    "Aparcad en un sitio del que podáis salir aunque nieve más, con el depósito lleno y las cadenas a mano."
+  ],
+  "material": [
+    "Detector de monóxido de carbono",
+    "Edredón grueso o saco de invierno",
+    "Bolsas de agua caliente",
+    "Cadenas"
+  ],
+  "cartas": {
+    "perdidos": {
+      "parrafos": [
+        "Os habéis perdido a dos pasos de la furgo, que es lo más lejos que conviene perderse con nieve.",
+        "El frío decide: nada de quitarse ropa fuera ni de mojarse. Comprobad que estáis a solas, que la furgo está caliente y que el camino se ve.",
+        "Las cartas suben desde aquí, primero fuera y con abrigo, y en cuanto el frío avise, dentro de la furgo. Allí sigue todo."
+      ]
+    },
+    "alcoba": {
+      "parrafos": [
+        "Fuera hiela y la nieve brilla con la luna. Dentro, la calefacción zumba y los cristales se han vuelto blancos.",
+        "Poned los aislantes, comprobad que entra un poco de aire y sacad las cartas que escribisteis antes de salir. Leedlas en voz alta, bajo el edredón.",
+        "Desde aquí no hay propuestas ni retos. Si queréis, quedan cartas para la noche; si no, solo vuestros NO, hasta que el sol derrita la escarcha."
+      ]
+    }
+  },
+  "propuestas": [
+    {"id": "infu-v1", "f": "viaje", "para": "copi", "t": "A qué temperatura", "x": "Pregúntale a {O} a qué temperatura quiere la furgo esta noche, y por qué. Si dice que le da igual, avísale: la subirás lo justo para que sobre la ropa."},
+    {"id": "infu-v2", "f": "viaje", "para": "copi", "t": "Con hielo, nada", "x": "Si la carretera tiene nieve o hielo, nada de juegos ni de distraer: música suave y paciencia. Pasado lo peor, cuéntale a {O} lo primero que harás al aparcar."},
+    {"id": "infu-v3", "f": "viaje", "para": "copi", "t": "Un deseo de invierno", "x": "Pídele a {O} un deseo para esta noche que empiece por «Quiero que me…». Apúntalo, y no digas cuándo lo vas a cumplir."},
+    {"id": "infu-l1", "f": "llegada", "para": "ambos", "nivel": 1, "t": "El sitio blanco", "x": "Buscad un sitio permitido, llano y fácil de dejar aunque nieve más. Apagad el motor, encended la calefacción y mirad la nieve un minuto en silencio."},
+    {"id": "infu-l2", "f": "llegada", "para": "uno", "nivel": 2, "t": "Lo que sobra", "x": "Cuando la furgo esté caliente, quítale a {O} el abrigo, las botas y lo que sobre. De lo que quede, decides tú qué sobra.", "tags": ["prenda"]},
+    {"id": "infu-l3", "f": "llegada", "para": "uno", "nivel": 1, "t": "Bolsas de agua caliente", "x": "Prepara las bolsas de agua caliente y mételas en la cama. Cuando esté tibia, mete a {O} entre ellas… y entre tus brazos."},
+    {"id": "infu-l4", "f": "llegada", "para": "uno", "nivel": 2, "t": "Aislantes", "x": "Pon tú los aislantes de las ventanas mientras {O} mira desde la cama. Cada ventana tapada, un beso; la última, uno que no acabe."},
+    {"id": "infu-e1", "f": "explora", "para": "uno", "nivel": 1, "min": 30, "t": "Ángeles", "x": "Tírate a la nieve y haz un ángel; después, ayuda a {O} a hacer el suyo y bésale en la nieve antes de levantaros.", "suave": "Haced dos ángeles en la nieve, uno junto al otro, y volved dentro de la mano."},
+    {"id": "infu-e2", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "Escarcha", "x": "Escribe con el dedo en la escarcha de un cristal de la furgo, por fuera, algo que vaya a pasar esta noche. Que {O} lo descifre desde dentro, al revés.", "suave": "Escribe el nombre de {O} en la escarcha de un cristal."},
+    {"id": "infu-e3", "f": "explora", "para": "uno", "nivel": 2, "min": 40, "t": "El paseo corto", "x": "Un paseo corto por la nieve, de la mano. A la vuelta, antes de entrar, un beso con la puerta abierta y el calor saliendo a buscaros.", "suave": "Un paseo corto por la nieve, de la mano, y un beso al volver."},
+    {"id": "infu-e4", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "Fuera nieva", "x": "Volved a la furgo, encended la calefacción y meteos en la cama con lo mínimo. Fuera nieva; dentro, tus manos no paran.", "suave": "Volved a la furgo y meteos en la cama en un abrazo, mirando nevar.", "tags": ["prenda"]},
+    {"id": "infu-e5", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "Cristales empañados", "x": "Consigue que los cristales de la furgo se empañen a media tarde. Cómo, ya lo sabes: solo tienes que convencer a {O}.", "suave": "Besa a {O} hasta que se empañe un cristal, y para ahí."},
+    {"id": "infu-e6", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "Un copo en la nuca", "x": "En la puerta de la furgo, coge un poco de nieve y pásala por la nuca de {O}, una sola vez. Después, caliéntale hasta que te pida que pares.", "suave": "Deja caer un copo en la nuca de {O} y caliéntasela con un beso.", "tags": ["hielo"]},
+    {"id": "infu-e7", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "Un iglú caliente", "x": "Con la calefacción en marcha y la nieve fuera, desnuda a {O} en la cama, despacio y sin prisa por taparle: aquí dentro no hace frío.", "suave": "Bajo el edredón, quítale a {O} el jersey y abrázale piel con piel.", "tags": ["desnudez"]},
+    {"id": "infu-e8", "f": "explora", "para": "uno", "nivel": 4, "min": 45, "t": "Un minuto fuera", "x": "Si estáis a solas en kilómetros, salid un minuto con el edredón por encima y nada debajo, a mirar la nieve. Después, dentro, a recuperar el calor como queráis.", "suave": "Salid un minuto con el edredón por encima a mirar la nieve y volved dentro en un abrazo.", "tags": ["aire", "desnudez", "hielo"]},
+    {"id": "infu-p1", "f": "perdidos", "temp": "seda", "t": "Abrigos abiertos", "x": "Abrid los abrigos y juntad los cuerpos dentro, de cara a la nieve. Tus manos, por debajo de su ropa, buscan dónde guarda {R} el calor.", "tags": ["aire"]},
+    {"id": "infu-p2", "f": "perdidos", "temp": "seda", "t": "Labios fríos", "x": "Derrite un poco de nieve en tu boca y besa a {R} con los labios fríos. Después, con los calientes.", "tags": ["aire", "hielo"]},
+    {"id": "infu-p3", "f": "perdidos", "temp": "seda", "t": "Contra la furgo", "x": "Apoya a {R} contra la furgo, por el lado que no da a nada, y caliéntale el cuello con la boca, por dentro de la bufanda.", "tags": ["aire"]},
+    {"id": "infu-p4", "f": "perdidos", "temp": "seda", "t": "Dentro ya", "x": "En cuanto el frío pique, dentro: quítale a {R} la ropa con nieve y envuélvele en el edredón, contigo dentro.", "tags": ["prenda", "desnudez"]},
+    {"id": "infu-p5", "f": "perdidos", "temp": "brasa", "t": "Con la nieve cayendo", "x": "Fuera y sin quitar nada: tus manos bajan por dentro de la ropa de {R} hasta donde te deje, con la nieve cayendo alrededor.", "tags": ["aire", "intimo"]},
+    {"id": "infu-p6", "f": "perdidos", "temp": "brasa", "t": "La puerta entreabierta", "x": "Con la puerta entreabierta para ver la nieve y el edredón encima, sin ropa debajo: lo que pida {R}.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "infu-p7", "f": "perdidos", "temp": "brasa", "t": "Quitar el frío", "x": "Puerta cerrada, calefacción, cristales blancos: recorre todo el cuerpo de {R} con la boca, como si quisieras quitarle el frío de cada rincón.", "tags": ["desnudez", "intimo"]},
+    {"id": "infu-p8", "f": "perdidos", "temp": "brasa", "t": "Hasta que se derrita", "x": "Sin cartas ya: lo que pida {R}, como lo pida, hasta que se derrita la escarcha de los cristales.", "tags": ["desnudez", "intimo"]},
+    {"id": "infu-c1", "f": "cena", "para": "ambos", "t": "Cena en la cama", "x": "Una sopa o un guiso caliente, con la ventana entreabierta si cocináis con gas. Cenad en la cama, con la misma manta por encima."},
+    {"id": "infu-c2", "f": "cena", "para": "uno", "t": "Vino caliente", "x": "Calienta vino con canela, o un chocolate, y dale a {O} el primer trago de tu boca.", "tags": ["comida"]},
+    {"id": "infu-c3", "f": "cena", "para": "ambos", "t": "El cielo helado", "x": "Las noches de helada tienen el cielo más limpio: salid cinco minutos con todo el abrigo a mirar las estrellas, y volved corriendo a la cama."},
+    {"id": "infu-a1", "f": "alcoba", "temp": "seda", "t": "La bolsa de agua caliente", "x": "Recorre el cuerpo de {R} con una bolsa de agua caliente, despacio, por encima de la ropa primero y por debajo después.", "tags": []},
+    {"id": "infu-a2", "f": "alcoba", "temp": "seda", "t": "Sin dejar entrar el frío", "x": "Mientras los cristales se cubren de escarcha, desnuda a {R} bajo el edredón sin dejar entrar ni un poco de frío.", "tags": ["prenda", "desnudez"]},
+    {"id": "infu-a3", "f": "alcoba", "temp": "seda", "t": "La respiración", "x": "A oscuras, solo la calefacción y la respiración. Durante una canción, tus manos recorren a {R} al ritmo de su respiración.", "tags": []},
+    {"id": "infu-a4", "f": "alcoba", "temp": "brasa", "t": "Ni un pie fuera", "x": "Bajo el edredón y sin ropa, tu boca baja por el cuerpo de {R} sin dejar que asome ni un pie.", "tags": ["desnudez", "intimo"]},
+    {"id": "infu-a5", "f": "alcoba", "temp": "brasa", "t": "Apagar la calefacción", "x": "Apaga un rato la calefacción: que el calor lo pongan vuestros cuerpos. Lo que pida {R}, como lo pida.", "tags": ["desnudez", "intimo"]},
+    {"id": "infu-a6", "f": "alcoba", "temp": "brasa", "t": "La noche blanca", "x": "Tenéis toda la noche y la nieve no deja salir: lo que queráis, como queráis, hasta que {R} diga basta.", "tags": ["desnudez", "intimo"]},
+    {"id": "infu-p9", "f": "perdidos", "temp": "brasa", "t": "Con la calefacción puesta", "tags": ["aire", "desnudez", "intimo"], "x": "Con la calefacción de la furgo puesta y nieve fuera, quítale todo a {R} y que tu boca empiece por los pies fríos y suba sin prisa hasta que no le quede nada frío."},
+    {"id": "infu-a7", "f": "alcoba", "temp": "brasa", "t": "Un puñado de nieve", "tags": ["hielo", "intimo"], "x": "Abre la puerta, coge un poco de nieve y pásala por el cuerpo de {R}, despacio. Después devuélvele el calor con la boca, por el mismo camino y un poco más allá."}
+  ]
+}

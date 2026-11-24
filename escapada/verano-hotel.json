@@ -1,0 +1,64 @@
+{
+  "titulo": "Verano en el pueblo",
+  "gancho": "Un pueblo de montaña que huele a hierba seca, siestas con las contraventanas cerradas y una poza a un paseo. De noche, terrazas, grillos y la verbena a lo lejos.",
+  "lugar": "Un pueblo pequeño de interior o de montaña, con río o pozas cerca. Una habitación fresca, mejor con ventilador o contraventanas de madera.",
+  "consejos": [
+    "Las pozas cercanas a los pueblos se llenan en agosto: id a primera hora o al atardecer, y caminad un poco más que el resto.",
+    "Si hay fiestas, el pueblo no duerme: buscad fechas tranquilas o una habitación lejos de la plaza."
+  ],
+  "material": [
+    "Bañador, o no",
+    "Un abanico",
+    "Agua fría en un termo"
+  ],
+  "cartas": {
+    "perdidos": {
+      "parrafos": [
+        "Os habéis perdido monte arriba, donde el pueblo ya no llega. Huele a tomillo caliente y solo se oyen las chicharras.",
+        "Antes de nada: nadie a la vista, nadie que pueda llegar sin que lo oigáis, sombra cerca y agua de sobra. Si falta algo, buscad otro sitio.",
+        "Extended la manta. Desde aquí las cartas suben hasta el final. Si aparece alguien, ropa y a otra cosa, sin dramas."
+      ]
+    },
+    "alcoba": {
+      "parrafos": [
+        "La noche de verano entra por la ventana: grillos, alguna risa lejana, olor a tierra regada.",
+        "Cerrad la puerta, dejad la ventana abierta solo si nadie puede veros y sacad las cartas que escribisteis antes de salir. Leedlas en voz alta.",
+        "Desde aquí no hay propuestas ni retos. Si queréis, quedan cartas para la noche; si no, solo vuestros NO, hasta que amanezca."
+      ]
+    }
+  },
+  "propuestas": [
+    {"id": "veho-v1", "f": "viaje", "para": "copi", "t": "Quitar el calor", "x": "Cuando el aire del coche se ponga fresco, cuéntale a {O} cómo vas a quitarle el calor esta tarde, empezando por la nuca."},
+    {"id": "veho-v2", "f": "viaje", "para": "copi", "t": "Un solo helado", "x": "Anuncia a {O} que en la próxima parada habrá un solo helado para compartir, cada cual mordiendo por su lado hasta encontrarse en el medio."},
+    {"id": "veho-v3", "f": "viaje", "para": "copi", "t": "El baile de esta noche", "x": "Pon una canción de verbena y prométele a {O} el baile de esta noche: dónde, cómo de cerca y qué pasará cuando acabe la canción."},
+    {"id": "veho-l1", "f": "llegada", "para": "uno", "nivel": 2, "t": "Ducha fría", "x": "Nada más llegar, ducha fría para quitarse el viaje. Métete con {O}, o espérale fuera con la toalla abierta.", "tags": ["agua"]},
+    {"id": "veho-l2", "f": "llegada", "para": "ambos", "nivel": 1, "t": "Contraventanas", "x": "Cerrad las contraventanas para guardar el fresco. En la penumbra, decid en voz baja cuál va a ser vuestra hora del día, y para qué."},
+    {"id": "veho-l3", "f": "llegada", "para": "uno", "nivel": 2, "t": "El ventilador", "x": "Pon el ventilador a tope y túmbate con {O} en la cama, con lo imprescindible puesto, a dejar que el aire os seque el viaje.", "tags": ["prenda"]},
+    {"id": "veho-l4", "f": "llegada", "para": "uno", "nivel": 1, "t": "La fuente del pueblo", "x": "Lleva a {O} a beber a la fuente del pueblo y mójale la nuca con la mano. El beso, con los labios todavía fríos."},
+    {"id": "veho-e1", "f": "explora", "para": "uno", "nivel": 1, "min": 30, "t": "El abanico", "x": "A la sombra de la plaza, abanica a {O} y susúrrale, entre abanicada y abanicada, lo que harás con su piel cuando baje el sol.", "suave": "Abanica a {O} a la sombra de la plaza un buen rato, sin decir nada.", "tags": ["voz"]},
+    {"id": "veho-e2", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "Callejones a la siesta", "x": "A la hora de la siesta el pueblo está vacío: recorred los callejones y, en cada esquina con sombra, un beso más largo que el anterior.", "suave": "Recorred los callejones a la siesta, con un beso corto en cada esquina con sombra."},
+    {"id": "veho-e3", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "Agua de fuente", "x": "Moja la mano en una fuente y pásala por la nuca de {O}, por el cuello y, si nadie mira, por dentro del cuello de su camiseta, hacia abajo.", "suave": "Moja la mano en una fuente y refresca la nuca y el cuello de {O}."},
+    {"id": "veho-e4", "f": "explora", "para": "uno", "nivel": 3, "min": 45, "t": "El tramo vacío", "x": "Bajad al río por el camino más largo y menos transitado. Si encontráis un tramo a solas, os bañáis en ropa interior… o en lo que quede.", "suave": "Bajad al río y mojaos los pies en un tramo tranquilo, en un abrazo.", "tags": ["aire", "agua", "desnudez"]},
+    {"id": "veho-e5", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "La siesta de verdad", "x": "Volved a la habitación a la hora de la siesta, cerrad las contraventanas y echaos sin nada encima. Dormir es opcional.", "suave": "Volved a la habitación a la siesta y dormidla en un abrazo, con el ventilador encendido.", "tags": ["desnudez"]},
+    {"id": "veho-e6", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "Un vaso con hielo", "x": "Pide un vaso con hielo en el bar del pueblo y llévatelo a la habitación. Lo que hagas con él en la piel de {O}, lo decides tú.", "suave": "En la terraza del bar, pasa un hielo por la nuca de {O} cuando menos se lo espere.", "tags": ["hielo"]},
+    {"id": "veho-e7", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "La era al atardecer", "x": "Al atardecer, buscad un claro o una era abandonada lejos del pueblo y de los caminos. Sobre la manta, con el calor que sube de la tierra, desnuda a {O} hasta donde la soledad deje.", "suave": "Al atardecer, tumbaos en la manta a ver caer el sol, con tu mano por debajo de la ropa de {O}.", "tags": ["aire", "desnudez"]},
+    {"id": "veho-e8", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "La poza cuando se va la gente", "x": "Cuando se vaya la gente, volved a la poza: baño sin ropa con la última luz, y lo que venga después en la orilla, a solas de verdad.", "suave": "Al anochecer, un baño en la poza con lo puesto y un beso largo en la orilla.", "tags": ["aire", "agua", "desnudez", "intimo"]},
+    {"id": "veho-p1", "f": "perdidos", "temp": "seda", "t": "Las chicharras", "x": "Mientras canten las chicharras, tus manos recorren a {R} por debajo de la ropa, despacio. Cada vez que callen, una prenda menos.", "tags": ["aire", "prenda"]},
+    {"id": "veho-p2", "f": "perdidos", "temp": "seda", "t": "Agua del termo", "x": "Echa un chorrito de agua fría en el cuello de {R} y síguelo con la boca por donde baje, desabrochando lo que estorbe.", "tags": ["aire", "prenda", "hielo"]},
+    {"id": "veho-p3", "f": "perdidos", "temp": "seda", "t": "A la sombra", "x": "Tumba a {R} a la sombra sobre la manta, quítale la ropa de arriba y abanícale despacio con lo que tengas a mano. Entre abanicada y abanicada, un beso.", "tags": ["aire", "prenda"]},
+    {"id": "veho-p4", "f": "perdidos", "temp": "brasa", "t": "Piel caliente, boca fría", "x": "Desnuda a {R} a la sombra y recorre su cuerpo, caliente de sol, con la boca fría de beber agua. Despacio, por delante y por detrás.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "veho-p5", "f": "perdidos", "temp": "brasa", "t": "La siesta del monte", "x": "A la hora en que el monte duerme, sin ropa y sobre la manta, que {R} se deje hacer. Tú, sin prisa: el calor pide que todo vaya lento.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "veho-p6", "f": "perdidos", "temp": "brasa", "t": "Nadie en kilómetros", "x": "Si de verdad no hay nadie en kilómetros, olvidaos de la ropa y de las cartas. Lo que pida el cuerpo de {R}, a la sombra y a su ritmo.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "veho-c1", "f": "cena", "para": "ambos", "t": "El primer murciélago", "x": "Cenad en una terraza, tarde, cuando refresque. Quien vea el primer murciélago elige qué hacéis después de cenar."},
+    {"id": "veho-c2", "f": "cena", "para": "uno", "t": "La mano fría", "x": "Con la excusa del calor, deja tu mano fría de la copa en la rodilla de {O}, bajo la mesa, y súbela un poco con cada plato."},
+    {"id": "veho-c3", "f": "cena", "para": "ambos", "t": "Un solo auricular", "x": "Si hay verbena, un baile lento en la plaza, más cerca de lo que es costumbre. Si no la hay, bailadlo en una calle vacía, con la música en un solo auricular."},
+    {"id": "veho-a1", "f": "alcoba", "temp": "seda", "t": "Sin sábana", "x": "Hace demasiado calor para sábanas. Desnuda a {R} sobre la cama y recórrele la piel con un cubito de hielo, despacio, y detrás, tu boca.", "tags": ["desnudez", "hielo"]},
+    {"id": "veho-a2", "f": "alcoba", "temp": "seda", "t": "Lo que borra el aire", "x": "Con el ventilador girando, dibuja en la espalda de {R}, con un dedo mojado, lo que vas a hacerle. Que el aire lo vaya borrando.", "tags": []},
+    {"id": "veho-a3", "f": "alcoba", "temp": "seda", "t": "Ducha tibia", "x": "Una ducha tibia para quitaros el día, a la vez y sin prisa. Lava todo el cuerpo de {R}, de la nuca a los pies, y sécale con besos.", "tags": ["agua", "desnudez"]},
+    {"id": "veho-a4", "f": "alcoba", "temp": "brasa", "t": "Grillos", "x": "Ventana abierta solo si nadie puede veros, luz apagada y grillos fuera. Durante una canción, que lo único que se oiga dentro sea {R}. Tu boca, por donde te deje.", "tags": ["intimo"]},
+    {"id": "veho-a5", "f": "alcoba", "temp": "brasa", "t": "La sal del día", "x": "Recorre a {R} con la boca buscando el sabor a sal del día, sin saltarte ningún rincón de los que te deje.", "tags": ["desnudez", "intimo"]},
+    {"id": "veho-a6", "f": "alcoba", "temp": "brasa", "t": "La noche corta", "x": "En verano la noche dura poco: aprovechadla entera. Lo que queráis, como queráis, hasta que entre la luz o {R} diga basta.", "tags": ["desnudez", "intimo"]},
+    {"id": "veho-p7", "f": "perdidos", "temp": "brasa", "t": "La poza a solas", "tags": ["aire", "agua", "desnudez", "intimo"], "x": "Si encontráis una poza a solas de verdad, métete en el agua con {R} sin nada encima y que tus manos hagan bajo el agua lo que fuera no se atreverían. Si aparece alguien, al agua hasta el cuello."},
+    {"id": "veho-a7", "f": "alcoba", "temp": "brasa", "t": "El hielo del minibar", "tags": ["hielo", "intimo"], "x": "Saca un hielo del minibar y recorre a {R} con él, de la boca al vientre y más abajo, hasta que se derrita. Después, todo el camino otra vez con la boca, para devolverle el calor."}
+  ]
+}

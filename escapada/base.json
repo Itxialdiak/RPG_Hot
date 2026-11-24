@@ -1,0 +1,320 @@
+{
+  "nombre": "Una escapada de verdad",
+  "corto": "El juego empieza al salir de casa: el viaje, la llegada, perderse y la alcoba. Sin personajes ni cartas que sacar: las propuestas llegan solas.",
+  "invitacion": "una escapada en la que el juego empieza al cerrar la puerta de casa. Sin personajes: jugamos como somos. Las propuestas llegan solas, con calma, en el viaje, al llegar, al perdernos y en la alcoba. Nada es obligatorio: cualquier propuesta se cambia o se rechaza sin explicaciones.",
+  "reglas": [
+    "Aquí no hay personajes: jugáis como sois. La app os va proponiendo cosas a lo largo de la escapada, con tiempo libre entre una y otra.",
+    "Marcad en qué fase estáis: el viaje, la llegada, explorar, la cena y la alcoba. En cada una cambian el ritmo y el tono. Perderse y la cena son caminos opcionales.",
+    "En el viaje, las propuestas las lee en voz alta quien no conduce. Quien conduce, solo conduce.",
+    "Al llegar, las propuestas ya son personales: «Para» una persona, y solo la lee esa persona.",
+    "Al explorar, cada persona tiene un reto secreto con su tiempo. Si se cumple, llega otro; si caduca, también. Si tu pareja dice que no, se marca como rechazado y no se insiste.",
+    "«Perdidos» abre el juego de cartas al aire libre, con el tono al máximo, y solo donde estéis a solas de verdad. Al terminar, la tarde sigue en modo cena.",
+    "La alcoba es el final, en privado, con su carta y su mazo. Cualquier propuesta se cambia sin explicar por qué, y podéis silenciar las propuestas cuando queráis."
+  ],
+  "fases": {
+    "viaje": {
+      "n": "El viaje",
+      "d": "El juego empieza al cerrar la puerta. Propuestas tranquilas, más o menos cada media hora: las lee siempre en voz alta quien no conduce. Quien conduce solo escucha y conduce.",
+      "ritmo": [
+        20,
+        35
+      ],
+      "primera": [
+        3,
+        6
+      ],
+      "horizonte": 300
+    },
+    "llegada": {
+      "n": "La llegada",
+      "d": "Ya nadie conduce. Buscad el sitio, montad la casa de esta noche y estrenadla. Las propuestas llegan más a menudo y son personales: solo las lee la persona a la que van.",
+      "ritmo": [
+        12,
+        20
+      ],
+      "primera": [
+        2,
+        4
+      ],
+      "horizonte": 150
+    },
+    "explora": {
+      "n": "Explorar",
+      "d": "Salid a perderos un poco. Cada persona tiene un reto secreto: si se cumple, llega otro; si caduca o tu pareja dice que no, también. Lo que pase de un beso, solo donde estéis a solas de verdad.",
+      "pausa": [
+        5,
+        10
+      ],
+      "primera": [
+        1,
+        3
+      ],
+      "horizonte": 240
+    },
+    "perdidos": {
+      "n": "Perdidos",
+      "d": "Un camino aparte: el juego de cartas al aire libre, con el tono al máximo. Solo si estáis a solas de verdad. Al terminar, la tarde sigue en modo cena."
+    },
+    "cena": {
+      "n": "La cena",
+      "d": "Un respiro con el ambiente encendido: comer, mirar el cielo, hablar. Las propuestas llegan más espaciadas y más tranquilas.",
+      "ritmo": [
+        25,
+        40
+      ],
+      "primera": [
+        4,
+        8
+      ],
+      "horizonte": 240
+    },
+    "alcoba": {
+      "n": "La alcoba",
+      "d": "El final, en privado: la carta, el mazo de la alcoba y vuestros NO."
+    }
+  },
+  "seguridad": [
+    [
+      "A solas de verdad",
+      "Lo que pase de un beso, solo donde nadie pueda veros ni llegar sin que lo oigáis. Si aparece alguien, se acabó al instante: ropa y a otra cosa, sin dramas. A la vista de otras personas puede costar una multa, y delante de menores es delito."
+    ],
+    [
+      "Quien conduce, conduce",
+      "No mira el móvil ni las propuestas, y nada de juegos que le distraigan. Las propuestas las lee quien va al lado. Si alguien bebe, no conduce."
+    ],
+    [
+      "Dormir sin multas",
+      "En la furgo, dentro y con todo recogido, donde se pueda aparcar: sin toldo, sillas ni mesas fuera. La acampada libre está prohibida o regulada casi en toda España y en todos los espacios protegidos: camping, área de acampada o terreno con permiso. Mirad las normas del sitio antes de ir."
+    ],
+    [
+      "Nada de fuego ni de gas dentro",
+      "Nunca un hornillo, una estufa o una barbacoa dentro de la tienda o de la furgo cerrada: el monóxido de carbono no avisa. Y fuera, fuego solo en zonas preparadas y si no hay prohibición."
+    ],
+    [
+      "Que alguien sepa dónde estáis",
+      "Decid a alguien adónde vais, llevad batería de sobra y el mapa descargado: en los sitios perdidos no siempre hay cobertura."
+    ],
+    [
+      "Sin rastro",
+      "Todo lo que llevéis vuelve con vosotros, también los preservativos y los pañuelos."
+    ],
+    [
+      "Las señales de siempre",
+      "«Ámbar», «rojo» y tres golpecitos valen también aquí. Cualquier propuesta se cambia o se rechaza sin explicar por qué."
+    ]
+  ],
+  "material": [
+    "Una manta grande para el suelo (o un pareo)",
+    "Agua, algo de comer y una bolsa para la basura",
+    "Batería externa y el mapa descargado",
+    "Toallitas, pañuelos y lo que uséis para cuidaros (preservativos, lubricante)",
+    "Una carta escrita por cada persona, cerrada, para abrir en la alcoba"
+  ],
+  "estaciones": {
+    "primavera": {
+      "n": "Primavera",
+      "d": "Todo despierta: verde nuevo, agua de deshielo, días que se alargan. Lluvia de repente y hierba alta.",
+      "consejos": [
+        "Garrapatas: evitad la hierba alta, tumbaos siempre sobre la manta y al volver revisaos el cuerpo, rincones incluidos.",
+        "El tiempo cambia en una hora: llevad algo de abrigo y un plan bajo techo."
+      ],
+      "material": [
+        "Repelente de insectos y garrapatas",
+        "Chubasquero"
+      ]
+    },
+    "verano": {
+      "n": "Verano",
+      "d": "Días largos, ríos y pozas, noches tibias y cielos llenos de estrellas, con las Perseidas a mediados de agosto.",
+      "consejos": [
+        "Calor: agua de sobra, sombra y nada de esfuerzos al mediodía. Protección solar, también en la piel que no suele ver el sol.",
+        "Ríos y pozas: entrad despacio, nunca de cabeza donde no veáis el fondo, y ojo con las corrientes.",
+        "Riesgo de incendio: nada de fuego, y a menudo ni hornillo, fuera de las zonas permitidas."
+      ],
+      "material": [
+        "Crema solar",
+        "Repelente de mosquitos",
+        "Toalla de microfibra"
+      ]
+    },
+    "otono": {
+      "n": "Otoño",
+      "d": "Bosques rojos y amarillos, niebla por la mañana, setas, castañas y la berrea de los ciervos. Anochece pronto.",
+      "consejos": [
+        "Anochece temprano: calculad la vuelta con luz y llevad frontal.",
+        "Setas, solo las que conozcáis de verdad, y mirad si en esa zona hace falta permiso.",
+        "Las garrapatas siguen activas: revisión mutua al volver."
+      ],
+      "material": [
+        "Frontal con luz roja",
+        "Capas de ropa",
+        "Un termo con algo caliente"
+      ]
+    },
+    "invierno": {
+      "n": "Invierno",
+      "d": "Frío limpio, nieve quizá, noches largas y cielos nítidos. El calor se fabrica: mantas, cuerpos y algo caliente que beber.",
+      "consejos": [
+        "Fuera, el frío manda: nada de mojarse ni de quedarse sin ropa más de un momento. Lo intenso, bajo techo o bajo la manta.",
+        "Mirad el estado de las carreteras y llevad cadenas si hace falta.",
+        "Para dormir fuera de un hotel: saco adecuado a la temperatura y nada de estufas de gas en un espacio cerrado."
+      ],
+      "material": [
+        "Ropa térmica, gorro y guantes",
+        "Bolsa de agua caliente"
+      ]
+    }
+  },
+  "alojamientos": {
+    "hotel": {
+      "n": "Hotel u hostal",
+      "d": "Un pueblo pequeño y con algo especial: piedra, un río, un castillo o un mirador, con monte a un paseo. Una buena cama y, si puede ser, bañera.",
+      "consejos": [
+        "Pedid una habitación tranquila, lejos del ascensor y de la calle.",
+        "Las paredes oyen: la música baja también sirve para eso.",
+        "En el pueblo, el juego es discreto: miradas, susurros, una mano en el bolsillo. Lo demás, en la habitación o en el monte, a solas."
+      ],
+      "material": [
+        "La reserva hecha",
+        "Sales o aceite para la bañera",
+        "Un altavoz pequeño"
+      ]
+    },
+    "furgo": {
+      "n": "Furgoneta camperizada",
+      "d": "Una casa pequeña con cama, aparcada donde se acaba el asfalto: un valle, un pantano, un hayedo.",
+      "consejos": [
+        "Dormid dentro y con todo recogido, en un sitio donde se pueda aparcar. En espacios protegidos y en algunos municipios está prohibido pernoctar: miradlo antes.",
+        "Cortinas o parasoles opacos en todas las ventanas: dan intimidad y guardan el calor.",
+        "Ventilad: con dos personas dentro, los cristales se empañan enseguida."
+      ],
+      "material": [
+        "Cortinas o parasoles opacos",
+        "Mantas o edredón",
+        "Luz cálida a pilas",
+        "Garrafa de agua"
+      ]
+    },
+    "acampada": {
+      "n": "Acampada",
+      "d": "Tienda de campaña o, con buen tiempo, dormir al raso. Lo más cerca del suelo, del cielo y de los ruidos de la noche.",
+      "consejos": [
+        "Camping tranquilo, área de acampada o terreno con permiso del propietario: la acampada libre está prohibida o muy regulada casi en toda España.",
+        "Montad la tienda con luz y lejos de otras: la tela no aísla los sonidos.",
+        "Al raso, solo con buen tiempo, saco y esterilla de verdad."
+      ],
+      "material": [
+        "Tienda, saco y esterilla",
+        "Frontal",
+        "Hornillo, solo para usar fuera y donde se permita"
+      ]
+    }
+  },
+  "propuestas": [
+    {"id": "c-v1", "f": "viaje", "para": "copi", "t": "La banda sonora", "x": "Elige una canción que te recuerde a {O} y ponla sin decir por qué. Cuando acabe, cuéntaselo."},
+    {"id": "c-v2", "f": "viaje", "para": "copi", "t": "Lo primero", "x": "Pregúntale a {O} qué es lo primero que quiere hacer cuando lleguéis. No vale «descansar», y tampoco vale responder rápido."},
+    {"id": "c-v3", "f": "viaje", "para": "copi", "t": "La primera noche", "x": "Cuéntale a {O}, con detalle y sin prisa, cómo te imaginas la primera noche de esta escapada. Quedan kilómetros."},
+    {"id": "c-v4", "f": "viaje", "para": "copi", "t": "La parada", "x": "En la próxima parada, antes de volver a arrancar, un beso largo con el motor apagado. Hasta entonces, que {O} lo vaya esperando."},
+    {"id": "c-v5", "f": "viaje", "para": "copi", "t": "Tres viajes", "x": "Recordad en voz alta tres viajes que hayáis hecho y el mejor beso de cada uno. Empieza tú."},
+    {"id": "c-v6", "f": "viaje", "para": "copi", "t": "Lo que llevo puesto", "x": "Que {O} adivine qué ropa interior llevas hoy, con tres preguntas de sí o no. Si acierta, se lo enseñarás al llegar."},
+    {"id": "c-v7", "f": "viaje", "para": "copi", "t": "La contraseña", "x": "Busca en el mapa un pueblo o un paraje con nombre de promesa o de pecado. Será vuestra contraseña: quien la diga durante la escapada pide un beso, donde sea."},
+    {"id": "c-v8", "f": "viaje", "para": "copi", "t": "Algo nunca hecho", "x": "Confiesa algo que nunca has hecho en un viaje y te gustaría hacer en este. Después, pregúntale a {O} lo mismo.", "tags": ["confesion"]},
+    {"id": "c-v9", "f": "viaje", "para": "copi", "t": "Una canción en silencio", "x": "Durante la próxima canción no habla nadie: solo la música y lo que cada cual esté imaginando. Al acabar, una palabra cada cual para resumirlo."},
+    {"id": "c-v10", "f": "viaje", "para": "copi", "t": "La frase a medias", "x": "Dile a {O}: «Esta noche, cuando…», y deja la frase a medias. No la termines hasta la alcoba, pase lo que pase."},
+    {"id": "c-l1", "f": "llegada", "para": "ambos", "t": "Tres sitios", "x": "Antes de deshacer nada, dad una vuelta y buscad tres sitios donde os daríais un beso, de menos a más escondidos. Estrenad el primero; el tercero, guardadlo para luego.", "nivel": 1},
+    {"id": "c-l2", "f": "llegada", "para": "uno", "t": "La cama", "x": "Prueba la cama antes que nadie y, desde ahí, dile a {O} en voz baja qué falta para que sea perfecta. Si lo que falta es {O}, díselo también.", "nivel": 1},
+    {"id": "c-l3", "f": "llegada", "para": "uno", "t": "Marcar el sitio", "x": "Dale a {O} el primer beso de este sitio, de los que marcan territorio: largo, sin avisar y con las manos ocupadas.", "nivel": 2},
+    {"id": "c-l4", "f": "llegada", "para": "uno", "t": "La nota", "x": "Mientras deshacéis el equipaje, esconde entre las cosas de {O} una nota con algo que quieres que pase esta noche. Que la encuentre sin buscarla.", "nivel": 2},
+    {"id": "c-l5", "f": "llegada", "para": "ambos", "t": "El inventario", "x": "Repasad lo que habéis traído para jugar: la manta, la cinta, el aceite, lo que sea. Decidid dónde se queda a mano y no habléis más del tema.", "nivel": 1},
+    {"id": "c-l6", "f": "llegada", "para": "uno", "t": "La mejor vista", "x": "Busca la mejor vista del sitio y lleva a {O} de la mano sin decir adónde. Allí, ponte detrás y que tus manos se cuelen bajo su ropa mientras mira.", "nivel": 2},
+    {"id": "c-e1", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "El beso robado", "x": "Antes de que caduque este reto, roba a {O} un beso largo donde nadie os vea: detrás de un árbol, en un recodo, en un portal. Sin avisar.", "suave": "Antes de que caduque este reto, dale a {O} un beso en el cuello cuando menos se lo espere."},
+    {"id": "c-e2", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "El susurro", "x": "En un momento a solas, dile al oído a {O} qué parte de su cuerpo te gustaría estar besando ahora mismo. Después, seguid como si nada.", "suave": "Dile al oído a {O} una cosa que te guste de cómo está hoy.", "tags": ["voz"]},
+    {"id": "c-e3", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "La mano escondida", "x": "En un tramo sin nadie, mete la mano bajo la ropa de {O}, en la espalda o en la cintura, y déjala ahí hasta que vuelva a aparecer alguien.", "suave": "Rodea la cintura de {O} por debajo de la chaqueta y no la sueltes en un buen rato."},
+    {"id": "c-e4", "f": "explora", "para": "uno", "nivel": 3, "min": 45, "t": "Algo menos", "x": "Consigue que {O} se quite, a solas y sin que nadie lo vea, una prenda que lleve debajo, la que elija, y que te la dé para guardarla hasta la noche.", "suave": "Consigue que {O} te preste algo que lleve puesto: un pañuelo, una pulsera, la chaqueta. Te lo quedas hasta la noche.", "tags": ["prenda"]},
+    {"id": "c-e5", "f": "explora", "para": "uno", "nivel": 3, "min": 45, "t": "El mirador", "x": "Encuentra un sitio con vistas donde nadie pueda llegar sin que lo oigáis. Ponte detrás de {O} y que tus manos se paseen bajo su ropa mientras mira el paisaje.", "suave": "Encuentra un sitio con vistas y abraza a {O} por detrás, sin prisa, mientras mira el paisaje.", "tags": ["aire"]},
+    {"id": "c-e6", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "Piel al aire", "x": "En un rincón donde estéis a solas de verdad, convence a {O} de quedarse con la piel al aire, del todo o casi, aunque sea un minuto. Tú decides cómo celebrarlo.", "suave": "En un rincón a solas, convence a {O} de quitarse la prenda de arriba un minuto y abrázale piel con piel.", "tags": ["aire", "desnudez", "prenda"], "noest": ["invierno"]},
+    {"id": "c-e7", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "Hasta donde os lleve", "x": "En un sitio a solas y resguardado, empieza a besar a {O} y no pares hasta que te pida otra cosa… o más. Lo que venga después, lo decidís allí.", "suave": "En un sitio a solas, un beso largo, de los que se olvidan del reloj. Nada más, y nada menos.", "tags": ["aire", "intimo"]},
+    {"id": "c-e8", "f": "explora", "para": "uno", "nivel": 1, "min": 30, "t": "La foto que no se hace", "x": "Sin cámara: elige un sitio precioso, coloca a {O} donde quieras y descríbele en voz baja la foto que le harías y que nadie más vería nunca.", "suave": "Elige un sitio precioso y dile a {O} qué foto le harías aquí, sin hacerla.", "tags": ["voz"]},
+    {"id": "c-c1", "f": "cena", "para": "ambos", "t": "El brindis", "x": "Brindad por lo mejor que ha pasado hoy, sin decir qué es: que la otra persona lo adivine. Si acierta, se repite antes de dormir."},
+    {"id": "c-c2", "f": "cena", "para": "uno", "t": "Por debajo", "x": "Durante la cena, tu pie o tu mano buscan a {O} por debajo de la mesa o de la manta. Discreción absoluta: que no lo note nadie más."},
+    {"id": "c-c3", "f": "cena", "para": "uno", "t": "El bocado", "x": "Dale a probar a {O} algo de tu plato, de tu tenedor o de tus dedos, mirándole a los ojos. Si sus labios se entretienen, no los apartes.", "tags": ["comida"]},
+    {"id": "c-c4", "f": "cena", "para": "ambos", "t": "Tres cosas", "x": "Cada cual dice tres cosas que le han gustado hoy de la otra persona: una que se vea, una que se oiga y una que se sienta."},
+    {"id": "c-c5", "f": "cena", "para": "uno", "t": "El postre", "x": "Antes del postre, susúrrale a {O} lo que vas a querer de postre de verdad. Después, pedid algo dulce como si no hubieras dicho nada.", "tags": ["voz"]},
+    {"id": "c-c6", "f": "cena", "para": "ambos", "t": "El cielo", "x": "Después de cenar, diez minutos mirando el cielo, en un abrazo y sin móvil. Quien vea primero una estrella pide un deseo al oído."},
+    {"id": "c-p1", "f": "perdidos", "temp": "seda", "t": "La manta", "x": "Extiende la manta en el sitio más escondido que encontréis y túmbate con {R}. Quítale la prenda de arriba despacio y besa la piel que el aire acaba de descubrir.", "tags": ["aire", "prenda"], "noest": ["invierno"]},
+    {"id": "c-p2", "f": "perdidos", "temp": "seda", "t": "El oído atento", "x": "Tus manos recorren a {R} por debajo de la ropa mientras escucháis el sitio: cualquier paso, cualquier voz, y paráis. Que la tensión también juegue.", "tags": ["aire"]},
+    {"id": "c-p3", "f": "perdidos", "temp": "brasa", "t": "A cielo abierto", "x": "Si {R} quiere, quítale toda la ropa sobre la manta. Recorre su cuerpo con la boca, de la cabeza a los pies, y vuelve a subir más despacio todavía.", "tags": ["aire", "desnudez", "intimo"], "noest": ["invierno"]},
+    {"id": "c-p4", "f": "perdidos", "temp": "brasa", "t": "Lo que pida el sitio", "x": "Dejad que el sitio decida: un tronco donde apoyarse, una roca tibia, la hierba sobre la manta. Lo que venga después, sin cartas y al ritmo de {R}.", "tags": ["aire", "desnudez", "intimo"], "noest": ["invierno"]},
+    {"id": "c-a1", "f": "alcoba", "temp": "seda", "t": "El mejor momento", "x": "Desnuda a {R} prenda a prenda mientras le cuentas en voz baja el mejor momento del día. Cada prenda, un detalle más.", "tags": ["prenda", "desnudez", "voz"]},
+    {"id": "c-a2", "f": "alcoba", "temp": "seda", "t": "El mapa del día", "x": "Vuelve, uno a uno, a los sitios del cuerpo de {R} que hoy han recibido más besos, y quédate en cada uno el doble de tiempo.", "tags": []},
+    {"id": "c-a3", "f": "alcoba", "temp": "brasa", "t": "Lo que quedó a medias", "x": "Pregúntale a {R} qué propuesta de hoy le habría gustado terminar. Terminadla ahora, en privado y a su ritmo.", "tags": []},
+    {"id": "c-a4", "f": "alcoba", "temp": "brasa", "t": "Sin reloj", "x": "Sin ropa y sin reloj: recorre a {R} con la boca y las manos hasta que te pida que pares… o que no pares.", "tags": ["desnudez", "intimo"]},
+    {"id": "pr-v1", "est": "primavera", "f": "viaje", "para": "copi", "t": "La ventanilla", "x": "Baja la ventanilla un momento y describe a {O} a qué huele el campo hoy. Después, dile a qué te gustaría que oliera su piel esta noche."},
+    {"id": "pr-v2", "est": "primavera", "f": "viaje", "para": "copi", "t": "Árboles en flor", "x": "A partir de ahora, cada árbol en flor que veáis vale un beso en la próxima parada. Tú llevas la cuenta, y no perdonas ninguno."},
+    {"id": "pr-e1", "est": "primavera", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "La brizna", "x": "En un rincón tranquilo, recorre el cuello y la nuca de {O} con una brizna de hierba o una flor caída, cada vez más despacio, hasta que se le escape algo.", "suave": "Pon una flor caída en el pelo o en la ropa de {O}, y que la lleve hasta la noche.", "tags": ["pluma"]},
+    {"id": "pr-e2", "est": "primavera", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "El chaparrón", "x": "Si os pilla la lluvia, no corráis: bésale a {O} bajo el agua hasta que la ropa se pegue, y después secaos a solas, quitando lo mojado.", "suave": "Con el primer chaparrón, un beso largo antes de correr a cubriros."},
+    {"id": "pr-e3", "est": "primavera", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "El prado escondido", "x": "Busca un prado lejos del camino. Sobre la manta, nunca en la hierba alta, desnuda a {O} hasta donde el sol y la soledad permitan. Después, revisión de garrapatas, centímetro a centímetro.", "suave": "Sobre la manta, en un prado escondido, cuela las manos bajo la ropa de {O} y déjalas ahí, al sol.", "tags": ["aire", "desnudez"]},
+    {"id": "pr-c1", "est": "primavera", "f": "cena", "para": "ambos", "t": "La revisión", "x": "Antes de cenar, en privado y con buena luz, revisión de garrapatas: os desvestís frente a frente y os buscáis por todo el cuerpo, sin prisa. Por salud, claro.", "tags": ["desnudez"]},
+    {"id": "pr-c2", "est": "primavera", "f": "cena", "para": "ambos", "t": "El día largo", "x": "Cenad mirando hacia donde se pone el sol. Cuando desaparezca, cada cual dice una cosa que quiere que pase antes de dormir."},
+    {"id": "ve-v1", "est": "verano", "f": "viaje", "para": "copi", "t": "La sal", "x": "Cuéntale a {O} a qué te sabe su piel en verano, y en qué sitio del cuerpo te gusta más ese sabor."},
+    {"id": "ve-v2", "est": "verano", "f": "viaje", "para": "copi", "t": "La lista del agua", "x": "Escribe en el móvil la lista de lo que haréis en el agua cuando lleguéis. {O} puede dictarte cosas nuevas, pero no puede tachar ninguna."},
+    {"id": "ve-e1", "est": "verano", "f": "explora", "para": "uno", "nivel": 3, "min": 45, "t": "La poza", "x": "Encuentra una poza o un recodo del río sin nadie. Métete en el agua con {O} con lo mínimo puesto… o sin nada, si estáis a solas de verdad.", "suave": "Mojaos los pies en el río y salpica a {O} hasta que te bese para que pares.", "tags": ["aire", "agua", "desnudez"]},
+    {"id": "ve-e2", "est": "verano", "f": "explora", "para": "uno", "nivel": 2, "min": 40, "t": "La siesta", "x": "En la hora de más calor, busca una sombra escondida y echaos la siesta en un abrazo. Tu mano, debajo de su camiseta, no duerme.", "suave": "En la hora de más calor, una siesta a la sombra, en un abrazo, sin hacer nada más.", "tags": ["aire"]},
+    {"id": "ve-e3", "est": "verano", "f": "explora", "para": "uno", "nivel": 4, "min": 45, "t": "Las gotas", "x": "Después de un baño, en un sitio a solas, recoge con los labios las gotas de la piel de {O}, una a una, sigan el camino que sigan.", "suave": "Después de un baño, recoge con los labios las gotas del cuello y los hombros de {O}.", "tags": ["aire", "intimo"]},
+    {"id": "ve-c1", "est": "verano", "f": "cena", "para": "ambos", "t": "Estrellas fugaces", "x": "Cenad fuera con la luz más baja posible. Cuando sea de noche, buscad estrellas fugaces: cada una que veáis, un deseo dicho al oído."},
+    {"id": "ve-c2", "est": "verano", "f": "cena", "para": "uno", "t": "El hielo de la copa", "x": "Coge un hielo de tu copa y pásalo por la nuca de {O} cuando menos se lo espere. Después, devuélvele el calor con la boca.", "tags": ["hielo"]},
+    {"id": "ot-v1", "est": "otono", "f": "viaje", "para": "copi", "t": "Los árboles rojos", "x": "Cada árbol rojo que veáis, {O} te debe una respuesta sincera. Tú eliges las preguntas, y que suban de tono con los kilómetros.", "tags": ["confesion"]},
+    {"id": "ot-v2", "est": "otono", "f": "viaje", "para": "copi", "t": "La berrea", "x": "Cuéntale a {O} lo que sabes de la berrea, o invéntalo: los ciervos se pasan días llamando a quien desean. ¿Cómo llamarías tú a {O}? Haz una demostración."},
+    {"id": "ot-e1", "est": "otono", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "Hojarasca", "x": "En el bosque, junta un montón de hojas secas, tumba a {O} encima sobre la manta y bésale hasta que crujan.", "suave": "Echa a {O} un puñado de hojas por encima y quítaselas después, una a una, del pelo y del cuello.", "tags": ["aire"]},
+    {"id": "ot-e2", "est": "otono", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "Manos calientes", "x": "Calienta las manos en el termo o en tu propio cuerpo y mételas bajo la ropa de {O}, por donde quieras, hasta que se le olvide el frío.", "suave": "Calienta las manos de {O} entre las tuyas y dentro de tu abrigo, sin prisa."},
+    {"id": "ot-e3", "est": "otono", "f": "explora", "para": "uno", "nivel": 4, "min": 45, "t": "El tronco", "x": "En un bosque a solas, apoya a {O} contra un tronco ancho y desabróchale lo justo para que tus besos lleguen donde quieras. El bosque avisa: si alguien se acerca, lo oiréis.", "suave": "Apoya a {O} contra un tronco y bésale despacio, de los labios al cuello.", "tags": ["aire", "intimo"]},
+    {"id": "ot-c1", "est": "otono", "f": "cena", "para": "uno", "t": "La cuchara", "x": "Que la cena sea caliente y de cuchara. Las tres primeras cucharadas de {O}, se las das tú, soplando antes.", "tags": ["comida"]},
+    {"id": "ot-c2", "est": "otono", "f": "cena", "para": "ambos", "t": "La lumbre", "x": "Junto a una chimenea, una estufa o una vela, contaos lo mejor del día con las manos dentro de la ropa de quien tenéis al lado."},
+    {"id": "in-v1", "est": "invierno", "f": "viaje", "para": "copi", "t": "La calefacción", "x": "Sube la calefacción un grado por cada cosa que {O} te cuente que quiere hacer esta noche. A ver a cuántos grados llegáis."},
+    {"id": "in-v2", "est": "invierno", "f": "viaje", "para": "copi", "t": "El vaho", "x": "Escribe en el vaho de tu ventanilla una palabra que resuma la noche que viene. {O} solo podrá leerla en la próxima parada."},
+    {"id": "in-e1", "est": "invierno", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "Las manos frías", "x": "Con el frío de verdad, mete tus manos heladas bajo la ropa de {O}, avisando o no, y deja que te las caliente donde elija.", "suave": "Coge las manos de {O} y caliéntaselas con tu aliento y dentro de tu abrigo.", "tags": ["hielo"]},
+    {"id": "in-e2", "est": "invierno", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "La nieve", "x": "Si hay nieve, guerra de bolas hasta caer al suelo. Quien pierda se deja besar donde la otra persona quiera, por debajo del abrigo.", "suave": "Guerra de bolas de nieve: quien pierda, paga con un beso largo.", "tags": ["hielo"]},
+    {"id": "in-e3", "est": "invierno", "f": "explora", "para": "uno", "nivel": 4, "min": 45, "t": "Bajo el abrigo", "x": "En un sitio a solas, abre tu abrigo, mete a {O} dentro contigo y que tus manos hagan el resto sin dejar entrar el frío. Aquí no se quita nada: el calor va por dentro.", "suave": "Mete a {O} dentro de tu abrigo y besaos hasta entrar en calor.", "tags": ["aire", "intimo"]},
+    {"id": "in-c1", "est": "invierno", "f": "cena", "para": "ambos", "t": "Un solo plato", "x": "Algo caliente de cuchara en un solo plato, para compartir. Una cuchara cada cual… o una sola, por turnos.", "tags": ["comida"]},
+    {"id": "in-c2", "est": "invierno", "f": "cena", "para": "ambos", "t": "La noche larga", "x": "Anochece pronto: tenéis horas. Haced en voz baja la lista de lo que cabe en una noche de invierno, de menos a más, y no os saltéis nada.", "tags": ["voz"]},
+    {"id": "ho-l1", "alo": "hotel", "f": "llegada", "para": "uno", "nivel": 1, "t": "En recepción", "x": "Mientras os dan la llave, escribe con el dedo en la espalda de {O} una palabra. Tiene que adivinarla antes de llegar a la habitación."},
+    {"id": "ho-l2", "alo": "hotel", "f": "llegada", "para": "uno", "nivel": 2, "t": "La puerta", "x": "Nada más cerrar la puerta de la habitación, apoya a {O} contra ella y dale un beso de los que no dejan deshacer la maleta."},
+    {"id": "ho-l3", "alo": "hotel", "f": "llegada", "para": "ambos", "nivel": 1, "t": "No molestar", "x": "Colgad el cartel de «No molestar», aunque solo sea para dejar las maletas. Así se va acostumbrando."},
+    {"id": "ho-e1", "alo": "hotel", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "El callejón", "x": "En el pueblo, encuentra el callejón más estrecho y vacío, y bésale allí a {O} como si os estuvieran buscando.", "suave": "Coge de la mano a {O} y no la sueltes hasta el siguiente callejón."},
+    {"id": "ho-e2", "alo": "hotel", "f": "explora", "para": "uno", "nivel": 2, "min": 40, "t": "La compra secreta", "x": "En una tienda del pueblo compra, sin que {O} vea qué, algo que usarás esta noche en la habitación: un dulce, una vela, una cinta.", "suave": "Compra algo pequeño para regalárselo a {O} esta noche, sin que vea qué es."},
+    {"id": "ho-c1", "alo": "hotel", "f": "cena", "para": "uno", "t": "A ciegas", "x": "Elige tú el vino o el postre de {O} sin preguntarle nada. Si acierta su sonrisa, te debe un capricho."},
+    {"id": "ho-c2", "alo": "hotel", "f": "cena", "para": "ambos", "t": "La vuelta larga", "x": "Volved a la habitación por el camino más largo del pueblo, parando en cada esquina oscura."},
+    {"id": "ho-a1", "alo": "hotel", "f": "alcoba", "temp": "seda", "t": "La bañera", "x": "Prepara un baño caliente, o una ducha larga, y desnuda a {R} para meterle dentro. Lávale despacio, como si fuera lo más valioso del viaje.", "tags": ["agua", "desnudez"]},
+    {"id": "ho-a2", "alo": "hotel", "f": "alcoba", "temp": "seda", "t": "La ventana", "x": "Apaga las luces y, solo si nadie puede veros desde fuera, abre las cortinas. Tú, detrás de {R}, recorriendo su cuerpo mientras mira el pueblo dormido.", "tags": []},
+    {"id": "ho-a3", "alo": "hotel", "f": "alcoba", "temp": "brasa", "t": "Sábanas de hotel", "x": "Quítale a {R} toda la ropa sobre la cama recién hecha. La única regla: la cama no se deshace… hasta que se deshace sola.", "tags": ["desnudez"]},
+    {"id": "ho-a4", "alo": "hotel", "f": "alcoba", "temp": "brasa", "t": "Las paredes oyen", "x": "Durante una canción, haz que a {R} le cueste no hacer ruido. Tus manos y tu boca, por donde se deje.", "tags": ["silencio", "intimo"]},
+    {"id": "fu-l1", "alo": "furgo", "f": "llegada", "para": "ambos", "nivel": 1, "t": "La orientación", "x": "Aparcad con la puerta grande mirando al paisaje y lejos de donde pasa la gente. Esa puerta va a abrirse más tarde."},
+    {"id": "fu-l2", "alo": "furgo", "f": "llegada", "para": "uno", "nivel": 2, "t": "Las cortinas", "x": "Pon tú las cortinas, una a una, mientras {O} mira desde la cama. Con cada ventana tapada, te quitas algo.", "tags": ["prenda"]},
+    {"id": "fu-l3", "alo": "furgo", "f": "llegada", "para": "uno", "nivel": 1, "t": "La casa pequeña", "x": "Haz la cama de la furgo como la de un hotel de lujo, con la luz cálida encendida, y llama a {O} cuando esté lista."},
+    {"id": "fu-e1", "alo": "furgo", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "El borde de la puerta", "x": "Con la furgo en un sitio a solas, abre la puerta grande y sentaos en el borde, mirando fuera. Tus manos, por dentro de la ropa de {O}; vuestros pies, en el paisaje.", "suave": "Sentaos en el borde de la puerta abierta con una manta por los hombros, en un abrazo.", "tags": ["aire"]},
+    {"id": "fu-e2", "alo": "furgo", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "El cielo por el cristal", "x": "Tumbaos a mirar el cielo por la claraboya o por el parabrisas. Cuéntale a {O} lo que harías si el techo se abriera ahora mismo.", "suave": "Tumbaos a mirar el cielo por el cristal y busca la mano de {O} sin decir nada.", "tags": ["voz"]},
+    {"id": "fu-c1", "alo": "furgo", "f": "cena", "para": "uno", "t": "La cocina pequeña", "x": "Cocina tú algo sencillo, con la ventana abierta si usas gas, y sírvele a {O} en la cama, con la puerta abierta al paisaje."},
+    {"id": "fu-c2", "alo": "furgo", "f": "cena", "para": "ambos", "t": "Luces fuera", "x": "Cuando anochezca, apagad todas las luces y esperad a que aparezcan las estrellas. Si pasa algún coche, que os pille en un beso."},
+    {"id": "fu-a1", "alo": "furgo", "f": "alcoba", "temp": "seda", "t": "Lluvia en el techo", "x": "Si llueve, apagad todo y escuchad la lluvia en el techo; si no, que sea el viento. Desnuda a {R} al ritmo de lo que suene fuera.", "tags": ["prenda", "desnudez"]},
+    {"id": "fu-a2", "alo": "furgo", "f": "alcoba", "temp": "seda", "t": "El vaho", "x": "Cuando se empañen los cristales, escribe con el dedo lo que vas a hacerle a {R}, y hazlo antes de que se borre.", "tags": []},
+    {"id": "fu-a3", "alo": "furgo", "f": "alcoba", "temp": "brasa", "t": "El espacio justo", "x": "En una cama de furgo no cabe la prisa. Que {R} se tumbe, y tú encuentra la forma de recorrer su cuerpo entero sin salirte de ella.", "tags": ["desnudez", "intimo"]},
+    {"id": "fu-a4", "alo": "furgo", "f": "alcoba", "temp": "brasa", "t": "La puerta, otra vez", "x": "Si estáis a solas de verdad, abre la puerta grande un momento: que entre el aire de fuera mientras tu boca baja por el cuerpo de {R}. Luego, ciérrala y que se quede el calor.", "tags": ["aire", "intimo"]},
+    {"id": "ac-l1", "alo": "acampada", "f": "llegada", "para": "ambos", "nivel": 1, "t": "El sitio de la tienda", "x": "Elegid el sitio de la tienda como si fuera la cama de esta noche, porque lo es: plano, sin piedras, lejos de otras tiendas y con algo de vista."},
+    {"id": "ac-l2", "alo": "acampada", "f": "llegada", "para": "uno", "nivel": 1, "t": "Pieza a pieza", "x": "Mientras montáis la tienda, cada vez que {O} te pase una pieza, le das un beso. Si la tienda tarda, mejor."},
+    {"id": "ac-l3", "alo": "acampada", "f": "llegada", "para": "uno", "nivel": 2, "t": "El nido", "x": "Prepara tú el interior: esterillas, sacos abiertos para unirlos, frontal en luz roja. Cuando esté, invita a {O} a probarlo un momento… solo un momento."},
+    {"id": "ac-e1", "alo": "acampada", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "Donde ya no se ve la tienda", "x": "Aléjate con {O} hasta que no se vea ninguna tienda. Allí, ponte detrás, desabróchale lo justo y deja que el aire de fuera haga el resto.", "suave": "Aléjate con {O} hasta que no se vea ninguna tienda y abrázale por detrás, sin prisa.", "tags": ["aire", "prenda"]},
+    {"id": "ac-e2", "alo": "acampada", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "A por agua", "x": "Cuando vayáis a por agua o a buscar una vista, deja que {O} vaya delante: cada vez que se pare, le robas un beso en la nuca.", "suave": "De camino a por agua, coge a {O} de la mano y no la sueltes hasta volver."},
+    {"id": "ac-c1", "alo": "acampada", "f": "cena", "para": "uno", "t": "El hornillo", "x": "Cocina en el hornillo, fuera de la tienda y donde esté permitido, y da a probar a {O} de tu cuchara, soplando antes.", "tags": ["comida"]},
+    {"id": "ac-c2", "alo": "acampada", "f": "cena", "para": "ambos", "t": "Frontales apagados", "x": "Apagad los frontales y tumbaos a mirar el cielo hasta que los ojos se acostumbren. Cada estrella fugaz, una prenda menos… o un beso, si hace frío.", "tags": ["aire"]},
+    {"id": "ac-a1", "alo": "acampada", "f": "alcoba", "temp": "seda", "t": "La cremallera", "x": "Abre la cremallera del saco de {R} muy despacio, que se oiga cada diente. Lo que haya dentro, desnúdalo igual de despacio.", "tags": ["prenda", "desnudez"]},
+    {"id": "ac-a2", "alo": "acampada", "f": "alcoba", "temp": "seda", "t": "Los ruidos de la noche", "x": "Tumbaos a escuchar la noche. Cada ruido que llegue de fuera, una caricia nueva por dentro del saco de {R}.", "tags": []},
+    {"id": "ac-a3", "alo": "acampada", "f": "alcoba", "temp": "brasa", "t": "Dos sacos, uno", "x": "Unid los sacos y desnuda a {R} dentro, despacio y a oscuras. Que el calor lo pongan los cuerpos, y tus manos, el resto.", "tags": ["desnudez", "intimo"]},
+    {"id": "ac-a4", "alo": "acampada", "f": "alcoba", "temp": "brasa", "t": "Al raso", "x": "Si la noche lo permite y estáis a solas de verdad, sacad los sacos fuera de la tienda. Recorre a {R} bajo las estrellas, con la boca, hasta donde la noche os deje.", "tags": ["aire", "desnudez", "intimo"], "noest": ["invierno"]},
+    {"id": "c-e9", "f": "explora", "para": "uno", "nivel": 4, "min": 40, "t": "Tres minutos", "x": "En un sitio a solas y resguardado, tres minutos y ni uno más: tu mano por dentro de la ropa de {O}, donde más lo note, hasta que suene la alarma del móvil. Después, como si nada.", "suave": "En un sitio a solas, tres minutos de besos sin parar, con la alarma del móvil puesta.", "tags": ["aire", "intimo"]},
+    {"id": "c-e10", "f": "explora", "para": "uno", "nivel": 4, "min": 60, "t": "Veinte minutos", "x": "Con cualquier excusa, volved a dormir un rato: a la habitación, a la furgo o a la tienda. Veinte minutos, ni uno más, para lo que quepa en veinte minutos. Después, de vuelta a la calle como si nada.", "suave": "Con cualquier excusa, volved veinte minutos a descansar, en un abrazo y sin hacer nada más.", "tags": ["intimo"]},
+    {"id": "c-p5", "f": "perdidos", "temp": "brasa", "t": "Con la boca", "tags": ["aire", "intimo"], "x": "Sobre la manta, a solas de verdad: ponte entre las piernas de {R} y quédate ahí con la boca, sin prisa, hasta que {R} te pida que pares o que no pares."},
+    {"id": "c-p6", "f": "perdidos", "temp": "seda", "t": "El oído en el pecho", "tags": ["aire"], "x": "Tumba a {R} sobre la manta y apoya la cabeza en su pecho, por dentro de la ropa abierta. Escucha cómo cambia su corazón mientras tu mano baja despacio por su vientre."},
+    {"id": "c-a5", "f": "alcoba", "temp": "brasa", "t": "Al borde, tres veces", "tags": ["borde", "intimo"], "x": "Acaricia a {R} donde más lo note y para justo cuando más lo esté disfrutando. Cuenta tres respiraciones y vuelve a empezar. Tres veces. A la cuarta, no pares."},
+    {"id": "c-a6", "f": "alcoba", "temp": "brasa", "t": "La mano que guía", "tags": ["guia", "intimo"], "x": "Deja que {R} coja tu mano y la lleve donde quiera, como quiera y al ritmo que quiera, durante una canción entera. Tú solo te dejas llevar, y miras su cara."}
+  ]
+}

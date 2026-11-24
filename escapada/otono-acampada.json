@@ -1,0 +1,64 @@
+{
+  "titulo": "Otoño en tienda",
+  "gancho": "Un bosque que cruje bajo los pies, setas por todas partes, tardes cortas y noches frías en las que la tienda se convierte en el único sitio tibio del mundo.",
+  "lugar": "Un camping de montaña o de bosque, casi vacío fuera de temporada, con parcelas bajo los árboles. Comprobad que sigue abierto: muchos cierran en octubre.",
+  "consejos": [
+    "Las noches de otoño bajan de diez grados con facilidad: saco de verdad, esterilla gruesa y ropa seca solo para dormir.",
+    "Si llueve, la tienda bien tensada y nada tocando las paredes por dentro, o entrará el agua."
+  ],
+  "material": [
+    "Saco para frío y esterilla gruesa",
+    "Una lona por si llueve",
+    "Ropa seca solo para dormir"
+  ],
+  "cartas": {
+    "perdidos": {
+      "parrafos": [
+        "Os habéis perdido en el bosque, entre troncos cubiertos de musgo y un suelo que cruje a cada paso. El camping queda lejos y en silencio.",
+        "Antes de nada: nadie entre los árboles, nadie en el sendero, y el camino de vuelta claro antes de que anochezca. Aquí oscurece pronto.",
+        "Extended la manta sobre las hojas. Desde aquí las cartas suben hasta el final, con la ropa que permita el frío. Si aparece alguien, ropa y a otra cosa, sin dramas."
+      ]
+    },
+    "alcoba": {
+      "parrafos": [
+        "La noche de otoño cae deprisa y fría. La tienda es ahora una isla tibia en un bosque que cruje.",
+        "Cerrad la cremallera, poned el frontal en luz roja y sacad las cartas que escribisteis antes de salir. Leedlas en voz baja, dentro del saco.",
+        "Desde aquí no hay propuestas ni retos. Si queréis, quedan cartas para la noche; si no, solo vuestros NO, hasta la mañana."
+      ]
+    }
+  },
+  "propuestas": [
+    {"id": "otac-v1", "f": "viaje", "para": "copi", "t": "De valientes", "x": "Cuéntale a {O} por qué acampar en otoño es de valientes, y qué piensas hacer para que no pase frío esta noche. Todo, con detalle."},
+    {"id": "otac-v2", "f": "viaje", "para": "copi", "t": "A qué huele", "x": "Pregúntale a {O} a qué le huele el otoño: tierra mojada, humo, castañas. Después, dile tú a qué huele su cuello cuando hace frío."},
+    {"id": "otac-v3", "f": "viaje", "para": "copi", "t": "Setas con nombre", "x": "Inventad nombres de setas que suenen picantes. Por cada uno que os haga reír, un beso en la próxima parada."},
+    {"id": "otac-l1", "f": "llegada", "para": "ambos", "nivel": 1, "t": "El árbol bueno", "x": "Elegid una parcela bajo un árbol que no gotee ni tenga ramas secas encima, y montad la tienda antes de que se vaya la luz: a las siete ya es de noche."},
+    {"id": "otac-l2", "f": "llegada", "para": "uno", "nivel": 1, "t": "Hojas en la tienda", "x": "Mientras montáis, por cada hoja que caiga dentro de la tienda, un beso a {O}. En otoño, no paran."},
+    {"id": "otac-l3", "f": "llegada", "para": "uno", "nivel": 2, "t": "Sacos tibios", "x": "Mete tú los sacos en la tienda y caliéntalos un rato desde dentro. Cuando estén tibios, invita a {O} a entrar en el tuyo."},
+    {"id": "otac-l4", "f": "llegada", "para": "uno", "nivel": 2, "t": "La ropa de dormir", "x": "Calienta contra tu cuerpo la ropa seca de dormir de {O} antes de dársela. Si prefieres cambiársela tú, mejor."},
+    {"id": "otac-e1", "f": "explora", "para": "uno", "nivel": 1, "min": 30, "t": "Crujidos", "x": "Por cada paso de {O} que cruja sobre las hojas secas, una palabra bonita al oído. Si se cansa de oírlas, que te calle con un beso.", "suave": "Cada vez que cruja una hoja bajo vuestros pies, un apretón de manos.", "tags": ["voz"]},
+    {"id": "otac-e2", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "La seta más bonita", "x": "Busca la seta más bonita del bosque, sin cogerla, y enséñasela a {O}. Tu premio: un beso donde tú elijas.", "suave": "Busca la seta más bonita del bosque y enséñasela a {O}: tu premio es un beso en la mejilla."},
+    {"id": "otac-e3", "f": "explora", "para": "uno", "nivel": 2, "min": 40, "t": "Niebla entre las tiendas", "x": "Si la niebla cubre el camping, aprovechadla: un beso largo donde nadie os vea, con las manos por dentro de los abrigos.", "suave": "Si hay niebla, un beso dentro de ella, sin más."},
+    {"id": "otac-e4", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "El tronco caído", "x": "Sobre un tronco caído, lejos del camping, que {O} se siente en tus piernas y que tus manos se calienten por dentro de su ropa.", "suave": "Sobre un tronco caído, un abrazo largo mirando el bosque.", "tags": ["aire"]},
+    {"id": "otac-e5", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "Entrar en calor", "x": "A media tarde, cuando empiece a refrescar, meteos en la tienda a entrar en calor con lo mínimo puesto. En silencio: las tiendas oyen.", "suave": "A media tarde, meteos en la tienda a entrar en calor, en un abrazo.", "tags": ["prenda", "silencio"]},
+    {"id": "otac-e6", "f": "explora", "para": "uno", "nivel": 3, "min": 45, "t": "Gotas en la tela", "x": "Si llueve, que os pille dentro de la tienda: por cada gota que suene fuerte en la tela, una prenda menos de {O}, hasta que pare o hasta que no quede ninguna.", "suave": "Si llueve, escuchad la lluvia en la tienda, en un abrazo.", "tags": ["prenda", "desnudez"]},
+    {"id": "otac-e7", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "El hayedo vacío", "x": "En un hayedo vacío, lejos del camping, extended la manta sobre las hojas y desnuda a {O} lo que el frío permita. Lo demás, bajo el abrigo.", "suave": "En un hayedo vacío, tumbaos en la manta en un abrazo, bajo el abrigo.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "otac-e8", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "Antes de cenar", "x": "Antes de cenar, meteos en un solo saco sin nada encima, solo para calentaros. La cena puede esperar.", "suave": "Antes de cenar, meteos en un solo saco con la ropa puesta, en un abrazo.", "tags": ["desnudez", "intimo"]},
+    {"id": "otac-p1", "f": "perdidos", "temp": "seda", "t": "Leer la piel", "x": "Tumba a {R} sobre la manta junto a un tronco con musgo. Abre su abrigo y su ropa como quien abre una carta, y lee la piel con los labios.", "tags": ["aire", "prenda"]},
+    {"id": "otac-p2", "f": "perdidos", "temp": "seda", "t": "Un puñado de hojas", "x": "Echa un puñado de hojas secas sobre {R} y quítaselas una a una, con un beso donde estaba cada hoja.", "tags": ["aire"]},
+    {"id": "otac-p3", "f": "perdidos", "temp": "seda", "t": "El vaho", "x": "Con el frío, el aliento se ve. Recorre el cuerpo de {R} por dentro de la ropa, y que vea tu vaho en cada beso.", "tags": ["aire"]},
+    {"id": "otac-p4", "f": "perdidos", "temp": "brasa", "t": "Bajo la manta", "x": "Sin ropa bajo la manta y sobre las hojas, tu boca recorre a {R} mientras el bosque cruje. Que el frío se quede fuera.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "otac-p5", "f": "perdidos", "temp": "brasa", "t": "Más cerca, nunca menos", "x": "Quítale a {R} lo que el frío permita y que tus manos y tu boca hagan el resto. Si tiene frío, más cerca, nunca menos.", "tags": ["aire", "prenda", "intimo"]},
+    {"id": "otac-p6", "f": "perdidos", "temp": "brasa", "t": "Hasta que se vaya la luz", "x": "Sin cartas: lo que pida {R}, como lo pida. Cuando la luz empiece a irse, abrazo, ropa y de vuelta al camping.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "otac-c1", "f": "cena", "para": "ambos", "t": "Algo caliente", "x": "Cenad algo caliente del hornillo, fuera de la tienda y donde se permita: una sopa, un guiso, un chocolate. Una manta sobre los hombros de quien no cocina."},
+    {"id": "otac-c2", "f": "cena", "para": "uno", "t": "Delante del fuego", "x": "Si el camping tiene una zona de fuego permitida, ponte con {O} delante, en un abrazo, y caliéntale las manos dentro de tu abrigo."},
+    {"id": "otac-c3", "f": "cena", "para": "ambos", "t": "Noches claras", "x": "Las noches frías son las más claras. Diez minutos mirando el cielo antes de entrar en la tienda, en un abrazo, buscando la primera estrella fugaz del otoño."},
+    {"id": "otac-a1", "f": "alcoba", "temp": "seda", "t": "Cambio de ropa", "x": "Desnuda a {R} dentro del saco y cambia su ropa de día por tu cuerpo. La ropa seca de dormir, para después… si hace falta.", "tags": ["prenda", "desnudez"]},
+    {"id": "otac-a2", "f": "alcoba", "temp": "seda", "t": "Manos frías, piel tibia", "x": "Calienta tus manos con el aliento antes de tocar a {R}. Cada vez que se enfríen, vuelve a empezar, un poco más abajo.", "tags": []},
+    {"id": "otac-a3", "f": "alcoba", "temp": "seda", "t": "Lluvia sobre la tela", "x": "Si llueve, escuchad la lluvia en la tela sin decir nada. Al ritmo de las gotas, tus manos recorren a {R} dentro del saco.", "tags": []},
+    {"id": "otac-a4", "f": "alcoba", "temp": "brasa", "t": "Solo vuestro calor", "x": "Que el saco solo guarde vuestro calor: sin ropa, tu boca baja por el cuerpo de {R} hasta donde te pida.", "tags": ["desnudez", "intimo"]},
+    {"id": "otac-a5", "f": "alcoba", "temp": "brasa", "t": "Un palmo de frío", "x": "Abre la cremallera un palmo para que entre el frío y no la cierres hasta que {R} te lo pida, mientras tu boca le hace olvidar el frío.", "tags": ["intimo"]},
+    {"id": "otac-a6", "f": "alcoba", "temp": "brasa", "t": "Escarcha fuera", "x": "Que la mañana os pille con la escarcha fuera y el calor dentro. Lo que queráis, como queráis, hasta que {R} diga basta.", "tags": ["desnudez", "intimo"]},
+    {"id": "otac-p7", "f": "perdidos", "temp": "brasa", "t": "Dentro de la niebla", "tags": ["aire", "intimo"], "x": "En la niebla, a dos pasos de nadie, desabrocha a {R} lo justo y que tu mano y tu boca trabajen sin prisa bajo la ropa abierta, hasta que se levante la niebla o {R} te pida más."},
+    {"id": "otac-a7", "f": "alcoba", "temp": "brasa", "t": "El saco doble", "tags": ["desnudez", "intimo"], "x": "Unid los sacos, quitaos todo y haced el amor despacio, a oscuras, sin abrir la cremallera y al ritmo que marque {R}: el calor no se escapa si no hay prisa."}
+  ]
+}

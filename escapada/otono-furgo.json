@@ -1,0 +1,64 @@
+{
+  "titulo": "Otoño en furgo: la berrea",
+  "gancho": "Un monte de robles y hayas en plena berrea: los ciervos braman al anochecer, la niebla se queda en el valle y la furgo se convierte en el sitio más caliente en kilómetros.",
+  "lugar": "Una sierra o un valle con ciervos, con aparcamiento permitido en una pista o junto a un pueblo pequeño. Al atardecer, en silencio y a distancia, se oye la berrea.",
+  "consejos": [
+    "En la berrea, los ciervos no se molestan: miradlos de lejos, sin luces ni ruido, y nunca entre ellos y las hembras.",
+    "Las noches de otoño en la furgo son frías y húmedas: ventilad un poco aunque refresque y llevad edredón de verdad."
+  ],
+  "material": [
+    "Prismáticos",
+    "Edredón o saco de otoño",
+    "Un termo de chocolate o vino caliente"
+  ],
+  "cartas": {
+    "perdidos": {
+      "parrafos": [
+        "Os habéis perdido en el robledal, donde se acaba la pista. Huele a tierra mojada y, a lo lejos, un ciervo llama a quien desea.",
+        "Antes de nada: nadie en la pista, nadie entre los árboles, y la furgo a la vista o el camino claro. Si dudáis, otro sitio.",
+        "Extended la manta sobre las hojas. Desde aquí las cartas suben hasta el final, con la ropa que permita el frío. Si aparece alguien, ropa y a otra cosa, sin dramas."
+      ]
+    },
+    "alcoba": {
+      "parrafos": [
+        "Fuera, el monte brama y hace frío. Dentro, la furgo es el sitio más caliente en kilómetros.",
+        "Echad todas las cortinas, encended la luz cálida y sacad las cartas que escribisteis antes de salir. Leedlas en voz alta, bajo el edredón.",
+        "Desde aquí no hay propuestas ni retos. Si queréis, quedan cartas para la noche; si no, solo vuestros NO, hasta que la niebla suba del valle."
+      ]
+    }
+  },
+  "propuestas": [
+    {"id": "otfu-v1", "f": "viaje", "para": "copi", "t": "Los prismáticos", "x": "Cuéntale a {O} que esta tarde miraréis ciervos en silencio, de lejos. Pregúntale qué harán sus manos mientras las tuyas sujetan los prismáticos."},
+    {"id": "otfu-v2", "f": "viaje", "para": "copi", "t": "De fuera hacia dentro", "x": "Haced la lista de todo lo que os quitaréis esta noche, de fuera hacia dentro. Gana quien la diga más despacio."},
+    {"id": "otfu-v3", "f": "viaje", "para": "copi", "t": "Cuando esté caliente", "x": "Pregúntale a {O} qué es lo primero que hará cuando la furgo esté caliente y las cortinas echadas. Si duda, que te lo diga al oído en la próxima parada."},
+    {"id": "otfu-l1", "f": "llegada", "para": "ambos", "nivel": 1, "t": "Donde se oye el monte", "x": "Buscad un aparcamiento permitido y tranquilo desde donde se oiga el monte. Apagad el motor y escuchad: si brama un ciervo, beso."},
+    {"id": "otfu-l2", "f": "llegada", "para": "uno", "nivel": 2, "t": "La cama caliente", "x": "Prepara la cama con el edredón grueso y deja dentro algo caliente: una bolsa de agua, tu jersey. Invita a {O} a meter las manos debajo, y las tuyas detrás."},
+    {"id": "otfu-l3", "f": "llegada", "para": "uno", "nivel": 2, "t": "Pies fríos", "x": "Quítale a {O} las botas y los calcetines y caliéntale los pies entre tus manos, en la cama, con la puerta abierta al monte."},
+    {"id": "otfu-l4", "f": "llegada", "para": "uno", "nivel": 1, "t": "La misma taza", "x": "Sirve a {O} algo caliente del termo y bebed de la misma taza. Donde ponga sus labios, pon los tuyos."},
+    {"id": "otfu-e1", "f": "explora", "para": "uno", "nivel": 1, "min": 30, "t": "Solo con las manos", "x": "Para ver ciervos hay que estar en silencio: mientras miréis, solo os habláis con las manos. Las tuyas, en la cintura de {O}.", "suave": "Mientras miréis, solo os habláis con las manos, entrelazadas.", "tags": ["silencio"]},
+    {"id": "otfu-e2", "f": "explora", "para": "uno", "nivel": 2, "min": 40, "t": "Que no pierda al ciervo", "x": "Mientras {O} mira por los prismáticos, ponte detrás y que tus manos le distraigan, sin que pierda de vista al ciervo.", "suave": "Mientras {O} mira por los prismáticos, abrázale por detrás y respira en su nuca."},
+    {"id": "otfu-e3", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "El bramido", "x": "Cuando brame un ciervo, besa a {O} con la misma intensidad. Si el ciervo repite, tú también.", "suave": "Cada vez que brame un ciervo, un beso corto a {O}."},
+    {"id": "otfu-e4", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "Contra la furgo", "x": "En una pista sin nadie, apoya a {O} contra la furgo, por el lado que no da a ningún camino, y bésale con las manos por dentro de la ropa.", "suave": "Apoya a {O} contra la furgo y bésale despacio.", "tags": ["aire"]},
+    {"id": "otfu-e5", "f": "explora", "para": "uno", "nivel": 3, "min": 45, "t": "La siesta de la tarde", "x": "Volved a la furgo, echad las cortinas y meteos bajo el edredón con lo mínimo. Fuera, el monte; dentro, vuestras manos.", "suave": "Volved a la furgo y meteos bajo el edredón en un abrazo.", "tags": ["prenda"]},
+    {"id": "otfu-e6", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "Hojas que caen", "x": "Tumbaos en la manta sobre la hojarasca de un robledal. Por cada hoja que caiga sobre {O}, un botón menos.", "suave": "Tumbaos en la manta sobre la hojarasca: por cada hoja que caiga, un beso.", "tags": ["aire", "prenda"]},
+    {"id": "otfu-e7", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "Antes de la berrea", "x": "Una hora antes de que empiece la berrea, volved a la furgo: que la berrea os pille sin ropa y la escuchéis desde la cama.", "suave": "Que la berrea os pille en la cama de la furgo, en un abrazo.", "tags": ["desnudez", "intimo"]},
+    {"id": "otfu-e8", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "La puerta al bosque", "x": "Si el bosque está vacío y el frío lo permite, abre la puerta grande y consigue que {O} se desnude para ti en la cama, despacio, mientras el bosque se pone rojo.", "suave": "Con la puerta abierta al bosque, consigue que {O} se quite el jersey para ti, despacio.", "tags": ["aire", "desnudez"]},
+    {"id": "otfu-p1", "f": "perdidos", "temp": "seda", "t": "La llamada", "x": "Cuando brame un ciervo, quítale a {R} una prenda. Si el monte está generoso, la tarde se queda corta.", "tags": ["aire", "prenda", "desnudez"]},
+    {"id": "otfu-p2", "f": "perdidos", "temp": "seda", "t": "Hojas que crujen", "x": "Tumba a {R} sobre la manta y las hojas secas, y desabrocha despacio lo que lleve. Cada hoja que cruja, un beso un poco más abajo.", "tags": ["aire", "prenda"]},
+    {"id": "otfu-p3", "f": "perdidos", "temp": "seda", "t": "Aliento", "x": "Con el frío de la tarde, recorre el cuello y el pecho de {R} solo con tu aliento caliente, por dentro de la ropa. Las manos, sin moverse.", "tags": ["aire"]},
+    {"id": "otfu-p4", "f": "perdidos", "temp": "brasa", "t": "Que el monte lo oiga", "x": "Sin ropa bajo la manta, lo que pida {R}, con la misma urgencia que los ciervos… o más despacio, si lo pide. Que el monte también lo oiga.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "otfu-p5", "f": "perdidos", "temp": "brasa", "t": "Entre los abrigos", "x": "Sin quitar más de lo justo, que hace fresco: tus manos y tu boca encuentran a {R} entre los abrigos abiertos.", "tags": ["aire", "prenda", "intimo"]},
+    {"id": "otfu-p6", "f": "perdidos", "temp": "brasa", "t": "Hasta que se vaya la luz", "x": "Sin cartas: lo que pida {R}, bajo la manta, hasta que se vaya la luz. Después, a la furgo a entrar en calor.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "otfu-c1", "f": "cena", "para": "ambos", "t": "Una taza para compartir", "x": "Calentad vino o chocolate, con la ventana abierta si usáis gas, y bebed de la misma taza mirando cómo se apaga el monte."},
+    {"id": "otfu-c2", "f": "cena", "para": "uno", "t": "Setas de confianza", "x": "Cocina para {O} algo con setas o castañas de confianza, compradas valen, y dale la primera cucharada soplando antes.", "tags": ["comida"]},
+    {"id": "otfu-c3", "f": "cena", "para": "ambos", "t": "La berrea a oscuras", "x": "Con la cena hecha, apagad todo y escuchad la berrea a oscuras. Cada bramido, un beso; cada silencio, una caricia."},
+    {"id": "otfu-a1", "f": "alcoba", "temp": "seda", "t": "Como una castaña", "x": "Desnuda a {R} como se pela una castaña: capa a capa, sin prisa y con cuidado de no quemarte. Cada capa, un beso.", "tags": ["prenda", "desnudez"]},
+    {"id": "otfu-a2", "f": "alcoba", "temp": "seda", "t": "Pies fríos, manos calientes", "x": "Bajo el edredón, tus pies fríos buscan los de {R} y tus manos, todo lo demás. Durante una canción, solo manos.", "tags": []},
+    {"id": "otfu-a3", "f": "alcoba", "temp": "seda", "t": "El último bramido", "x": "Si todavía brama algún ciervo, escuchad en silencio, y en cada bramido, tu boca en un sitio nuevo de {R}.", "tags": []},
+    {"id": "otfu-a4", "f": "alcoba", "temp": "brasa", "t": "El frío, en los cristales", "x": "Que el frío se quede en los cristales: sin ropa bajo el edredón, recorre a {R} con la boca hasta donde te pida.", "tags": ["desnudez", "intimo"]},
+    {"id": "otfu-a5", "f": "alcoba", "temp": "brasa", "t": "El monte entero desea", "x": "Esta noche, el monte entero desea. Si {R} quiere, sin prisa pero sin pausa: lo que pida y como lo pida.", "tags": ["desnudez", "intimo"]},
+    {"id": "otfu-a6", "f": "alcoba", "temp": "brasa", "t": "Hasta la niebla", "x": "Que la niebla de la mañana os encuentre sin haber dormido. Lo que queráis, como queráis, hasta que {R} diga basta.", "tags": ["desnudez", "intimo"]},
+    {"id": "otfu-p7", "f": "perdidos", "temp": "brasa", "t": "Como la berrea", "tags": ["aire", "desnudez", "intimo", "voz"], "x": "Mientras la berrea suena en el monte, dentro de la furgo y sin ropa: haz que a {R} se le olvide la vergüenza de hacer ruido. Si el monte grita, aquí también se puede."},
+    {"id": "otfu-a7", "f": "alcoba", "temp": "brasa", "t": "Cristales empañados", "tags": ["solo", "desnudez"], "x": "Con los cristales empañados, tócate delante de {R} hasta que no se vea nada por las ventanas. {R} solo puede mirar, hasta que no pueda más."}
+  ]
+}

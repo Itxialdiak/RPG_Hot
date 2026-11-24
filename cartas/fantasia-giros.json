@@ -1,0 +1,38 @@
+{
+  "fantasia/prohibicion/corro": [
+    {"id":"gc1","t":"El Tributo","tags":["voz"],"x":"La Corte del Corro exige un tributo para dejaros salir: una verdad al oído y un baile. En personaje, quien lea este giro paga el tributo: le susurra a su pareja algo que nunca se ha atrevido a decirle, y después bailáis la canción que suene, tan cerca como permita el voto."},
+    {"id":"gc2","t":"Las Setas que se Apagan","tags":[],"x":"Las setas del Corro se apagan si dejáis de bailar. Durante una canción no podéis separaros ni un momento: si alguien se aparta, se apaga una seta y paga una moneda de oro de hada."}
+  ],
+  "fantasia/prohibicion/lago": [
+    {"id":"gl1","t":"El Reflejo Robado","tags":["espejo"],"x":"El Lago se ha quedado con el reflejo de quien lea este giro, y solo lo devuelve a cambio de un beso en cada sitio que elija su pareja, menos en la boca. En personaje, negociad el precio antes de pagarlo."},
+    {"id":"gl2","t":"La Bruma","tags":["silencio"],"x":"Se levanta una bruma que apaga todos los sonidos. Durante media canción, nada de palabras: solo manos sobre la piel, para encontraros en la niebla."}
+  ],
+  "fantasia/prohibicion/gruta": [
+    {"id":"gg3","t":"La Luciérnaga Perdida","tags":["venda"],"x":"Una luciérnaga se ha posado en la piel de quien lleva la venda. Su pareja tiene que encontrarla a besos, sin usar las manos, y solo puede parar cuando oiga «luz»."},
+    {"id":"gg4","t":"El Eco","tags":["voz"],"x":"La Gruta repite todo lo que se dice en voz baja. En personaje, quien lea este giro le dice al oído a su pareja lo que desea, y su pareja tiene que repetirlo palabra por palabra, como un eco, antes de concederlo."}
+  ],
+  "fantasia/encender/aire": [
+    {"id":"ga1","t":"El Silfo","tags":["voz"],"x":"Un silfo, espíritu del aire, os roba las palabras durante una canción: solo se puede hablar soplando. Quien lea este giro dice lo que desea con el aliento sobre la piel de su pareja, y su pareja tiene que adivinarlo."},
+    {"id":"ga2","t":"La Hoja que Cae","tags":[],"x":"Una hoja del Jardín cae sobre el hombro de tu pareja. Donde cae una hoja, dice el Bosque, hay que dar un beso: síguela con la boca mientras cae, despacio, por donde la lleve el viento."}
+  ],
+  "fantasia/encender/agua": [
+    {"id":"gw1","t":"La Ondina","tags":[],"x":"Una ondina sale de la fuente y ofrece un deseo a cambio de un beso. En personaje, quien lea este giro pide el deseo y su pareja paga el beso donde la ondina diga: en el cuello, en la muñeca o detrás de la rodilla."},
+    {"id":"gw2","t":"Agua que no Miente","tags":["confesion"],"x":"Quien bebe de esta fuente no puede mentir durante una canción. Bebed un sorbo de agua y haceos, por turnos, una pregunta que nunca os habéis hecho. Responde la persona, no el personaje."}
+  ],
+  "fantasia/encender/tierra": [
+    {"id":"gt1","t":"La Raíz","tags":[],"x":"Una raíz brota del suelo y se enreda en los tobillos de quien lea este giro: no puede moverse durante una canción. Su pareja lo aprovecha: puede acercarse tanto como quiera, y apartarse justo cuando más se le eche de menos."},
+    {"id":"gt2","t":"El Fruto de Cien Años","tags":["comida"],"x":"En el Huerto hay un fruto que solo madura una vez cada cien años. En personaje, ofrécele a tu pareja un bocado de lo que tengáis, de tu boca a la suya, y dile al oído qué le pasará cuando lo pruebe."}
+  ],
+  "fantasia/explicito/hogueras": [
+    {"id":"gb1","t":"Las Chispas","tags":[],"x":"Saltan chispas de la hoguera y caen sobre la piel de quien lea este giro. Su pareja tiene que apagarlas a besos, una a una, donde caigan: en el cuello, en el pecho, en el vientre, y una más donde quiera."},
+    {"id":"gb2","t":"La Gente del Reino","tags":["voz"],"x":"Alguien de la Corte se acerca a la hoguera y pregunta qué habéis venido a hacer esta noche. En personaje, quien lea este giro se lo cuenta en voz alta, con todo detalle y sin eufemismos, mientras su pareja escucha sin poder tocarle."}
+  ],
+  "fantasia/explicito/mayo": [
+    {"id":"gb3","t":"La Cinta que se Suelta","tags":["atar"],"x":"Una cinta se suelta del Árbol de Mayo y se enreda en las muñecas de quien lea este giro. Si quiere, deja que su pareja la ate, floja y por delante, durante una canción. «Rojo» la suelta al instante."},
+    {"id":"gb4","t":"La Música se Acelera","tags":[],"x":"Los músicos del Árbol tocan cada vez más deprisa. Sea lo que sea lo que estéis haciendo, durante una canción seguid el ritmo de la música; al terminar, a la mitad de velocidad."}
+  ],
+  "fantasia/explicito/helechos": [
+    {"id":"gb5","t":"El Ciervo Blanco","tags":["voz"],"x":"Entre los helechos aparece el ciervo blanco de Beltane, que solo se deja ver por quien desea sin miedo. Quien lea este giro dice en voz alta lo que más desea ahora mismo; si su pareja también lo desea, se cumple."},
+    {"id":"gb6","t":"La Hora en que el Bosque Calla","tags":["silencio"],"x":"Llega la hora en que el Bosque calla. Durante media canción no se puede decir ni una palabra, pero se puede hacer todo lo demás."}
+  ]
+}

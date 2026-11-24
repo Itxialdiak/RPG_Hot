@@ -1,0 +1,23 @@
+{
+  "appId": "com.doblellave.app",
+  "appName": "Doble Llave",
+  "webDir": "www",
+  "backgroundColor": "#140610",
+  "android": {
+    "backgroundColor": "#140610",
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "SystemBars": {
+      "insetsHandling": "native",
+      "initialViewportFitValueHint": "cover",
+      "style": "DARK"
+    },
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_llaves",
+      "iconColor": "#E2B872"
+    }
+  }
+}

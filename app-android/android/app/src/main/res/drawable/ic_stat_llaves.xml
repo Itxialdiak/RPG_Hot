@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icono pequeño de los avisos: las dos llaves cruzadas, en blanco (Android lo tiñe). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="220"
+    android:viewportHeight="220">
+    <group android:pivotX="110" android:pivotY="110" android:scaleX="0.86" android:scaleY="0.86">
+        <group android:translateY="45">
+            <group android:pivotX="110" android:pivotY="65" android:rotation="-32">
+                <path
+                    android:fillColor="#00000000"
+                    android:strokeColor="#FFFFFFFF"
+                    android:strokeWidth="17"
+                    android:strokeLineCap="round"
+                    android:strokeLineJoin="round"
+                    android:pathData="M18,65a22,22 0,1 0,44 0a22,22 0,1 0,-44 0M62,65H192M168,65v22M190,65v15" />
+            </group>
+            <group android:pivotX="110" android:pivotY="65" android:rotation="32">
+                <path
+                    android:fillColor="#00000000"
+                    android:strokeColor="#FFFFFFFF"
+                    android:strokeWidth="17"
+                    android:strokeLineCap="round"
+                    android:strokeLineJoin="round"
+                    android:pathData="M18,65a22,22 0,1 0,44 0a22,22 0,1 0,-44 0M62,65H192M168,65v22M190,65v15" />
+            </group>
+        </group>
+    </group>
+</vector>

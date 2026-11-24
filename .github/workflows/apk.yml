@@ -1,0 +1,56 @@
+# Compila la APK de Android en la nube, sin instalar nada en tu ordenador.
+# Pestaña Actions → «APK de Android» → Run workflow. Al terminar, la APK está en «Artifacts».
+# La música (Kevin MacLeod, CC BY 4.0) se descarga de incompetech.com la primera vez y queda
+# en la caché de Actions: las siguientes compilaciones no vuelven a bajarla.
+name: APK de Android
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'doble-llave.html'
+      - 'app-android/**'
+      - 'musica/**'
+      - 'herramientas/musica.mjs'
+      - '.github/workflows/apk.yml'
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app-android
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app-android/package-lock.json
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - uses: android-actions/setup-android@v3
+      - name: Instalar ffmpeg
+        run: command -v ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+      - name: Caché de la música
+        uses: actions/cache@v4
+        with:
+          path: musica/salida
+          key: musica-${{ hashFiles('musica/catalogo.json', 'herramientas/musica.mjs') }}
+      - name: Preparar la música
+        working-directory: .
+        run: node herramientas/musica.mjs
+      - run: npm ci
+      - name: Copiar el juego (y su música) dentro de la app
+        run: npm run sync
+      - name: Compilar la APK
+        run: |
+          chmod +x android/gradlew
+          cd android && ./gradlew assembleDebug --no-daemon
+      - uses: actions/upload-artifact@v4
+        with:
+          name: doble-llave-apk
+          path: app-android/android/app/build/outputs/apk/debug/app-debug.apk

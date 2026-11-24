@@ -1,0 +1,66 @@
+{
+  "titulo": "Invierno en el pueblo",
+  "gancho": "Un pueblo de montaña con nieve en los tejados, humo en todas las chimeneas y una habitación caliente donde la noche empieza a las seis.",
+  "lugar": "Un pueblo de montaña o de valle frío, con un hotel pequeño o una casa rural con chimenea y, si puede ser, bañera.",
+  "consejos": [
+    "Mirad el estado de la carretera antes de salir y llevad cadenas o neumáticos de invierno: los puertos cierran sin avisar.",
+    "Fuera, el frío manda: lo intenso, en la habitación. En la calle, abrigos abiertos y poco más."
+  ],
+  "material": [
+    "Cadenas o neumáticos de invierno",
+    "Ropa de abrigo de verdad",
+    "Algo suave y cómodo para la habitación"
+  ],
+  "cartas": {
+    "perdidos": {
+      "parrafos": [
+        "Os habéis perdido en el monte blanco. No se oye nada: la nieve se traga los ruidos y las únicas huellas son las vuestras.",
+        "Con este frío, perderse es corto y abrigado: nada de quitarse la ropa ni de mojarse. Comprobad que estáis a solas y que el camino de vuelta se ve.",
+        "Las cartas suben desde aquí, pero por dentro de los abrigos. Cuando el frío avise, a la habitación: allí os espera lo demás."
+      ]
+    },
+    "alcoba": {
+      "parrafos": [
+        "La noche de invierno ha llegado pronto y se quedará muchas horas. Fuera nieva o hiela; dentro, solo hace calor.",
+        "Echad las cortinas, encended una luz cálida y sacad las cartas que escribisteis antes de salir. Leedlas en voz alta, bajo el edredón.",
+        "Desde aquí no hay propuestas ni retos. Si queréis, quedan cartas para la noche; si no, solo vuestros NO, hasta la mañana blanca."
+      ]
+    }
+  },
+  "propuestas": [
+    {"id": "inho-v1", "f": "viaje", "para": "copi", "t": "Si hay nieve", "x": "Si hay nieve en la carretera, nada de juegos: música tranquila y que {O} conduzca en paz. Cuando no la haya, cuéntale cómo vas a calentarle esta noche."},
+    {"id": "inho-v2", "f": "viaje", "para": "copi", "t": "Delante de una chimenea", "x": "Pregúntale a {O} qué es lo que más le gusta hacer delante de una chimenea. Si la respuesta es «leer», que lo piense otra vez."},
+    {"id": "inho-v3", "f": "viaje", "para": "copi", "t": "El bigote de chocolate", "x": "Promete a {O} un chocolate caliente al llegar, y cuéntale cómo vas a quitarle el bigote de chocolate cuando se lo beba."},
+    {"id": "inho-l1", "f": "llegada", "para": "uno", "nivel": 1, "t": "Botas mojadas", "x": "Al entrar en la habitación, quítale a {O} las botas mojadas y los calcetines, y caliéntale los pies entre tus manos."},
+    {"id": "inho-l2", "f": "llegada", "para": "ambos", "nivel": 1, "t": "Probar la cama", "x": "Subid la calefacción, echad las cortinas y comprobad que la cama es lo bastante grande para lo que tenéis pensado. Probadla, sin quitaros nada… de momento."},
+    {"id": "inho-l3", "f": "llegada", "para": "uno", "nivel": 2, "t": "Quitar el frío", "x": "Prepara un baño caliente nada más llegar y mete a {O} dentro para quitarle el frío del viaje. Tú, dentro o en el borde.", "tags": ["agua"]},
+    {"id": "inho-l4", "f": "llegada", "para": "uno", "nivel": 2, "t": "La ventana nevada", "x": "Abraza a {O} por detrás frente a la ventana, mirando la nieve, con tus manos por dentro de su jersey y tu boca en su nuca."},
+    {"id": "inho-e1", "f": "explora", "para": "uno", "nivel": 1, "min": 30, "t": "Huellas", "x": "En la nieve recién caída, escribe con el pie un mensaje para {O}: dos palabras, las dos para esta noche.", "suave": "Escribe el nombre de {O} en la nieve, con un corazón alrededor si te atreves."},
+    {"id": "inho-e2", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "Bigote de chocolate", "x": "En el bar del pueblo, pide un chocolate para compartir. Cuando a {O} le quede chocolate en el labio, quítaselo con un beso, aunque haya gente.", "suave": "Pide un chocolate para compartir y, cuando a {O} le quede en el labio, quítaselo con el dedo.", "tags": ["comida"]},
+    {"id": "inho-e3", "f": "explora", "para": "uno", "nivel": 2, "min": 40, "t": "Copos en el pelo", "x": "Si nieva, salid a la calle más vacía y besa a {O} bajo los copos hasta que se le queden en el pelo.", "suave": "Si nieva, un beso corto bajo los copos y de vuelta al calor."},
+    {"id": "inho-e4", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "El soportal", "x": "En un portal o un soportal vacío, abre tu abrigo, mete dentro a {O} y que tus manos frías busquen su piel por debajo de las capas.", "suave": "En un soportal vacío, mete a {O} dentro de tu abrigo, en un abrazo.", "tags": ["hielo"]},
+    {"id": "inho-e5", "f": "explora", "para": "uno", "nivel": 3, "min": 45, "t": "La siesta de invierno", "x": "A media tarde, volved a la habitación, echad las cortinas y meteos en la cama sin ropa, solo para entrar en calor.", "suave": "A media tarde, volved a la habitación y meteos bajo el edredón en un abrazo.", "tags": ["desnudez"]},
+    {"id": "inho-e6", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "Resbalones", "x": "En el paseo por la nieve, cada vez que {O} resbale, le sujetas con un beso… y una mano que se queda dentro de su abrigo.", "suave": "En el paseo por la nieve, cada vez que {O} resbale, le sujetas con un beso."},
+    {"id": "inho-e7", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "Bañera con nieve en la ventana", "x": "Mientras fuera nieva, una bañera caliente compartida, con la luz apagada y la nieve en la ventana. Lo que pase en el agua, sin prisa.", "suave": "Una bañera caliente en la que {O} se recuesta en ti, en silencio, mirando nevar.", "tags": ["agua", "desnudez", "intimo"]},
+    {"id": "inho-e8", "f": "explora", "para": "uno", "nivel": 4, "min": 45, "t": "Un rincón nevado", "x": "En un rincón a solas del monte nevado, abrid los abrigos y que tus manos se metan por dentro de la ropa de {O}, todo lo cerca que deje el frío. Después, corriendo a la habitación.", "suave": "En un rincón nevado, un beso con los abrigos abiertos y corriendo a la habitación.", "tags": ["aire", "intimo", "hielo"]},
+    {"id": "inho-p1", "f": "perdidos", "temp": "seda", "t": "Dentro del abrigo", "x": "Abre tu abrigo y mete dentro a {R}, de frente. Tus manos buscan su piel por debajo de las capas, despacio, sin dejar entrar el frío.", "tags": ["aire"]},
+    {"id": "inho-p2", "f": "perdidos", "temp": "seda", "t": "Aliento en la garganta", "x": "Desabrocha solo el cuello del abrigo de {R} y caliéntale la garganta con tu aliento y tus labios.", "tags": ["aire"]},
+    {"id": "inho-p3", "f": "perdidos", "temp": "seda", "t": "Copos", "x": "Si nieva, mira cómo caen los copos en la cara de {R} y quítaselos uno a uno con la boca.", "tags": ["aire"]},
+    {"id": "inho-p4", "f": "perdidos", "temp": "seda", "t": "Contar capas", "x": "Quítate los guantes, calienta las manos con tu aliento y mételas por la espalda de {R}, debajo de todas las capas. Cuéntalas en voz alta al pasar.", "tags": ["aire", "hielo"]},
+    {"id": "inho-p5", "f": "perdidos", "temp": "brasa", "t": "Sin quitar nada", "x": "Sin quitar nada, que hace frío: tus manos bajan por dentro de la ropa de {R} hasta donde te deje, con los abrigos haciendo de tienda.", "tags": ["aire", "intimo"]},
+    {"id": "inho-p6", "f": "perdidos", "temp": "brasa", "t": "Contra un árbol", "x": "Abrid los abrigos y juntad los cuerpos dentro, de pie contra un árbol. Lo que hagan ahí las manos no lo verá nadie, y el frío tampoco.", "tags": ["aire", "intimo"]},
+    {"id": "inho-p7", "f": "perdidos", "temp": "brasa", "t": "Rápido y abrigado", "x": "Lo que pase aquí, rápido y abrigado: un beso que no acaba y tus manos dentro de la ropa de {R}. Cuando el frío avise, a la habitación a terminarlo.", "tags": ["aire", "intimo"]},
+    {"id": "inho-p8", "f": "perdidos", "temp": "brasa", "t": "De vuelta corriendo", "x": "Volved sin soltaros, tan deprisa como deje la nieve. En la habitación, lo que pida {R}: el monte solo era el principio.", "tags": ["desnudez", "intimo"]},
+    {"id": "inho-c1", "f": "cena", "para": "ambos", "t": "La mesa del fuego", "x": "Si hay chimenea en el comedor, pedid la mesa más cercana. Brindad por el frío que habéis pasado y por el calor que queda."},
+    {"id": "inho-c2", "f": "cena", "para": "uno", "t": "La primera cucharada", "x": "Sopla la primera cucharada de sopa de {O} y dásela tú. La segunda, que te la dé a ti.", "tags": ["comida"]},
+    {"id": "inho-c3", "f": "cena", "para": "ambos", "t": "Copos y farolas", "x": "Volved a la habitación por la calle nevada, despacio y en un abrazo. En cada farola, un copo que se derrite en un beso."},
+    {"id": "inho-a1", "f": "alcoba", "temp": "seda", "t": "Capas de invierno", "x": "Desnuda a {R} capa a capa, que en invierno son muchas. Cada capa que caiga, un beso donde estaba.", "tags": ["prenda", "desnudez"]},
+    {"id": "inho-a2", "f": "alcoba", "temp": "seda", "t": "Pies fríos", "x": "Bajo el edredón, calienta los pies de {R} con los tuyos y sus manos con tu aliento. Lo demás, con lo que quieras.", "tags": []},
+    {"id": "inho-a3", "f": "alcoba", "temp": "seda", "t": "Nieve en la ventana", "x": "Con la luz apagada y la nieve en la ventana, recorre con los dedos la espalda de {R} durante una canción entera, de la nuca a la cintura.", "tags": []},
+    {"id": "inho-a4", "f": "alcoba", "temp": "brasa", "t": "La cueva", "x": "Meteos bajo el edredón como en una cueva, sin ropa y sin luz. Tu boca baja por el cuerpo de {R} hasta donde te pida.", "tags": ["desnudez", "intimo"]},
+    {"id": "inho-a5", "f": "alcoba", "temp": "brasa", "t": "Manos de fuego", "x": "Delante de la chimenea o la estufa, si la habitación la tiene, y sin ropa: recorre a {R} con las manos calientes y después con la boca.", "tags": ["desnudez", "intimo"]},
+    {"id": "inho-a6", "f": "alcoba", "temp": "brasa", "t": "Catorce horas de noche", "x": "Tenéis catorce horas de noche: lo que queráis, como queráis, con pausas para el chocolate, hasta que {R} diga basta.", "tags": ["desnudez", "intimo"]},
+    {"id": "inho-p9", "f": "perdidos", "temp": "brasa", "t": "El abrigo abierto", "tags": ["aire", "intimo"], "x": "En un sitio a solas, abre tu abrigo, mete a {R} dentro, de espaldas a ti, y desliza la mano por dentro de su ropa hasta lo más íntimo, sin dejar entrar el frío."},
+    {"id": "inho-a7", "f": "alcoba", "temp": "brasa", "t": "La bañera caliente", "tags": ["agua", "borde", "intimo"], "x": "En la bañera caliente, detrás de {R}: acaríciale bajo el agua donde más lo note y para cuando esté a punto. Tres veces, despacio. A la cuarta, que se enfríe el agua si quiere."}
+  ]
+}

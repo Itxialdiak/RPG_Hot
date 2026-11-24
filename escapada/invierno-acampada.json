@@ -1,0 +1,67 @@
+{
+  "titulo": "Invierno en tienda",
+  "gancho": "Para valientes con buen saco: un camping de montaña casi vacío, escarcha o nieve alrededor de la tienda y la noche más larga del año dentro de un saco compartido.",
+  "lugar": "Un camping de montaña abierto en invierno, con baños calientes cerca de la parcela. Solo con experiencia y material de invierno; si no, mejor la furgo o el hotel.",
+  "consejos": [
+    "Material de invierno de verdad: tienda de cuatro estaciones, saco para bajo cero y dos esterillas aislantes por persona. Dormir con frío no tiene nada de romántico.",
+    "Nada de estufas ni hornillos dentro de la tienda, ni siquiera un momento. El calor, con bolsas de agua caliente, ropa seca y cuerpos."
+  ],
+  "material": [
+    "Tienda de cuatro estaciones",
+    "Saco para bajo cero y dos esterillas por persona",
+    "Bolsas de agua caliente y un termo grande",
+    "Gorro para dormir"
+  ],
+  "cartas": {
+    "perdidos": {
+      "parrafos": [
+        "Os habéis perdido entre la nieve, a pocos minutos del camping, que es lo más lejos que conviene en invierno.",
+        "El frío decide: nada de quitarse ropa fuera ni de mojarse. Comprobad que estáis a solas y que las huellas de vuelta se ven.",
+        "Las cartas suben desde aquí, por dentro de los abrigos, y en cuanto el frío avise, a la tienda. Allí sigue todo."
+      ]
+    },
+    "alcoba": {
+      "parrafos": [
+        "Fuera hiela y la tienda cruje de escarcha. Dentro, dos sacos se han convertido en uno.",
+        "Cerrad la cremallera, poned el frontal en luz roja, comprobad que entra un poco de aire y sacad las cartas que escribisteis antes de salir. Leedlas en voz baja, dentro del saco.",
+        "Desde aquí no hay propuestas ni retos. Si queréis, quedan cartas para la noche; si no, solo vuestros NO, durante la noche más larga."
+      ]
+    }
+  },
+  "propuestas": [
+    {"id": "inac-v1", "f": "viaje", "para": "copi", "t": "El plan de calor", "x": "Cuéntale a {O}, paso a paso, tu plan para que no pase frío esta noche. Los pasos que no sean del todo prácticos, también."},
+    {"id": "inac-v2", "f": "viaje", "para": "copi", "t": "Catorce horas", "x": "Pregúntale a {O} qué haría con catorce horas de noche dentro de un saco. Si le falta imaginación, ayúdale tú."},
+    {"id": "inac-v3", "f": "viaje", "para": "copi", "t": "Con nieve, nada", "x": "Si la carretera tiene nieve, nada de juegos. Si no, cuéntale a {O} cómo vas a calentarle los pies esta noche, y lo que vendrá después."},
+    {"id": "inac-l1", "f": "llegada", "para": "ambos", "nivel": 1, "t": "La parcela", "x": "Elegid una parcela resguardada del viento y cerca de los baños calientes. Montad la tienda antes de que caiga el sol: después, todo cuesta el doble."},
+    {"id": "inac-l2", "f": "llegada", "para": "uno", "nivel": 1, "t": "Manos alrededor", "x": "Mientras {O} termina de tensar la tienda, prepara algo caliente y dáselo en las manos, con las tuyas alrededor."},
+    {"id": "inac-l3", "f": "llegada", "para": "uno", "nivel": 2, "t": "El nido de invierno", "x": "Prepara el interior: esterillas dobles, sacos unidos y bolsas de agua caliente dentro. Cuando esté, mete a {O} con la excusa de probarlo."},
+    {"id": "inac-l4", "f": "llegada", "para": "uno", "nivel": 2, "t": "El cambio de ropa", "x": "Lleva a {O} a la tienda a cambiarse, que la ropa del viaje está húmeda. Tú ayudas, y tú decides cuánto tarda el cambio.", "tags": ["prenda"]},
+    {"id": "inac-e1", "f": "explora", "para": "uno", "nivel": 1, "min": 30, "t": "Palabras que se ven", "x": "Con el frío, el aliento se ve: dile a {O} al oído, despacio, lo que harás esta noche, y que vea salir cada palabra.", "suave": "Dile a {O} al oído una cosa bonita, y que vea tu vaho.", "tags": ["voz"]},
+    {"id": "inac-e2", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "El sol de mediodía", "x": "Buscad el sol de mediodía en un rincón resguardado del viento y tomadlo en un abrazo, con tus manos dentro del abrigo de {O}.", "suave": "Buscad el sol de mediodía en un rincón sin viento y tomadlo en un abrazo."},
+    {"id": "inac-e3", "f": "explora", "para": "uno", "nivel": 2, "min": 40, "t": "El mismo vaso", "x": "Comparte con {O} el chocolate del termo en el mismo vaso, y en cada sorbo, un beso que sepa a chocolate.", "suave": "Comparte con {O} el chocolate del termo en el mismo vaso.", "tags": ["comida"]},
+    {"id": "inac-e4", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "Siesta en el saco", "x": "A media tarde, meteos en los sacos unidos con lo mínimo puesto, solo para calentaros. Que tus manos se calienten en {O}.", "suave": "A media tarde, meteos en los sacos unidos en un abrazo.", "tags": ["prenda"]},
+    {"id": "inac-e5", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "Pies contra la piel", "x": "Dentro de la tienda, quítale a {O} las botas y los calcetines húmedos y calienta sus pies contra tu piel, por dentro de tu ropa.", "suave": "Dentro de la tienda, quítale a {O} los calcetines húmedos y calienta sus pies entre tus manos."},
+    {"id": "inac-e6", "f": "explora", "para": "uno", "nivel": 3, "min": 45, "t": "Labios helados", "x": "Derrite un copo de nieve en tu boca y besa el cuello de {O} con los labios helados; después, con los calientes, un poco más abajo.", "suave": "Un beso con los labios fríos de nieve y otro con los calientes.", "tags": ["hielo"]},
+    {"id": "inac-e7", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "Antes de que oscurezca", "x": "Antes de que oscurezca, meteos en un solo saco sin nada encima. Fuera, cero grados; dentro, lo que pase.", "suave": "Antes de que oscurezca, meteos en un solo saco con la ropa de dormir, en un abrazo.", "tags": ["desnudez", "intimo"]},
+    {"id": "inac-e8", "f": "explora", "para": "uno", "nivel": 4, "min": 45, "t": "Un minuto de abrigos abiertos", "x": "En un rincón a solas, lejos del camping, abre tu abrigo y el de {O}: un minuto de manos por dentro de la ropa, todo lo cerca que deje el frío, y corriendo a la tienda.", "suave": "En un rincón a solas, un beso con los abrigos abiertos y corriendo a la tienda.", "tags": ["aire", "intimo", "hielo"]},
+    {"id": "inac-p1", "f": "perdidos", "temp": "seda", "t": "De espaldas", "x": "Mete a {R} dentro de tu abrigo, de espaldas a ti, y caliéntale la nuca con la boca mientras miráis la nieve.", "tags": ["aire"]},
+    {"id": "inac-p2", "f": "perdidos", "temp": "seda", "t": "Vaho", "x": "Besa a {R} despacio y que vuestro vaho se mezcle: un beso que dure lo que tarde en irse el frío de sus labios.", "tags": ["aire"]},
+    {"id": "inac-p3", "f": "perdidos", "temp": "seda", "t": "Dedo a dedo", "x": "Quítale a {R} un guante y calienta su mano en tu boca, dedo a dedo. Después, la otra.", "tags": ["aire"]},
+    {"id": "inac-p4", "f": "perdidos", "temp": "seda", "t": "A la tienda", "x": "Cuando el frío pique, a la tienda: quítale a {R} la ropa con nieve y mételo todo en tu saco, contigo dentro.", "tags": ["prenda", "desnudez"]},
+    {"id": "inac-p5", "f": "perdidos", "temp": "brasa", "t": "Por dentro", "x": "Fuera, sin quitar nada: tus manos por dentro de la ropa de {R}, hasta donde te deje, con la nieve alrededor.", "tags": ["aire", "intimo"]},
+    {"id": "inac-p6", "f": "perdidos", "temp": "brasa", "t": "Corto y caliente", "x": "Lo que pase fuera, corto y caliente: un beso sin final y tus manos por dentro de la ropa de {R}. El final, en la tienda.", "tags": ["aire", "intimo"]},
+    {"id": "inac-p7", "f": "perdidos", "temp": "brasa", "t": "El saco", "x": "En la tienda, en un solo saco y sin ropa: tu boca baja por el cuerpo de {R} mientras fuera cae la nieve.", "tags": ["desnudez", "intimo"]},
+    {"id": "inac-p8", "f": "perdidos", "temp": "brasa", "t": "Hasta olvidar el frío", "x": "Sin cartas ya: lo que pida {R}, como lo pida, hasta que el frío sea solo un recuerdo.", "tags": ["desnudez", "intimo"]},
+    {"id": "inac-c1", "f": "cena", "para": "ambos", "t": "Cena temprana", "x": "En invierno se cena pronto y caliente: algo de cuchara en el hornillo, fuera de la tienda y donde se permita. Comed en un abrazo, bajo la misma manta."},
+    {"id": "inac-c2", "f": "cena", "para": "uno", "t": "El último té", "x": "Antes de entrar en la tienda, prepárale a {O} un té o un chocolate y caliéntale las manos con la taza y con las tuyas."},
+    {"id": "inac-c3", "f": "cena", "para": "ambos", "t": "Estrellas de helada", "x": "Si el cielo está limpio, cinco minutos de estrellas con todo el abrigo puesto. Quien vea una fugaz elige cómo empieza la noche."},
+    {"id": "inac-a1", "f": "alcoba", "temp": "seda", "t": "Solo el gorro", "x": "Desnuda a {R} dentro del saco y déjale solo el gorro. Lo demás, bajo tus manos.", "tags": ["prenda", "desnudez"]},
+    {"id": "inac-a2", "f": "alcoba", "temp": "seda", "t": "Bolsas calientes", "x": "Mueve las bolsas de agua caliente por el cuerpo de {R}, despacio, y donde se aparte una, pon tu mano.", "tags": []},
+    {"id": "inac-a3", "f": "alcoba", "temp": "seda", "t": "La nieve se traga los ruidos", "x": "La nieve se traga los ruidos. Durante una canción, a oscuras, tus manos recorren a {R} dentro del saco.", "tags": []},
+    {"id": "inac-a4", "f": "alcoba", "temp": "brasa", "t": "Sin abrir la cremallera", "x": "Que el saco guarde el calor de dos cuerpos sin ropa: tu boca baja por el cuerpo de {R} hasta donde te pida, sin abrir la cremallera.", "tags": ["desnudez", "intimo"]},
+    {"id": "inac-a5", "f": "alcoba", "temp": "brasa", "t": "La escarcha cruje", "x": "Cada vez que cruja la escarcha en la tela, un sitio nuevo del cuerpo de {R} para tu boca.", "tags": ["desnudez", "intimo"]},
+    {"id": "inac-a6", "f": "alcoba", "temp": "brasa", "t": "Un saco para dos", "x": "Catorce horas de noche y un saco para dos: lo que queráis, como queráis, hasta que {R} diga basta.", "tags": ["desnudez", "intimo"]},
+    {"id": "inac-p9", "f": "perdidos", "temp": "brasa", "t": "La tienda a mediodía", "tags": ["aire", "intimo"], "x": "A mediodía, con el sol calentando la tienda, abre el saco de {R} y recorre con la boca todo lo que el frío no deja enseñar fuera, hasta donde te pida."},
+    {"id": "inac-a7", "f": "alcoba", "temp": "brasa", "t": "Que dure", "tags": ["desnudez", "borde", "intimo"], "x": "Sin ropa dentro del saco, acaricia a {R} donde más lo note y para justo antes del final, una y otra vez. La noche de invierno es larga: que dure."}
+  ]
+}

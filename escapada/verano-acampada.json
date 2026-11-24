@@ -1,0 +1,64 @@
+{
+  "titulo": "Verano al raso",
+  "gancho": "Un río de montaña con pozas frías, días de cigarras y una noche sin techo: los sacos fuera de la tienda y el cielo entero encima.",
+  "lugar": "Un camping de montaña junto a un río, o un área de acampada con rincones apartados. En agosto, si queréis las Perseidas.",
+  "consejos": [
+    "Al raso, siempre sobre esterilla y con la tienda montada al lado, por si cambia el tiempo o refresca de madrugada.",
+    "En verano el fuego está casi siempre prohibido en el monte: cena fría, u hornillo solo donde se permita."
+  ],
+  "material": [
+    "Esterillas y sacos ligeros",
+    "Repelente de mosquitos",
+    "Toalla de microfibra para el río"
+  ],
+  "cartas": {
+    "perdidos": {
+      "parrafos": [
+        "Os habéis perdido río arriba, donde el sendero se convierte en piedras y el agua suena más fuerte que cualquier voz.",
+        "Antes de nada: nadie en la orilla, nadie que pueda bajar por el camino sin que lo veáis, agua para beber y sombra.",
+        "Extended la toalla grande. Desde aquí las cartas suben hasta el final. Si aparece alguien, ropa y a otra cosa, sin dramas."
+      ]
+    },
+    "alcoba": {
+      "parrafos": [
+        "No hay techo. Encima, el cielo entero; debajo, las esterillas; alrededor, el río y los grillos.",
+        "Comprobad que ninguna tienda os ve y que la vuestra sigue montada al lado, por si refresca. Sacad las cartas que escribisteis antes de salir y leedlas en voz baja, con la luz roja del frontal.",
+        "Desde aquí no hay propuestas ni retos. Si queréis, quedan cartas para la noche; si no, solo vuestros NO, bajo las estrellas."
+      ]
+    }
+  },
+  "propuestas": [
+    {"id": "veac-v1", "f": "viaje", "para": "copi", "t": "Sin techo", "x": "Cuéntale a {O} que esta noche dormiréis sin techo. Pregúntale qué le pedirá a la primera estrella fugaz, y no te creas la primera respuesta."},
+    {"id": "veac-v2", "f": "viaje", "para": "copi", "t": "La canción de aquel verano", "x": "Pon la canción de un verano que hayáis pasado a la vez y cuéntale a {O} el momento exacto en que la oísteis, con todos los detalles que recuerdes."},
+    {"id": "veac-v3", "f": "viaje", "para": "copi", "t": "Sin repelente", "x": "Pregúntale a {O} en qué sitio de su cuerpo no le importaría que le picara algo esta noche. Toma nota: allí no irá el repelente."},
+    {"id": "veac-l1", "f": "llegada", "para": "ambos", "nivel": 1, "t": "Pensando en el cielo", "x": "Elegid el sitio de la tienda pensando en el cielo: despejado, lejos de las luces y de las demás tiendas. Esta noche, el techo es opcional."},
+    {"id": "veac-l2", "f": "llegada", "para": "uno", "nivel": 1, "t": "Los pies en el río", "x": "Antes de montar nada, lleva a {O} al río y entrad hasta las rodillas. El primer beso del viaje, con los pies helados y el sol en la cara.", "tags": ["hielo"]},
+    {"id": "veac-l3", "f": "llegada", "para": "uno", "nivel": 1, "t": "Crema con mimo", "x": "Mientras {O} monta la tienda, ponle crema o repelente en la nuca, los brazos y la espalda, despacio y con más mimo del necesario."},
+    {"id": "veac-l4", "f": "llegada", "para": "uno", "nivel": 2, "t": "Probar el cielo", "x": "Prepara los sacos fuera, sobre las esterillas, uno junto al otro. Cuando estén, túmbate y llama a {O} para probar el cielo un minuto."},
+    {"id": "veac-e1", "f": "explora", "para": "uno", "nivel": 1, "min": 30, "t": "Cigarras", "x": "Mientras cante una cigarra cerca, besa a {O}; cuando calle, dile algo de su cuerpo que te guste. Así hasta que caduque el reto.", "suave": "Por cada cigarra que oigáis, un beso corto a {O}."},
+    {"id": "veac-e2", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "La roca caliente", "x": "Tumbaos sobre una roca lisa calentada por el sol, lejos de la gente. Tu mano, por dentro de la camiseta de {O}, sigue el calor de la piedra.", "suave": "Tumbaos en una roca caliente junto al río, con las manos entrelazadas.", "tags": ["aire"]},
+    {"id": "veac-e3", "f": "explora", "para": "uno", "nivel": 2, "min": 40, "t": "La poza más fría", "x": "Lleva a {O} a la poza más fría y entrad a la vez. Al salir, el calor se recupera abrazando a {O} por dentro de su toalla.", "suave": "Mojaos las piernas en la poza y abraza a {O} con la toalla al salir.", "tags": ["agua", "hielo"]},
+    {"id": "veac-e4", "f": "explora", "para": "uno", "nivel": 3, "min": 45, "t": "El chorro de agua", "x": "Buscad una cascada pequeña o un chorro de agua sin nadie cerca. Ponte detrás de {O} bajo el agua y desabrocha lo que haga falta para que le recorra la piel.", "suave": "Bajo un chorro de agua, un beso largo con el agua cayendo.", "tags": ["aire", "agua", "prenda"]},
+    {"id": "veac-e5", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "Siesta con las ventanas abiertas", "x": "A la hora de más calor, abrid las mosquiteras de la tienda y echaos la siesta con lo mínimo puesto. Tu mano no duerme.", "suave": "Siesta en la tienda, en un abrazo y sin hacer nada más.", "tags": ["prenda"]},
+    {"id": "veac-e6", "f": "explora", "para": "uno", "nivel": 3, "min": 45, "t": "La sombra junto al río", "x": "Siéntate con la espalda en un árbol junto al río y {O} entre tus piernas: tus manos le refrescan con agua del río por debajo de la ropa.", "suave": "Siéntate con la espalda en un árbol junto al río, con {O} recostándose en ti y tus manos en su cintura.", "tags": ["aire"]},
+    {"id": "veac-e7", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "Piedras lisas", "x": "En una orilla de piedras lisas, lejos de todo, desnuda a {O} y túmbale sobre la toalla. Las piedras guardan el calor del día; tú pones el resto.", "suave": "En una orilla de piedras lisas, tumbaos en la toalla en un abrazo, con tu mano bajo la ropa de {O}.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "veac-e8", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "El ensayo", "x": "Antes de que anochezca del todo, y si ninguna tienda os ve, meteos en los sacos fuera, sin nada encima, como ensayo de la noche. El ensayo puede alargarse.", "suave": "Antes de anochecer, tumbaos en los sacos fuera de la tienda, en un abrazo, a esperar la primera estrella.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "veac-p1", "f": "perdidos", "temp": "seda", "t": "Agua en la nuca", "x": "Llena tus manos de agua del río y suéltala en la nuca de {R}. Con cada escalofrío, una prenda menos y un beso donde estaba.", "tags": ["aire", "prenda", "hielo"]},
+    {"id": "veac-p2", "f": "perdidos", "temp": "seda", "t": "Piedras calientes", "x": "Tumba a {R} boca abajo sobre la toalla, en las piedras calientes, y recorre su espalda con las manos mojadas, bajando cada vez un poco más.", "tags": ["aire", "prenda"]},
+    {"id": "veac-p3", "f": "perdidos", "temp": "seda", "t": "Menos en la boca", "x": "Mientras canten las cigarras, besa a {R} en todas partes menos en la boca. Cuando callen, en la boca y en ninguna parte más.", "tags": ["aire"]},
+    {"id": "veac-p4", "f": "perdidos", "temp": "brasa", "t": "Sin bañador", "x": "Desnuda a {R} en la orilla y entrad en el agua. Dentro, donde hagáis pie, que tus manos lo encuentren todo.", "tags": ["aire", "agua", "desnudez", "intimo"]},
+    {"id": "veac-p5", "f": "perdidos", "temp": "brasa", "t": "Secarse al sol", "x": "Al salir del agua, sobre la toalla y sin ropa, recorre a {R} con la boca mientras el sol le seca la piel.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "veac-p6", "f": "perdidos", "temp": "brasa", "t": "El río lo tapa todo", "x": "El río tapa cualquier ruido. Sin ropa ni cartas, lo que pida {R}, como lo pida y tan alto como quiera.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "veac-c1", "f": "cena", "para": "ambos", "t": "Cena sin fuego", "x": "Cena fría y sin fuego: fruta, pan, queso y algo fresco. Comed de las manos de la otra persona mientras se va el sol.", "tags": ["comida"]},
+    {"id": "veac-c2", "f": "cena", "para": "uno", "t": "El repelente de la noche", "x": "Ponle a {O} el repelente de la noche con tus manos, despacio, por todo lo que vaya a quedar fuera del saco. Que se note que lo haces por gusto."},
+    {"id": "veac-c3", "f": "cena", "para": "ambos", "t": "La primera estrella", "x": "Tumbaos en los sacos a esperar la primera estrella. Quien la vea antes elige cómo empieza la noche."},
+    {"id": "veac-a1", "f": "alcoba", "temp": "seda", "t": "Una prenda por estrella", "x": "Por cada estrella fugaz que veáis, una prenda menos de {R} dentro del saco. Si no cae ninguna, inventaos una.", "tags": ["prenda", "desnudez"]},
+    {"id": "veac-a2", "f": "alcoba", "temp": "seda", "t": "El cielo en la piel", "x": "Señala una constelación y dibújala con el dedo en la piel de {R}, por dentro del saco. Después, otra, un poco más abajo.", "tags": []},
+    {"id": "veac-a3", "f": "alcoba", "temp": "seda", "t": "Fresco de madrugada", "x": "Cuando refresque, junta tu cuerpo al de {R} dentro del saco y calienta con las manos cada sitio que se le haya enfriado.", "tags": []},
+    {"id": "veac-a4", "f": "alcoba", "temp": "brasa", "t": "Bajo el cielo", "x": "Si ninguna tienda os ve, abrid los sacos como manta y desnuda a {R} bajo el cielo. Tu boca, por donde te deje, a la luz de las estrellas.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "veac-a5", "f": "alcoba", "temp": "brasa", "t": "El río tapa", "x": "El río tapa los ruidos: durante una canción, que {R} no tenga que contenerse. Tus manos y tu boca, sin prisa.", "tags": ["aire", "intimo"]},
+    {"id": "veac-a6", "f": "alcoba", "temp": "brasa", "t": "Hasta el alba", "x": "Las noches de verano son cortas: que el alba os encuentre sin haber dormido mucho. Lo que queráis, hasta que {R} diga basta.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "veac-p7", "f": "perdidos", "temp": "brasa", "t": "Las gotas del río", "tags": ["aire", "desnudez", "intimo"], "x": "Después de un baño en el río, a solas de verdad, tumba a {R} sobre la manta y recoge con la boca cada gota de su cuerpo, de arriba abajo, sin saltarte ningún camino."},
+    {"id": "veac-a7", "f": "alcoba", "temp": "brasa", "t": "Al raso del todo", "tags": ["aire", "desnudez", "intimo"], "x": "Fuera de la tienda, sin saco y sin ropa, bajo las estrellas: tu boca recorre todo el cuerpo de {R}, despacio, y se queda donde {R} se lo pida hasta la próxima estrella fugaz."}
+  ]
+}

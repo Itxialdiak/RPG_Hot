@@ -1,0 +1,63 @@
+{
+  "titulo": "Primavera en tienda",
+  "gancho": "Una pradera junto a un arroyo, flores por todas partes, noches todavía frescas y un coro de pájaros al amanecer. La tienda, lo más lejos posible de las demás.",
+  "lugar": "Un camping pequeño y tranquilo o un área de acampada junto a un río o un bosque, mejor fuera de puentes y festivos.",
+  "consejos": [
+    "Las noches de primavera son frías aunque el día haya sido de manga corta: saco de tres estaciones y algo de lana para dormir.",
+    "Montad la tienda lejos del cauce: con el deshielo o una tormenta, los arroyos crecen deprisa."
+  ],
+  "material": [
+    "Saco de tres estaciones",
+    "Un pareo o una manta fina para dentro de la tienda"
+  ],
+  "cartas": {
+    "perdidos": {
+      "parrafos": [
+        "Os habéis perdido más allá del arroyo. Desde aquí no se ve ninguna tienda, ni siquiera la vuestra.",
+        "Antes de nada: nadie a la vista, nadie que pueda llegar sin que lo oigáis, y el camino de vuelta claro. Si dudáis, otro sitio.",
+        "Extended la manta lejos de la hierba alta. Desde aquí las cartas suben hasta el final. Si aparece alguien, ropa y a otra cosa, sin dramas."
+      ]
+    },
+    "alcoba": {
+      "parrafos": [
+        "La noche de primavera refresca deprisa. Dentro de la tienda, en cambio, el aire ya huele a vosotros.",
+        "Cerrad la cremallera, poned el frontal en luz roja y sacad las cartas que escribisteis antes de salir. Leedlas en voz alta, muy baja.",
+        "Desde aquí no hay propuestas ni retos. Si queréis, quedan cartas para la noche; si no, solo vuestros NO, hasta que canten los pájaros."
+      ]
+    }
+  },
+  "propuestas": [
+    {"id": "prac-v1", "f": "viaje", "para": "copi", "t": "Lo último en la mochila", "x": "Pregúntale a {O} qué es lo último que metió en la mochila y por qué. Si la respuesta no tiene nada de picante, que se invente otra."},
+    {"id": "prac-v2", "f": "viaje", "para": "copi", "t": "La primera noche fuera", "x": "Cuéntale a {O} cómo imaginas la primera noche en la tienda: los ruidos de fuera, el frío de fuera y el calor de dentro."},
+    {"id": "prac-v3", "f": "viaje", "para": "copi", "t": "El despertador", "x": "Ponle a {O} el canto de un pájaro, o imítalo tú, y prométele que mañana os despertará uno de verdad… o algo mejor."},
+    {"id": "prac-l1", "f": "llegada", "para": "ambos", "nivel": 1, "t": "Mirar antes de montar", "x": "Antes de montar nada, tumbaos un minuto en la manta a mirar el cielo del sitio. Desde ahí, decidid hacia dónde mirará la puerta de la tienda."},
+    {"id": "prac-l2", "f": "llegada", "para": "uno", "nivel": 1, "t": "Piquetas", "x": "Por cada piqueta que claves, un beso a {O} en un sitio distinto. El último, en el sitio más escondido que el campamento permita."},
+    {"id": "prac-l3", "f": "llegada", "para": "uno", "nivel": 2, "t": "Buscando la linterna", "x": "Con la tienda montada, mete a {O} dentro con cualquier excusa y cierra la cremallera. Un minuto de besos, y salís como si hubierais estado buscando la linterna."},
+    {"id": "prac-l4", "f": "llegada", "para": "uno", "nivel": 2, "t": "La ropa de dormir", "x": "Prepara la ropa de dormir de {O} con mimo, doblada sobre su saco… y decide tú qué prenda sobra. Déjala fuera sin decir nada."},
+    {"id": "prac-e1", "f": "explora", "para": "uno", "nivel": 1, "min": 30, "t": "Tres flores", "x": "Recoge tres flores silvestres de las que abundan, nunca en un espacio protegido, y dáselas a {O} una a una, cada una con un piropo distinto.", "suave": "Dale a {O} una flor silvestre de las que abundan, con un piropo.", "tags": ["voz"]},
+    {"id": "prac-e2", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "Los pies en el arroyo", "x": "Sentaos en una piedra del arroyo con los pies en el agua fría. Tus manos, calientes, suben por las piernas de {O} hasta donde llegue el pantalón.", "suave": "Sentaos con los pies en el arroyo y calienta los pies de {O} entre tus manos al sacarlos.", "tags": ["hielo"]},
+    {"id": "prac-e3", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "Lo que dura un canto", "x": "Cuando un pájaro cante cerca, dale a {O} un beso que dure lo mismo que el canto. Si se calla pronto, espera al siguiente.", "suave": "Cada vez que cante un pájaro cerca, un beso corto a {O}."},
+    {"id": "prac-e4", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "La loma", "x": "Subid a una loma desde la que el campamento se vea pequeño y lejano. Allí, a solas, quítale a {O} la prenda de arriba y abrázale por detrás mirando el paisaje.", "suave": "Subid a una loma y abraza a {O} por detrás mirando el campamento a lo lejos.", "tags": ["aire", "prenda"]},
+    {"id": "prac-e5", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "La tienda a deshora", "x": "En mitad de la tarde, meteos en la tienda con la excusa de buscar algo. Cremallera cerrada y diez minutos para lo que sea, en silencio: las tiendas de al lado oyen.", "suave": "Meteos diez minutos en la tienda, en un abrazo, sin hacer nada más que escuchar lo de fuera.", "tags": ["silencio"]},
+    {"id": "prac-e6", "f": "explora", "para": "uno", "nivel": 3, "min": 45, "t": "Margaritas", "x": "En un prado escondido, sobre la manta, ve poniendo margaritas en la piel de {O} que vayas descubriendo. Cada flor, con su beso.", "suave": "Pon margaritas en el pelo y en el cuello de {O}, con un beso por cada una.", "tags": ["aire", "prenda"]},
+    {"id": "prac-e7", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "El baño más corto", "x": "Si encontráis una poza a solas, un baño rapidísimo sin ropa en el agua de primavera, y después a entrar en calor dentro de la misma toalla, piel con piel.", "suave": "Mojaos las piernas en la poza y secaos con la misma toalla, en un abrazo.", "tags": ["aire", "agua", "desnudez", "hielo"]},
+    {"id": "prac-e8", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "Bajo el árbol en flor", "x": "Bajo un árbol en flor y lejos de cualquier camino, desnuda a {O} hasta donde el sol deje, y que caigan pétalos sobre lo que vayas descubriendo.", "suave": "Bajo un árbol en flor, tumbaos en la manta con tu mano por debajo de la ropa de {O}.", "tags": ["aire", "desnudez"]},
+    {"id": "prac-p1", "f": "perdidos", "temp": "seda", "t": "Pétalos", "x": "Desabrocha la ropa de {R} y cubre de pétalos o de hierba fresca la piel que asome. Después, quítalos uno a uno con la boca.", "tags": ["aire", "prenda"]},
+    {"id": "prac-p2", "f": "perdidos", "temp": "seda", "t": "El sol en la espalda", "x": "Que {R} se tumbe boca abajo en la manta. Súbele la ropa hasta los hombros y deja que el sol y tus manos le recorran la espalda.", "tags": ["aire", "prenda"]},
+    {"id": "prac-p3", "f": "perdidos", "temp": "seda", "t": "Cada canto, una prenda", "x": "Cada vez que cante un pájaro, quítale a {R} una prenda. Si se hace el silencio, espera: en primavera nunca tardan.", "tags": ["aire", "prenda", "desnudez"]},
+    {"id": "prac-p4", "f": "perdidos", "temp": "brasa", "t": "De la nuca a los tobillos", "x": "Desnuda a {R} sobre la manta y recorre su cuerpo entero con la boca, despacio, de la nuca a los tobillos, y vuelta.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "prac-p5", "f": "perdidos", "temp": "brasa", "t": "Sin testigos", "x": "Comprobad otra vez que estáis a solas. Después, sin ropa y sin prisa, lo que pida {R}, cuando lo pida y como lo pida.", "tags": ["aire", "desnudez", "intimo", "guia"]},
+    {"id": "prac-p6", "f": "perdidos", "temp": "brasa", "t": "La revisión final", "x": "Antes de vestiros, revisión de garrapatas por todo el cuerpo de {R}, con los ojos y con la boca. Que no sea solo por salud.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "prac-c1", "f": "cena", "para": "ambos", "t": "Cocinar al atardecer", "x": "Cocinad algo sencillo en el hornillo, fuera de la tienda y donde se permita, mientras se va la luz. Quien no cocina, abraza por detrás a quien cocina."},
+    {"id": "prac-c2", "f": "cena", "para": "uno", "t": "Algo caliente", "x": "Prepárale a {O} algo caliente y dáselo dentro del saco, con tus manos frías por debajo de su jersey para que te las caliente."},
+    {"id": "prac-c3", "f": "cena", "para": "ambos", "t": "Diez sonidos", "x": "Con la cena hecha, apagad los frontales y decid en voz baja cada sonido que oigáis. Al llegar a diez, a la tienda."},
+    {"id": "prac-a1", "f": "alcoba", "temp": "seda", "t": "Luz roja", "x": "Con el frontal en luz roja, desnuda a {R} dentro del saco, a tientas. Que la luz solo enseñe lo que tus manos ya saben.", "tags": ["prenda", "desnudez"]},
+    {"id": "prac-a2", "f": "alcoba", "temp": "seda", "t": "El fresco de fuera", "x": "Abre un poco la cremallera para que entre el fresco, y calienta con tu cuerpo cada sitio de {R} donde se le erice la piel.", "tags": []},
+    {"id": "prac-a3", "f": "alcoba", "temp": "seda", "t": "El arroyo de noche", "x": "Escuchad el arroyo en silencio. A su ritmo, tus manos recorren a {R} dentro del saco, sin prisa, por donde te deje.", "tags": []},
+    {"id": "prac-a4", "f": "alcoba", "temp": "brasa", "t": "La tela no guarda secretos", "x": "Durante una canción, haz que a {R} le cueste no hacer ruido: las tiendas de al lado oyen. Tu boca, por donde te deje.", "tags": ["silencio", "intimo"]},
+    {"id": "prac-a5", "f": "alcoba", "temp": "brasa", "t": "Un solo saco", "x": "Meteos en un solo saco, sin nada entre los cuerpos. Lo que se pueda hacer sin espacio, que es mucho, a vuestro ritmo.", "tags": ["desnudez", "intimo"]},
+    {"id": "prac-a6", "f": "alcoba", "temp": "brasa", "t": "El coro del amanecer", "x": "Cuando empiecen los pájaros, no os levantéis: que {R} se despierte con tu boca, despacio, y decida cuándo se acaba la noche.", "tags": ["desnudez", "intimo"]},
+    {"id": "prac-p7", "f": "perdidos", "temp": "brasa", "t": "El arroyo", "tags": ["aire", "intimo"], "x": "Junto al arroyo, sin nadie a la vista, moja tus manos en el agua fría y recorre a {R} por dentro de la ropa. Después devuélvele el calor con la boca, cada vez más abajo, hasta donde te deje."},
+    {"id": "prac-a7", "f": "alcoba", "temp": "brasa", "t": "La cremallera a medias", "tags": ["borde", "intimo"], "x": "Dentro del saco y a oscuras, acaricia a {R} donde más lo note y para justo antes del final. Tres veces, despacio. A la cuarta, la cremallera se abre del todo."}
+  ]
+}

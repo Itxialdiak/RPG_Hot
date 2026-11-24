@@ -1,0 +1,45 @@
+{
+  "carnaval/encender/musica": [
+    {"id":"m1","temp":"seda","t":"La Serenata","tags":["voz"],"x":"Elige una canción y tararéale al oído a {R} el estribillo, tan cerca que tus labios rocen su oreja en cada palabra. No hace falta cantar bien: hace falta cantar despacio."},
+    {"id":"m2","temp":"seda","t":"Il Respiro","tags":[],"x":"Ponte a la espalda de {R}, con tu cuerpo pegado al suyo y sin usar las manos. Respira despacio junto a su nuca durante una canción. Que note tu calor antes que nada más."},
+    {"id":"m3","temp":"seda","t":"El Cumplido","tags":["voz"],"x":"Dile al oído a {R} tres cosas de su cuerpo que te gustan esta noche: una que se vea, una que se adivine bajo la ropa y una que solo tú conozcas."},
+    {"id":"m4","temp":"seda","t":"El Baile Lento","tags":[],"x":"Saca a bailar a {R} una canción entera, sin espacio entre los cuerpos. Tú guías; {R} solo se deja llevar. Tus manos pueden bajar por su espalda, poco a poco, mientras dure la canción."},
+    {"id":"m5","temp":"brasa","t":"Il Segreto","tags":["voz"],"x":"Cuéntale al oído a {R} la última vez que le deseaste tanto que te costó disimular. Con detalles: dónde estabais, qué llevaba, qué te habría gustado hacerle."},
+    {"id":"m6","temp":"brasa","t":"La Nuca","tags":[],"x":"Besa la nuca de {R} y la piel de detrás de la oreja, despacio, mientras tus manos se cuelan bajo su ropa por la espalda. Ni un botón todavía: solo piel y respiración."},
+    {"id":"m7","temp":"brasa","t":"La Promesa","tags":["voz"],"x":"Susúrrale a {R}, con todo detalle, algo que vas a hacerle más tarde. Después no vuelvas a mencionarlo: deja que lo espere el resto de la noche."},
+    {"id":"m8","temp":"brasa","t":"El Murmullo","tags":["voz","prenda"],"x":"Pídele a {R} que cierre los ojos. Desabrocha despacio una sola prenda mientras le cuentas al oído qué piensas hacer con la piel que vaya apareciendo."}
+  ],
+  "carnaval/encender/banquete": [
+    {"id":"d1","temp":"seda","t":"La Uva","tags":["comida"],"x":"Dale de comer a {R} de tus dedos: una uva, una fresa, un trozo de chocolate. Que no use las manos, y si sus labios se entretienen en tus dedos, déjalos."},
+    {"id":"d2","temp":"seda","t":"El Brindis Cruzado","tags":[],"x":"Brindad con los brazos entrelazados y bebed así, despacio, mirándoos. Después, un beso largo que sepa a lo que había en la copa."},
+    {"id":"d3","temp":"seda","t":"A Ciegas","tags":["venda","comida"],"x":"Véndale los ojos a {R} y dale a probar tres cosas: la primera con una cuchara, la segunda de tus dedos, la tercera de tus labios. Que adivine cada una."},
+    {"id":"d4","temp":"seda","t":"La Miel","tags":["comida"],"x":"Moja la yema de un dedo en algo dulce, pásala despacio por los labios de {R} y deja que decida cómo terminar de probarlo."},
+    {"id":"d5","temp":"brasa","t":"La Fresa","tags":["comida"],"x":"Sujeta media fresa entre los labios y ofrécesela a {R}. Cuando la coja, no te apartes: el beso que venga después también es parte del postre."},
+    {"id":"d6","temp":"brasa","t":"El Postre","tags":["comida","prenda"],"x":"Desabrocha lo justo para descubrir la clavícula de {R}. Pon ahí un poco de chocolate, miel o nata y quítalo con la boca, siguiendo cada gota que intente escaparse hacia abajo."},
+    {"id":"d7","temp":"brasa","t":"El Sabor de la Piel","tags":["prenda"],"x":"Descubre cinco lugares de la piel de {R}, quitando lo que haga falta, y bésalos uno a uno. Dile a qué sabe cada uno: a sal, a vino, a Venecia, a lo que se te ocurra."},
+    {"id":"d8","temp":"brasa","t":"El Vino a Ciegas","tags":["venda"],"x":"Véndale los ojos a {R}. Bebe un sorbo y dale un beso lento con el sabor todavía en la boca. Después, deja caer una gota en su cuello y síguela con los labios hasta donde llegue."},
+    {"id":"d9","temp":"brasa","t":"El Helado","tags":["comida"],"x":"Moja dos dedos de {R} en algo dulce y pruébalos tú, despacio, como un helado a punto de derretirse, sin dejar de mirarle a los ojos. Si queda algo en la muñeca, también es tuyo."}
+  ],
+  "carnaval/encender/banos": [
+    {"id":"h1","temp":"seda","t":"El Perfumista","tags":[],"x":"Pon una gota de perfume o de aceite perfumado en tu muñeca y deja que {R} la huela con los ojos cerrados. Después, recorre con esa muñeca su cuello, su pecho y su vientre, sin prisa."},
+    {"id":"h2","temp":"seda","t":"Las Manos Calientes","tags":["aceite"],"x":"Calienta el aceite entre tus manos y masajea a {R} de los pies a las rodillas. Cuando llegues a las rodillas, vuelve a empezar desde los pies: deja que el resto se haga esperar."},
+    {"id":"h3","temp":"seda","t":"La Toalla","tags":["desnudez"],"x":"Calienta una toalla y envuelve en ella a {R}, sin nada debajo si quiere. Masajea su cuerpo a través de la tela hasta que la toalla se enfríe y sobre."},
+    {"id":"h4","temp":"seda","t":"El Mapa del Aroma","tags":[],"x":"Recorre el cuerpo de {R} respirando su piel: el cuello, las muñecas, el pliegue del codo, el vientre. Busca el sitio donde huele más a {R} y quédate ahí con los labios."},
+    {"id":"h5","temp":"brasa","t":"Aceite de Oriente","tags":["aceite","desnudez","intimo"],"x":"Si {R} quiere, quítale toda la ropa y masajea su cuerpo con aceite caliente durante una canción entera, de la nuca a los pies, por delante y por detrás. Sin prisa: ningún rincón tiene por qué quedarse sin aceite."},
+    {"id":"h6","temp":"brasa","t":"El Baño","tags":["agua","desnudez"],"x":"Ducha o baño caliente, sin ropa y a la vez. Tú enjabonas cada centímetro de {R}, despacio, como si tocaras esa piel por primera vez; {R} solo se deja."},
+    {"id":"h7","temp":"brasa","t":"Pluma y Hielo","tags":["venda","pluma","hielo","intimo"],"x":"Véndale los ojos a {R}. Alterna una pluma y un cubito de hielo por todo su cuerpo, cada vez más cerca de donde más lo note. Termina siempre con la boca, caliente."},
+    {"id":"h8","temp":"brasa","t":"Las Manos que Escuchan","tags":["guia","intimo"],"x":"Durante una canción, acaricia a {R} donde te diga y como te diga: «más abajo», «más despacio», «ahí, no pares». Su voz guía; tus manos escuchan."},
+    {"id":"h9","temp":"brasa","t":"La Camisa Mojada","tags":["prenda","desnudez"],"x":"Pídele a {R} que se ponga una camisa tuya, sin nada debajo. Vierte agua tibia sobre ella, despacio, hasta que la tela se pegue a su piel y se transparente; entonces desabróchala botón a botón y seca con la boca cada gota que encuentres."}
+  ],
+  "carnaval/encender/alcoba": [
+    {"id":"a1","temp":"seda","t":"La Mirada","tags":["prenda","desnudez","voz"],"x":"Desnuda a {R} despacio, prenda a prenda, mirando cada trozo de piel como si fuera la primera vez. Di en voz baja lo que ves y lo que te provoca."},
+    {"id":"a2","temp":"seda","t":"El Abrazo Largo","tags":[],"x":"Tumbaos en un abrazo, con tan poca ropa como queráis: cuanto menos, mejor se oye la piel. Durante una canción solo se mueven las manos, y muy despacio."},
+    {"id":"a3","temp":"seda","t":"Las Velas","tags":["intimo"],"x":"Apaga todas las luces menos una. Recorre el cuerpo de {R} con la yema de los dedos, de los tobillos a la nuca, sin saltarte nada de lo que te deje recorrer."},
+    {"id":"a4","temp":"brasa","t":"Solo la Boca","tags":["intimo"],"x":"Durante una canción, solo puedes usar la boca. Empieza por los tobillos y sube por el interior de las piernas, sin prisa. {R} decide si paras, dónde y cuándo."},
+    {"id":"a5","temp":"brasa","t":"Tus Palabras","tags":["voz"],"x":"Dile a {R}, con palabras exactas y sin eufemismos, lo que vas a hacer. Hazlo cuando te diga «sí», y después cuéntale lo siguiente."},
+    {"id":"a6","temp":"brasa","t":"La Última Prenda","tags":["prenda","desnudez","intimo"],"x":"Quítale a {R} la última prenda sin usar las manos. Después, recorre con los labios el camino que ha dejado la tela, despacio, y quédate donde te pida."},
+    {"id":"a7","temp":"brasa","t":"El Lazo de Seda","tags":["atar"],"x":"Si {R} quiere, átale las muñecas por delante con un pañuelo de seda, flojo y con un nudo que se suelte de un tirón. Así no tiene que hacer nada ni devolver nada: solo recibir. Durante una canción, tus manos y tu boca van despacio por donde {R} se deje. «Rojo» lo deshace al instante."},
+    {"id":"a8","temp":"brasa","t":"La Campana","tags":["borde","intimo"],"x":"Acaricia a {R} donde más lo note, despacio, y para justo cuando más lo esté disfrutando. Cuenta tres campanadas en voz baja y vuelve a empezar. Tres veces. A la cuarta, la campana no suena: no pares."},
+    {"id":"a9","temp":"seda","t":"Los Ojos Abiertos","tags":["intimo"],"x":"Acaricia a {R} muy despacio, sin apartar tus ojos de los suyos ni un momento. Que vea en tu cara todo lo que te provoca lo que estás tocando, y que te diga «ahí» cuando lo encuentres."}
+  ]
+}

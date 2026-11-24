@@ -1,0 +1,44 @@
+{
+  "cotidiana/rol/cocina": [
+    {"id":"kr1","t":"El Cajón","n":1,"tags":[],"x":"Haz como que buscas algo en los cajones: una cuchara, unas tijeras. Tu pareja tiene que impedir que abras el que no debes, sin decir por qué, solo con sus manos sobre las tuyas."},
+    {"id":"kr2","t":"Las Manos Heladas","n":1,"tags":[],"x":"En personaje, quéjate de que tienes las manos heladas de la calle. Tu pareja te las calienta entre las suyas, y tú no las sueltas hasta que acabe la canción."},
+    {"id":"kr3","t":"Lo que se Ve en el Ascensor","n":2,"tags":["voz"],"x":"En personaje, cuéntale a tu pareja tres cosas en las que te has fijado de su cuerpo en el ascensor durante estos meses. Mientras las cuentas, tus manos las señalan, por encima de la ropa."},
+    {"id":"kr4","t":"La Cuchara","n":1,"tags":["comida"],"x":"Prueba lo que haya en la cocina y dáselo a probar a tu pareja de tu dedo. En personaje, pregúntale si quien vive aquí cocina así para cualquier visita."},
+    {"id":"kr5","t":"Las Llaves, Otra Vez","n":2,"tags":["voz"],"x":"En personaje, pregunta cómo se quedaron las llaves dentro, con todo detalle. Tu pareja responde, y tú decides si le crees: si no le crees, te acercas tanto como permita la cocina, sobre la ropa, hasta que cambie de versión."},
+    {"id":"kr6","t":"El Delantal","n":1,"tags":[],"x":"Ponle un delantal a tu pareja, o un trapo de cocina en la cintura, desde atrás y despacio. En personaje, aprovecha para decirle al oído algo que nunca le dirías en el ascensor."},
+    {"id":"kr7","t":"La Radio de los Domingos","n":2,"tags":[],"x":"En la radio suena una canción que alguien de este rellano pone los domingos. Bailadla entre la nevera y el fregadero, sin espacio entre los cuerpos y con las manos sobre la ropa."},
+    {"id":"kr8","t":"El Cristal Empañado","n":1,"tags":[],"x":"Escribe con el dedo tu nombre de personaje en la ventana empañada y deja que tu pareja escriba el suyo debajo. Después coge su mano y dibujad algo con vuestros dedos a la vez."},
+    {"id":"kr9","t":"Casi","n":2,"tags":[],"x":"En personaje, acércate a tu pareja como si fueras a besarle y para a un centímetro. Quedaos así, respirando el mismo aire, hasta que alguien aparte la mirada. Quien la aparte, paga un favor."}
+  ],
+  "cotidiana/rol/salon": [
+    {"id":"sr1","t":"Un Mensaje","n":2,"tags":[],"x":"Llega un mensaje de la cerrajería: tardará todavía más. En personaje, quien lea este giro decide si se lo dice a su pareja o se lo calla; si se lo calla, tiene que distraerle con las manos, bajo la ropa, durante una canción."},
+    {"id":"sr2","t":"¿Te Espera Alguien?","n":2,"tags":["voz"],"x":"En personaje, pregúntale a tu pareja si hay alguien esperándole en casa. Tu pareja contesta primero con las manos, sobre tu piel, y después con palabras."},
+    {"id":"sr3","t":"La Manta","n":2,"tags":[],"x":"Bajo la manta, tu mano busca piel: el tobillo, la rodilla, la cintura bajo la camiseta. En personaje, haced como que miráis la tele. Cada vez que tu pareja aparte la vista de la pantalla, tu mano sube un poco más."},
+    {"id":"sr4","t":"El Ruido del Tabique","n":2,"tags":["voz"],"x":"Se oye algo al otro lado del tabique. En personaje, quien lea este giro confiesa en voz baja qué ha oído alguna vez desde su casa y qué ha imaginado, mientras sus labios recorren el cuello de su pareja."},
+    {"id":"sr5","t":"La Camiseta Prestada","n":2,"tags":["prenda"],"x":"Quien llegó de la calle todavía lleva algo mojado. Quítaselo despacio y ponle una camiseta tuya; en personaje, dile que ya te la devolverá otro día: así tendrá que volver."},
+    {"id":"sr6","t":"La Foto del Mueble","n":2,"tags":["voz"],"x":"En el mueble hay una foto de un viaje. En personaje, quien vive aquí cuenta la historia de esa foto, y quien llegó tiene que interrumpir cada frase con un beso donde quiera, menos en la boca."},
+    {"id":"sr7","t":"Tres Pisos","n":3,"tags":["intimo"],"x":"Lo más lejos que habéis llegado en el ascensor son tres pisos de silencio. En personaje, recorre con las manos el cuerpo de tu pareja, bajo la ropa, en tres paradas, cada una más abajo que la anterior, sin llegar todavía a lo más íntimo."},
+    {"id":"sr8","t":"Las Gotas en el Cristal","n":2,"tags":[],"x":"Tu pareja mira llover con la frente en el cristal; tú, a su espalda, sin espacio entre los cuerpos. En personaje, cuéntale qué hacías las tardes de lluvia antes de hoy, mientras tus manos se cuelan bajo su ropa."},
+    {"id":"sr9","t":"En Todas Partes Menos","n":3,"tags":[],"x":"En personaje, besa a tu pareja en todas partes menos en la boca: en la comisura, en la barbilla, en el cuello, tan cerca como puedas. Si es tu pareja quien busca tu boca, paga un favor."}
+  ],
+  "cotidiana/rol/apagon": [
+    {"id":"ar1","t":"La Nota","n":3,"tags":["venda","voz"],"extra":true,"x":"Tu pareja cierra los ojos. Abre la Nota del cajón y léela en voz alta, despacio, con los labios rozando su oído: en personaje, es la nota que se escribió hace meses para esa puerta. Mientras lees, tu mano libre puede ir a donde quiera."},
+    {"id":"ar2","t":"Lo de las Llaves","n":3,"tags":["venda","voz"],"x":"Tú cierras los ojos. En personaje, cuéntale al oído a tu pareja qué pasó de verdad con las llaves, o qué sospechas que pasó. Tu pareja responde sin palabras."},
+    {"id":"ar3","t":"El Primer Beso","n":3,"tags":["venda"],"x":"Tú cierras los ojos. Tu pareja te da el beso que llevaba meses de ascensor guardándose: lento, largo, sin prisa por terminarlo. Tú no puedes mover las manos hasta que termine."},
+    {"id":"ar4","t":"Buscar a Tientas","n":3,"tags":["venda"],"x":"Tú cierras los ojos y cuentas hasta treinta mientras tu pareja se esconde sin salir de la habitación. Búscale despacio, con las manos por delante y guiándote por su respiración. Lo primero que toques, lo besas."},
+    {"id":"ar5","t":"Lo que Imaginabas","n":3,"tags":["venda","intimo"],"x":"Tu pareja cierra los ojos. En personaje, hazle despacio una de las cosas que imaginabas en el ascensor, la que más, y dile al oído cuántos meses llevas imaginándola."},
+    {"id":"ar6","t":"Del Bajo al Ático","n":4,"tags":["venda","intimo"],"x":"Tu pareja cierra los ojos. Recórrele con la boca del bajo al ático, de los tobillos a la boca, parando en cada piso. Pregúntale en cuál vive, y quédate ahí hasta que te pida otro."},
+    {"id":"ar7","t":"A la Luz de la Vela","n":3,"tags":["venda"],"x":"Tú cierras los ojos. Tu pareja te mira a la luz de la vela todo lo que quiera y, en personaje, te dice lo que ha visto cada vez que coincidíais en el portal. Después te besa donde más te ha mirado."},
+    {"id":"ar8","t":"La Bufanda","n":3,"tags":["venda","atar"],"x":"Tu pareja cierra los ojos. Si quiere, átale las muñecas por delante con una bufanda, floja y fácil de soltar, y dile en personaje: «la cerrajería puede esperar». Durante una canción, tus manos y tu boca deciden el camino. «Rojo» la suelta al instante."},
+    {"id":"ar9","t":"La Verdad","n":4,"tags":["venda","voz","confesion"],"x":"Tu pareja cierra los ojos. Cuéntale al oído, como tú y no como tu personaje, una fantasía que nunca le hayas contado, mientras tus manos recorren su cuerpo al ritmo de lo que cuentas."}
+  ],
+  "cotidiana/rol/dormitorio": [
+    {"id":"dr1","t":"Lo que Cada Cual Planeó","n":4,"tags":["intimo"],"x":"En personaje o sin él: haced lo que cada cual planeó por su lado, con la nota y con las llaves, ahora que se ha descubierto todo. Sin prisa: la cerrajería no llama."},
+    {"id":"dr2","t":"Los Favores","n":4,"tags":[],"x":"Cobrad ahora los favores, por turnos: quien cobra pide algo, en personaje si quiere; quien debe lo concede o lo perdona. Empieza quien tenga más."},
+    {"id":"dr3","t":"La Nota Contestada","n":4,"tags":["voz"],"x":"Contestad la nota del cajón: por turnos, cada persona le dice al oído a su pareja lo que habría escrito en la respuesta. Después, hacedlo."},
+    {"id":"dr4","t":"La Camiseta","n":4,"tags":["desnudez"],"x":"Quítale a tu pareja la ropa prestada, despacio. En personaje, dile que ya no hace falta devolverla otro día: puede volver sin excusa."},
+    {"id":"dr5","t":"La Carta del Sobre","n":4,"tags":["voz"],"x":"Por turnos, leed en voz alta la carta del sobre pequeño, despacio y al oído. Después haced lo que diga, o algo mejor."},
+    {"id":"dr6","t":"Entre Dos Pisos","n":4,"tags":["intimo"],"x":"En personaje por última vez: haz con el cuerpo de tu pareja lo que imaginabas cada vez que el ascensor tardaba entre dos pisos, sin prisa y hasta el final."},
+    {"id":"dr7","t":"Hasta Mañana","n":4,"tags":["intimo","desnudez"],"x":"Sin ropa, sin papeles y sin prisa: cada cual da placer a su pareja, a la vez, hasta que alguien pida tregua. La tregua dura una respiración; después, la tarde sigue."}
+  ]
+}

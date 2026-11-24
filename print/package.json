@@ -1,0 +1,10 @@
+{
+  "name": "doble-llave-imprimir",
+  "private": true,
+  "description": "Tipografías para los PDF de Doble Llave (Cormorant Garamond, IM Fell English y Fraunces, licencia OFL).",
+  "dependencies": {
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "@fontsource/fraunces": "^5.3.0",
+    "@fontsource/im-fell-english": "^5.3.0"
+  }
+}

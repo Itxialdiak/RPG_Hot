@@ -1,0 +1,63 @@
+{
+  "titulo": "Primavera en el pueblo",
+  "gancho": "Un pueblo de piedra que se despereza: golondrinas, huertas en flor y un río crecido. Una habitación con balcón y un sendero que sale hacia el monte.",
+  "lugar": "Un pueblo pequeño con río o huertas, mejor entre semana y fuera de fiestas. Una habitación con balcón o ventana al campo, y un sendero que salga del pueblo hacia un bosque o una ermita.",
+  "consejos": [
+    "Fuera de temporada los pueblos están casi vacíos: perfecto para los callejones, no tanto para los horarios de cocina. Mirad antes dónde se puede cenar.",
+    "El sendero, de día y sin alejaros demasiado. La hierba de primavera esconde garrapatas: manta siempre y revisión al volver."
+  ],
+  "material": [
+    "Ropa fácil de quitar",
+    "Una luz cálida a pilas para la habitación"
+  ],
+  "cartas": {
+    "perdidos": {
+      "parrafos": [
+        "Os habéis perdido, y no por casualidad. Desde aquí el pueblo es un dibujo pequeño: tejados, un campanario, algún perro que ladra lejos.",
+        "Antes de nada, mirad alrededor: nadie a la vista, nadie que pueda llegar sin que lo oigáis, y el camino de vuelta claro. Si no es así, buscad otro sitio. Hay más.",
+        "Extended la manta. Desde aquí las cartas suben hasta el final. Si aparece alguien, se acabó: ropa y a pasear, sin dramas."
+      ]
+    },
+    "alcoba": {
+      "parrafos": [
+        "Es de noche en el pueblo. La plaza está vacía y las golondrinas duermen bajo los aleros.",
+        "Cerrad la puerta y sacad las cartas que escribisteis antes de salir de casa. Leedlas en voz alta, la vuestra o la de la otra persona, como queráis.",
+        "Desde aquí no hay propuestas ni retos. Si queréis, quedan cartas para la noche; si no, solo vuestros NO, que valen hasta el amanecer."
+      ]
+    }
+  },
+  "propuestas": [
+    {"id": "prho-v1", "f": "viaje", "para": "copi", "t": "El nombre del pueblo", "x": "Busca el pueblo en el mapa y léele a {O} su nombre como si fuera una promesa. Después, inventad qué secreto guarda."},
+    {"id": "prho-v2", "f": "viaje", "para": "copi", "t": "La primera vez en un hotel", "x": "Recuérdale a {O} la primera noche que pasasteis en un hotel, o invéntala si no la hubo: qué pasó nada más cerrar la puerta."},
+    {"id": "prho-v3", "f": "viaje", "para": "copi", "t": "Lo que va en la maleta", "x": "Confiesa qué has metido en la maleta pensando en esta noche, sin decir qué es: solo para qué sirve. {O} tiene hasta la llegada para adivinarlo."},
+    {"id": "prho-l1", "f": "llegada", "para": "uno", "nivel": 2, "t": "El balcón", "x": "Abre el balcón o la ventana y saca a {O} a respirar el pueblo. Abrázale por detrás y dile en voz baja qué vas a hacerle esta noche en esta habitación.", "tags": ["voz"]},
+    {"id": "prho-l2", "f": "llegada", "para": "ambos", "nivel": 1, "t": "La casa para siempre", "x": "Primera vuelta al pueblo, sin mapa. Cuando encontréis la plaza, elegid la casa donde viviríais si os quedarais para siempre, y decid qué habitación estrenaríais primero."},
+    {"id": "prho-l3", "f": "llegada", "para": "uno", "nivel": 2, "t": "Quitarse el viaje", "x": "Métete en la ducha para quitarte el viaje y deja la puerta del baño abierta. Si {O} entra, no digas nada; si no entra, sal con la toalla mal puesta.", "tags": ["agua"]},
+    {"id": "prho-l4", "f": "llegada", "para": "uno", "nivel": 1, "t": "En la almohada", "x": "Coge una flor caída del camino y déjala en la almohada de {O} con una nota de dos palabras. Las dos, para esta noche."},
+    {"id": "prho-e1", "f": "explora", "para": "uno", "nivel": 1, "min": 30, "t": "Las golondrinas", "x": "Cuenta las golondrinas que veáis durante el paseo. Por cada una, un beso a {O} donde elijas, siempre sin que nadie lo note.", "suave": "Cuenta las golondrinas del paseo: por cada una, un beso en la mano de {O}."},
+    {"id": "prho-e2", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "La ermita", "x": "Buscad la ermita, la fuente o el lavadero más apartado del pueblo. Allí, a solas, bésale a {O} como no se besa en la plaza.", "suave": "En la fuente o la ermita más apartada, dile al oído a {O} algo que nunca dirías en la plaza.", "tags": []},
+    {"id": "prho-e3", "f": "explora", "para": "uno", "nivel": 2, "min": 40, "t": "Detrás del árbol en flor", "x": "Por el camino de las huertas, cuando nadie mire, llévate a {O} detrás de un muro o de un árbol en flor y bésale con las manos dentro de su chaqueta.", "suave": "Por el camino de las huertas, un beso detrás de un árbol en flor, sin más."},
+    {"id": "prho-e4", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "La cintura", "x": "En el camino más vacío del pueblo, cuela tu mano por la cintura de la ropa de {O}, solo un poco, y déjala ahí hasta que se cruce alguien.", "suave": "Pasea por el camino más vacío con tu mano en el bolsillo de atrás de {O}."},
+    {"id": "prho-e5", "f": "explora", "para": "uno", "nivel": 3, "min": 45, "t": "Donde el pueblo ya no se oye", "x": "Seguid el sendero hasta dejar de oír el pueblo. En el primer rincón con sombra y sin nadie, desabrocha a {O} lo justo para besar la piel que el sol no ha visto este año.", "suave": "Seguid el sendero hasta dejar de oír el pueblo y, en el primer rincón con sombra, un beso largo con tus manos en su cintura.", "tags": ["aire", "prenda"]},
+    {"id": "prho-e6", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "Cinco minutos", "x": "Con cualquier excusa, vuelve con {O} a la habitación: tenéis cinco minutos y la puerta cerrada. Después, de vuelta al pueblo como si nada.", "suave": "Vuelve con {O} a la habitación un momento: un beso contra la puerta y salís otra vez."},
+    {"id": "prho-e7", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "La siesta del pueblo", "x": "A la hora de la siesta el pueblo duerme. Llévate a {O} a la habitación, baja las persianas a medias y desnúdale despacio, con la luz de la tarde entrando a rayas.", "suave": "A la hora de la siesta, túmbate con {O} con las persianas a medias y que tus manos recorran su espalda bajo la ropa.", "tags": ["desnudez"]},
+    {"id": "prho-e8", "f": "explora", "para": "uno", "nivel": 4, "min": 45, "t": "El muro de piedra", "x": "Detrás de un muro de piedra, lejos del camino, apoya a {O} contra las piedras templadas por el sol y desabrocha lo que haga falta. Los perros del pueblo avisan si alguien viene.", "suave": "Apoya a {O} contra un muro templado por el sol y bésale despacio, de los labios al cuello.", "tags": ["aire", "intimo"]},
+    {"id": "prho-p1", "f": "perdidos", "temp": "seda", "t": "La sombra del nogal", "x": "Bajo un árbol grande, lejos del sendero, siéntate con la espalda en el tronco y {R} entre tus piernas. Tus manos, por debajo de su ropa, al ritmo del viento.", "tags": ["aire"]},
+    {"id": "prho-p2", "f": "perdidos", "temp": "seda", "t": "El tomillo", "x": "Frota un poco de tomillo o de hierba olorosa entre los dedos y pásalos por el cuello y el pecho de {R}. Después, besa por donde huela.", "tags": ["aire"]},
+    {"id": "prho-p3", "f": "perdidos", "temp": "seda", "t": "Las campanadas", "x": "Cuando suenen las campanas del pueblo, quítale a {R} una prenda por cada campanada. Si es una hora larga, mejor.", "tags": ["aire", "prenda", "desnudez"]},
+    {"id": "prho-p4", "f": "perdidos", "temp": "brasa", "t": "El sol de abril", "x": "Desnuda a {R} sobre la manta y deja que el sol de primavera le caliente la piel. Tú la sigues con la boca, por delante y por detrás, sin prisa.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "prho-p5", "f": "perdidos", "temp": "brasa", "t": "Ver sin ser visto", "x": "Buscad un sitio desde donde se vea el pueblo pero el pueblo no os vea. Allí, sin ropa, que {R} decida hasta dónde: tú solo sigues su mano.", "tags": ["aire", "desnudez", "intimo", "guia"]},
+    {"id": "prho-p6", "f": "perdidos", "temp": "brasa", "t": "Antes de volver", "x": "Antes de vestiros, un último recorrido: tu boca por todo el cuerpo de {R}, de los tobillos a los labios, como despedida del sitio.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "prho-c1", "f": "cena", "para": "uno", "t": "En el mantel", "x": "Durante la cena, escribe con el dedo en el mantel, junto a la mano de {O}, una palabra para luego. Tiene que adivinarla antes del postre."},
+    {"id": "prho-c2", "f": "cena", "para": "ambos", "t": "Farolas", "x": "Después de cenar, una vuelta por el pueblo dormido. En cada farola apagada, un beso; en cada farola encendida, una promesa al oído.", "tags": ["voz"]},
+    {"id": "prho-c3", "f": "cena", "para": "uno", "t": "El licor de la casa", "x": "Pide el licor o el dulce típico del pueblo y dale a probar a {O} el primer sorbo, de tus labios, si no mira nadie.", "tags": ["comida"]},
+    {"id": "prho-a1", "f": "alcoba", "temp": "seda", "t": "El balcón entornado", "x": "Deja el balcón entornado para que entre el aire de la noche y el olor a campo. Desnuda a {R} despacio con esa luz y abrázale piel con piel.", "tags": ["prenda", "desnudez"]},
+    {"id": "prho-a2", "f": "alcoba", "temp": "seda", "t": "La flor del camino", "x": "Recorre el cuerpo de {R} con la flor que trajiste del camino, o con la yema de los dedos si se ha marchitado. Donde se le escape un suspiro, deja un beso.", "tags": ["pluma"]},
+    {"id": "prho-a3", "f": "alcoba", "temp": "seda", "t": "Hasta la próxima hora", "x": "Si el pueblo tiene campanas, espera a la próxima hora. Hasta que suenen, solo tu boca en el cuello y los hombros de {R}.", "tags": []},
+    {"id": "prho-a4", "f": "alcoba", "temp": "brasa", "t": "Persianas abajo", "x": "Baja las persianas del todo. A oscuras, recorre a {R} solo con la boca y deja que su respiración te marque el camino.", "tags": ["intimo"]},
+    {"id": "prho-a5", "f": "alcoba", "temp": "brasa", "t": "El edredón", "x": "Meteos bajo el edredón sin nada encima. Ahí dentro, a oscuras, tu boca baja por el cuerpo de {R} hasta donde te pida.", "tags": ["desnudez", "intimo"]},
+    {"id": "prho-a6", "f": "alcoba", "temp": "brasa", "t": "Antes que las golondrinas", "x": "Las golondrinas empiezan pronto. Que os pillen sin haber dormido: lo que queráis, como queráis, hasta que {R} diga basta.", "tags": ["desnudez", "intimo"]},
+    {"id": "prho-p7", "f": "perdidos", "temp": "brasa", "t": "Bajo el árbol en flor", "tags": ["aire", "prenda", "intimo"], "x": "Sobre la manta, bajo un árbol en flor, desabrocha a {R} lo justo y recorre con la boca el camino de los pétalos que caen: el cuello, el pecho, el vientre, y más abajo si {R} te lo pide."},
+    {"id": "prho-a7", "f": "alcoba", "temp": "brasa", "t": "La siesta con la ventana abierta", "tags": ["borde", "intimo"], "x": "Con la ventana abierta y el pueblo de fondo, acaricia a {R} donde más lo note y para cada vez que esté a punto. Tres veces, despacio. A la cuarta, que se entere el pueblo."}
+  ]
+}

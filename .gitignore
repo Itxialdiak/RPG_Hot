@@ -1,0 +1,14 @@
+node_modules/
+# se generan con «npm run sync» a partir de doble-llave.html
+app-android/www/
+app-android/android/app/src/main/assets/public/
+app-android/android/app/src/main/assets/capacitor.config.json
+app-android/android/app/src/main/assets/capacitor.plugins.json
+# intermedios de los PDF
+print/datos.js
+print/datos.json
+print/*.html
+__pycache__/
+# la música se descarga y comprime con herramientas/musica.mjs (también en GitHub Actions)
+musica/salida/
+web/musica/

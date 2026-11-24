@@ -1,0 +1,38 @@
+{
+  "carnaval/prohibicion/salon": [
+    {"id":"gs1","t":"La Nota sin Firma","tags":["voz"],"x":"Un criado te pone en la mano una nota sin firma: «Sé quién se esconde detrás de esa máscara». En personaje, léesela a tu pareja al oído y pregúntale qué daría por que no se supiera. Lo que ofrezca, lo paga bailando la próxima canción, tan cerca como permita el Salón."},
+    {"id":"gs2","t":"Entra el Dux","tags":["silencio"],"x":"Se hace el silencio en el Salón: ha entrado el Dux. Durante una canción nadie habla ni se separa: bailad para él, sin espacio entre los cuerpos y con las manos donde las deje la prohibición. Quien hable primero, paga un zecchino."}
+  ],
+  "carnaval/prohibicion/galeria": [
+    {"id":"gg1","t":"El Espejo que Miente","tags":["espejo","voz"],"x":"Uno de los espejos de la Galería no enseña lo que tiene delante, sino lo que se desea. Ponte frente a él y, en personaje, cuéntale a tu pareja lo que ves en el reflejo. Tu pareja, a tu espalda, hace realidad una parte: la que permita la Galería."},
+    {"id":"gg2","t":"El Pintor del Dux","tags":[],"x":"Un pintor del Dux quiere un retrato de las dos máscaras. Posad para él una canción entera, en la postura más atrevida que permita la Galería, sin moveros. Cada vez que alguien diga «el pintor ha terminado este trazo», la postura avanza un poco."}
+  ],
+  "carnaval/prohibicion/biblioteca": [
+    {"id":"gb1","t":"El Libro que se Abre Solo","tags":["venda","voz"],"x":"De un estante cae un libro abierto por una página subrayada. Quien lleve la venda se inventa en voz alta lo que pone, como si lo estuviera leyendo, y la otra persona lo hace realidad, si quiere y hasta donde quiera."},
+    {"id":"gb2","t":"El Santo Oficio","tags":["silencio"],"x":"Llaman a la puerta: el Santo Oficio busca libros prohibidos. Escondeos en el rincón más oscuro, sin hacer un solo ruido y sin separar los cuerpos, mientras dure media canción. Si a alguien se le escapa un ruido, paga un zecchino."}
+  ],
+  "carnaval/encender/musica": [
+    {"id":"gm1","t":"La Serenata Robada","tags":["voz"],"x":"Por la ventana entra una serenata que no es para nadie de esta sala. En personaje, róbasela: cántale o recítale a tu pareja al oído una letra inventada, como si la hubieras escrito pensando en su cuerpo."},
+    {"id":"gm2","t":"El Violinista","tags":["venda"],"x":"Dicen que el violinista de Ca’ Velluto toca con los ojos vendados para no ver quién baila. Bailad la próxima canción con los ojos cerrados, guiándoos solo por el roce y la respiración."}
+  ],
+  "carnaval/encender/banquete": [
+    {"id":"gq1","t":"El Filtro de Amor","tags":[],"x":"Una de las copas lleva un filtro de amor, dicen. Quien beba primero tiene que decir en voz alta, en personaje, lo primero que desea de la otra persona; la otra persona decide si se lo da ahora o al final de la noche."},
+    {"id":"gq2","t":"El Catador del Dux","tags":["comida"],"x":"El Dux ha enviado a su catador. En personaje, tu pareja describe el sabor de tres cosas que le des a probar como si fueran manjares de Oriente: con nombres inventados, con detalles y sin ninguna prisa."}
+  ],
+  "carnaval/encender/banos": [
+    {"id":"gn1","t":"El Ámbar que Hace Hablar","tags":["voz","confesion"],"x":"Alguien ha echado esencia de ámbar en el agua: quien la respira no puede mentir durante una canción. Por turnos, una pregunta cada persona, de las que nunca os habéis atrevido a hacer. Responde la persona, no el personaje."},
+    {"id":"gn2","t":"La Toalla de Constantinopla","tags":[],"x":"Llega un regalo de Constantinopla: una toalla de seda que solo se puede usar una vez. En personaje, envuelve en ella a tu pareja y sécale gota a gota, despacio, como quien guarda un tesoro."}
+  ],
+  "carnaval/explicito/ridotto": [
+    {"id":"gx1","t":"El Tahúr","tags":["voz"],"x":"Un tahúr os ofrece una partida a una sola mano: gana la carta más alta. En personaje, quien pierda le dice a quien gane lo que más le gustaría que le hiciera, sin eufemismos, y quien gane decide si lo cobra ahora o en el Casino."},
+    {"id":"gx2","t":"La Máscara Caída","tags":["prenda"],"x":"A alguien se le cae la máscara en el Ridotto y todo el mundo mira. Quien lea este giro juega sin máscara y con una prenda menos durante la próxima canción, mientras su pareja le mira sin ningún disimulo."}
+  ],
+  "carnaval/explicito/aretino": [
+    {"id":"gx3","t":"El Soneto Perdido","tags":["voz"],"x":"Encontráis un soneto de Aretino que nunca llegó a imprimirse. Quien lea este giro lo improvisa en voz alta sobre el cuerpo de su pareja, y su pareja hace, mientras tanto, lo que dicen los versos."},
+    {"id":"gx4","t":"Pasos en el Pasillo","tags":["silencio"],"x":"Pasos en el pasillo: alguien busca los grabados para quemarlos. Durante media canción no se puede hacer ni un ruido, pero tampoco se puede parar lo que estabais haciendo."}
+  ],
+  "carnaval/explicito/casino": [
+    {"id":"gx5","t":"La Otra Cita","tags":["voz"],"x":"Llaman a la puerta del casino: es la otra cita de esta noche de quien lea este giro. En personaje, despáchala sin abrir, con la voz más tranquila del mundo, mientras su pareja se lo pone tan difícil como pueda."},
+    {"id":"gx6","t":"El Último Ducado","tags":[],"x":"Habéis perdido en el Ridotto hasta el último ducado, y el casino se paga al salir. En personaje, quien lea este giro ofrece lo único que le queda: una hora entera de lo que su pareja le pida."}
+  ]
+}

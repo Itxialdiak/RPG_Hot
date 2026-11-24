@@ -1,0 +1,64 @@
+{
+  "titulo": "Verano en furgo",
+  "gancho": "Un embalse de agua verde con calas escondidas, pinos que huelen a resina y una noche llena de estrellas con la puerta de la furgo abierta.",
+  "lugar": "Un pantano, un lago o un río ancho con orillas tranquilas y aparcamiento permitido a la sombra, lejos de las zonas de baño con chiringuito.",
+  "consejos": [
+    "Dentro de una furgo al sol se pasa mucho calor: aparcad a la sombra de tarde y dormid con mosquiteras en las ventanas.",
+    "En los pantanos el agua cubre de golpe y el fondo engaña: entrad despacio y nunca de cabeza."
+  ],
+  "material": [
+    "Mosquiteras para las ventanas",
+    "Una toalla grande para compartir",
+    "Una garrafa o ducha solar"
+  ],
+  "cartas": {
+    "perdidos": {
+      "parrafos": [
+        "Os habéis perdido en la otra orilla, la que no tiene camino. Desde aquí la furgo es un punto blanco entre los pinos.",
+        "Antes de nada: nadie en el agua, nadie en la orilla, nadie que pueda llegar sin que lo oigáis. Agua para beber y sombra cerca.",
+        "Extended la toalla grande. Desde aquí las cartas suben hasta el final. Si aparece una barca o alguien bañándose, ropa y a otra cosa, sin dramas."
+      ]
+    },
+    "alcoba": {
+      "parrafos": [
+        "La noche en la orilla es tibia y llena de ruidos pequeños: el agua, algún pez que salta, los grillos.",
+        "Cerrad las cortinas que miran a donde pueda pasar alguien, mosquiteras en el resto, y sacad las cartas que escribisteis antes de salir. Leedlas en voz alta.",
+        "Desde aquí no hay propuestas ni retos. Si queréis, quedan cartas para la noche; si no, solo vuestros NO, hasta que amanezca sobre el agua."
+      ]
+    }
+  },
+  "propuestas": [
+    {"id": "vefu-v1", "f": "viaje", "para": "copi", "t": "Una cita con el cielo", "x": "Busca qué planetas se verán esta noche o cuándo es la próxima lluvia de estrellas, y cuéntaselo a {O} como si fuera una cita. Porque lo es."},
+    {"id": "vefu-v2", "f": "viaje", "para": "copi", "t": "La primera orilla", "x": "Dile a {O} qué será lo primero que haréis al ver el agua: con ropa o sin ella, y en qué orden."},
+    {"id": "vefu-v3", "f": "viaje", "para": "copi", "t": "Dónde empieza el agua", "x": "Pregúntale a {O} qué parte de su cuerpo tiene más calor ahora mismo. Apúntalo: esta tarde, el agua fría empieza por ahí."},
+    {"id": "vefu-l1", "f": "llegada", "para": "ambos", "nivel": 1, "t": "La sombra que dura", "x": "Buscad para la furgo una sombra de las que duran toda la tarde. Al encontrarla, abrid todas las puertas y dejad que corra el aire."},
+    {"id": "vefu-l2", "f": "llegada", "para": "uno", "nivel": 2, "t": "El primer baño", "x": "Antes de deshacer nada, el primer baño: lleva a {O} de la mano hasta el agua y no le sueltes hasta que estéis dentro.", "tags": ["agua"]},
+    {"id": "vefu-l3", "f": "llegada", "para": "uno", "nivel": 2, "t": "La crema", "x": "Ponle a {O} la crema solar despacio, como si fuera un masaje: la espalda, los hombros y el borde del bañador, sin prisa."},
+    {"id": "vefu-l4", "f": "llegada", "para": "uno", "nivel": 1, "t": "Mosquiteras", "x": "Mientras pones las mosquiteras, cuéntale a {O} qué vas a hacer esta noche con todas las ventanas abiertas.", "tags": ["voz"]},
+    {"id": "vefu-e1", "f": "explora", "para": "uno", "nivel": 1, "min": 30, "t": "Quién aguanta más", "x": "Desafía a {O} a ver quién aguanta más rato dentro del agua fría. Quien pierda paga con un beso largo bajo el agua.", "suave": "Un chapuzón a la vez, y un beso al salir.", "tags": ["agua"]},
+    {"id": "vefu-e2", "f": "explora", "para": "uno", "nivel": 2, "min": 40, "t": "La pinocha", "x": "A la sombra de los pinos, sobre la manta, túmbate con {O} y que tus manos le quiten el calor por debajo de la camiseta.", "suave": "A la sombra de los pinos, una siesta en un abrazo.", "tags": ["aire"]},
+    {"id": "vefu-e3", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "Crema a media tarde", "x": "Vuelve a ponerle crema a {O}, más despacio que la primera vez y por todo lo que el bañador deje, como si en la orilla no hubiera nadie más.", "suave": "Vuelve a ponerle crema a {O} en la espalda y los hombros, despacio."},
+    {"id": "vefu-e4", "f": "explora", "para": "uno", "nivel": 3, "min": 45, "t": "La cala", "x": "Buscad una cala del pantano sin nadie a la vista. Dentro del agua, quítale a {O} la parte de arriba y devuélvesela solo si la pide.", "suave": "En una cala tranquila, abraza a {O} dentro del agua hasta que deje de tener frío.", "tags": ["aire", "agua", "prenda"]},
+    {"id": "vefu-e5", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "La ducha detrás de la furgo", "x": "Con la garrafa o la ducha solar, dúchale a {O} detrás de la furgo, por el lado que no ve nadie, en bañador… o sin él.", "suave": "Échale a {O} agua fresca por la espalda con la garrafa y sécale con tu toalla.", "tags": ["aire", "agua", "desnudez"]},
+    {"id": "vefu-e6", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "Dentro hace calor", "x": "Volved a la furgo y echad las cortinas: dentro hace calor, así que fuera ropa y a tumbarse sobre la sábana fresca.", "suave": "Volved a la furgo y tumbaos con ropa ligera y el ventilador a pilas, en un abrazo.", "tags": ["desnudez"]},
+    {"id": "vefu-e7", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "Cuando la orilla se vacía", "x": "Cuando el sol baje y la orilla se vacíe, entrad en el agua sin ropa. Lo que pase después, en el agua o en la toalla, solo si estáis a solas de verdad.", "suave": "Al atardecer, entrad en el agua en bañador y quedaos en un abrazo hasta que se ponga el sol.", "tags": ["aire", "agua", "desnudez", "intimo"]},
+    {"id": "vefu-e8", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "La puerta hacia el agua", "x": "Con la puerta grande abierta hacia el pantano y nadie en la orilla, desnuda a {O} en la cama mientras mira el agua. Tú, mirando a {O}.", "suave": "Tumbaos en la cama mirando el agua por la puerta abierta, con tu mano por debajo de la ropa de {O}.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "vefu-p1", "f": "perdidos", "temp": "seda", "t": "Gotas", "x": "Moja tus manos en el pantano y deja que el agua baje por la espalda de {R}. Tus labios recogen cada gota antes de que llegue a la toalla.", "tags": ["aire"]},
+    {"id": "vefu-p2", "f": "perdidos", "temp": "seda", "t": "Bajo un pino solo", "x": "Bajo un pino solitario, quítale a {R} lo que lleve de cintura para arriba y recórrele con las yemas de los dedos al ritmo de las chicharras.", "tags": ["aire", "prenda"]},
+    {"id": "vefu-p3", "f": "perdidos", "temp": "seda", "t": "El bañador en la mano", "x": "Quítale a {R} el bañador dentro del agua, despacio, y guárdalo en tu mano. Lo devuelves cuando lo pida… si lo pide.", "tags": ["aire", "agua", "desnudez"]},
+    {"id": "vefu-p4", "f": "perdidos", "temp": "brasa", "t": "Lo que el agua esconde", "x": "Dentro del agua, donde hagáis pie y estéis a solas, que tu cuerpo se pegue al de {R} y tus manos recorran lo que el agua esconde.", "tags": ["aire", "agua", "desnudez", "intimo"]},
+    {"id": "vefu-p5", "f": "perdidos", "temp": "brasa", "t": "Luz entre los pinos", "x": "Sobre la toalla y sin ropa, recorre a {R} con la boca de la cabeza a los pies, despacio, con el sol colándose entre los pinos.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "vefu-p6", "f": "perdidos", "temp": "brasa", "t": "Antes de que se ponga el sol", "x": "Sin cartas ni ropa, en la orilla o en el agua, lo que pida {R}, como lo pida. Que el sol se ponga antes de que acabéis.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "vefu-c1", "f": "cena", "para": "ambos", "t": "Cena en el borde", "x": "Cenad en el borde de la puerta abierta, con los pies fuera y algo fresco: fruta, queso, una botella. Que os pille el anochecer con la boca llena.", "tags": ["comida"]},
+    {"id": "vefu-c2", "f": "cena", "para": "uno", "t": "El zumo", "x": "Dale a {O} sandía o melocotón con tus dedos y deja que el zumo caiga donde caiga. Recogerlo es cosa tuya.", "tags": ["comida"]},
+    {"id": "vefu-c3", "f": "cena", "para": "ambos", "t": "Estrellas desde la cama", "x": "Apagad todo y tumbaos en la cama con la puerta abierta al cielo. Cada estrella fugaz, un deseo al oído; cada satélite, un beso."},
+    {"id": "vefu-a1", "f": "alcoba", "temp": "seda", "t": "La sábana fresca", "x": "Sobre una sábana fresca y nada más, desnuda a {R} despacio, con la puerta entornada para que corra el aire.", "tags": ["prenda", "desnudez"]},
+    {"id": "vefu-a2", "f": "alcoba", "temp": "seda", "t": "Agua de la garrafa", "x": "Moja una toalla pequeña con agua de la garrafa y refresca a {R} de la nuca a los pies. Después, el calor lo pones tú.", "tags": ["hielo"]},
+    {"id": "vefu-a3", "f": "alcoba", "temp": "seda", "t": "Estrellas por la puerta", "x": "Contad estrellas por la claraboya o por la puerta. Por cada una, un beso en un sitio nuevo de {R}.", "tags": []},
+    {"id": "vefu-a4", "f": "alcoba", "temp": "brasa", "t": "La noche fuera", "x": "Con la puerta entornada y la noche fuera, tu boca recorre todo el cuerpo de {R}, sin prisa, sin saltarte nada de lo que te deje.", "tags": ["desnudez", "intimo"]},
+    {"id": "vefu-a5", "f": "alcoba", "temp": "brasa", "t": "El calor de dentro", "x": "Que el calor de la furgo sea vuestro: sin ropa, sin sábana y sin prisa, lo que pida {R}.", "tags": ["desnudez", "intimo"]},
+    {"id": "vefu-a6", "f": "alcoba", "temp": "brasa", "t": "Amanecer en el agua", "x": "Si os pilla el amanecer, un baño sin ropa en el agua vacía y de vuelta a la cama con el agua todavía en la piel. Lo que empiece ahí, al ritmo de {R}.", "tags": ["aire", "agua", "desnudez", "intimo"]},
+    {"id": "vefu-p7", "f": "perdidos", "temp": "brasa", "t": "La ducha solar", "tags": ["aire", "desnudez", "intimo"], "x": "Con la ducha solar de la furgo o una garrafa calentada al sol, y a solas de verdad, lava a {R} sin ropa, despacio y por todas partes. Después, sécale con la boca."},
+    {"id": "vefu-a7", "f": "alcoba", "temp": "brasa", "t": "Las ventanas abiertas", "tags": ["desnudez", "intimo"], "x": "Con las ventanas abiertas a la noche y sin ropa por el calor, haced el amor tan despacio que no haga falta el ventilador, al ritmo que marque {R}."}
+  ]
+}

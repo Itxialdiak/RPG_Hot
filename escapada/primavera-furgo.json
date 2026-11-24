@@ -1,0 +1,63 @@
+{
+  "titulo": "Primavera en furgo",
+  "gancho": "Un valle verde con el río crecido por el deshielo, cencerros a lo lejos y un hayedo estrenando hojas. La furgo, aparcada donde se acaba el asfalto.",
+  "lugar": "Un valle de montaña o un hayedo con aparcamiento permitido cerca de un prado o de un río, lejos de pueblos y de áreas llenas. Mejor entre semana.",
+  "consejos": [
+    "Los prados tienen dueño y ganado: nada de entrar con la furgo, y si hay vacas con ternero, a buena distancia.",
+    "Por la mañana, niebla y frío; a mediodía, sol. Edredón de entretiempo y ropa por capas."
+  ],
+  "material": [
+    "Una lona o manta impermeable para el suelo",
+    "Algo dulce para desayunar en la cama"
+  ],
+  "cartas": {
+    "perdidos": {
+      "parrafos": [
+        "Os habéis perdido en el valle. La furgo queda abajo, pequeña, como una casa de juguete junto al río.",
+        "Mirad bien: ni senderistas, ni pastores, ni coches por la pista. Si alguien puede aparecer, buscad otro rincón; si no, este es vuestro.",
+        "Extended la manta. Las cartas suben desde aquí hasta el final, y si llega alguien, se acabó: ropa y a otra cosa, sin dramas."
+      ]
+    },
+    "alcoba": {
+      "parrafos": [
+        "La noche en el valle suena a río. La furgo es ahora la casa más pequeña del mundo, y la única.",
+        "Cerrad las cortinas, encended la luz cálida y sacad las cartas que escribisteis antes de salir. Leedlas en voz alta, sin prisa.",
+        "Desde aquí no hay propuestas ni retos. Si queréis, quedan cartas para la noche; si no, solo vuestros NO, hasta que amanezca."
+      ]
+    }
+  },
+  "propuestas": [
+    {"id": "prfu-v1", "f": "viaje", "para": "copi", "t": "Inventario a bordo", "x": "Haz en voz alta la lista de todo lo que hay en la furgo que podría servir para jugar esta noche. Sin pudor: la cuerda de tender también cuenta."},
+    {"id": "prfu-v2", "f": "viaje", "para": "copi", "t": "El último pueblo", "x": "Al pasar el último pueblo antes del valle, dile a {O} una cosa que harás en cuanto apague el motor. Solo una, y que sea concreta."},
+    {"id": "prfu-v3", "f": "viaje", "para": "copi", "t": "La puerta de atrás", "x": "Cuéntale a {O} qué te gustaría encontrarte mañana al abrir la puerta de atrás: el paisaje, la luz, y lo que haya pasado antes dentro."},
+    {"id": "prfu-l1", "f": "llegada", "para": "ambos", "nivel": 1, "t": "El sitio bueno", "x": "Buscad el aparcamiento bueno: legal, plano, con la puerta hacia el valle y sin nadie cerca. Al encontrarlo, apagad el motor y un minuto de silencio, solo mirando."},
+    {"id": "prfu-l2", "f": "llegada", "para": "uno", "nivel": 1, "t": "Descalzarse", "x": "Lo primero al llegar: descalza a {O}, sin prisa, y que pise contigo la hierba un momento. Después, a la furgo."},
+    {"id": "prfu-l3", "f": "llegada", "para": "uno", "nivel": 2, "t": "El primer café", "x": "Prepara un café o un té, con la ventana abierta si usas gas, y tomadlo en la cama. Mientras dure la taza, tu mano libre va por debajo del jersey de {O}."},
+    {"id": "prfu-l4", "f": "llegada", "para": "uno", "nivel": 2, "t": "Solo un beso", "x": "Con las cortinas a medio poner, empuja a {O} con suavidad sobre la cama y dale un beso largo. Solo un beso: la cama se estrena de verdad esta noche."},
+    {"id": "prfu-e1", "f": "explora", "para": "uno", "nivel": 1, "min": 30, "t": "Cencerros", "x": "Cada vez que oigáis un cencerro, {O} te debe un beso. Tú decides dónde y cuándo lo cobras.", "suave": "Cada cencerro que oigáis, un beso en la mejilla de {O}."},
+    {"id": "prfu-e2", "f": "explora", "para": "uno", "nivel": 2, "min": 35, "t": "Agua de deshielo", "x": "Llevad a {O} hasta el río. Moja tus manos en el agua helada y ponlas en su nuca y bajo su camiseta. Después, caliéntale tú, como quieras.", "suave": "Moja tus manos en el río y caliéntalas después entre las manos de {O}.", "tags": ["hielo"]},
+    {"id": "prfu-e3", "f": "explora", "para": "uno", "nivel": 2, "min": 40, "t": "Hojas nuevas", "x": "En el hayedo, bajo las hojas recién estrenadas, apoya a {O} contra un tronco liso y bésale sin prisa, con las manos donde quieras por encima de la ropa.", "suave": "En el hayedo, un beso largo contra un tronco liso, sin más."},
+    {"id": "prfu-e4", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "El borde de la furgo", "x": "Volved un momento a la furgo. Sentaos en el borde de la puerta de atrás y desabrocha a {O} lo justo para que el aire del valle le toque la piel. Después, tu boca hace lo mismo.", "suave": "Sentaos en el borde de la puerta de atrás y que tus manos busquen la piel de {O} por debajo del jersey.", "tags": ["aire", "prenda"]},
+    {"id": "prfu-e5", "f": "explora", "para": "uno", "nivel": 3, "min": 45, "t": "Las vacas no cuentan", "x": "Junto a un prado con ganado, a buena distancia, quítale a {O} una prenda. Las vacas no cuentan como público, pero los pastores sí: mirad bien antes.", "suave": "Junto a un prado, a buena distancia de las vacas, un beso largo con las manos dentro de su ropa.", "tags": ["aire", "prenda"]},
+    {"id": "prfu-e6", "f": "explora", "para": "uno", "nivel": 3, "min": 40, "t": "Un solo chubasquero", "x": "Si llueve, compartid un solo chubasquero o un solo paraguas, con los cuerpos pegados. Lo que hagan las manos ahí debajo solo lo sabe quien está dentro.", "suave": "Si llueve, compartid chubasquero y caminad un rato en un abrazo."},
+    {"id": "prfu-e7", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "Para entrar en calor", "x": "Volved a la furgo, cerrad las cortinas y meteos en la cama sin nada encima, solo para entrar en calor. Ya veréis cuánto dura lo de solo.", "suave": "Volved a la furgo, cerrad las cortinas y meteos un rato en la cama, en un abrazo, con la ropa que queráis.", "tags": ["desnudez"]},
+    {"id": "prfu-e8", "f": "explora", "para": "uno", "nivel": 4, "min": 50, "t": "El claro sin camino", "x": "Buscad en el hayedo un claro al que no llegue ningún camino. Tumba a {O} en la manta sobre las hojas y desnúdale hasta donde el fresco deje: el calor lo pones tú.", "suave": "En un claro del hayedo, tumbaos en la manta en un abrazo y que tus manos se cuelen bajo la ropa de {O}.", "tags": ["aire", "desnudez"]},
+    {"id": "prfu-p1", "f": "perdidos", "temp": "seda", "t": "A la sombra de las hayas", "x": "Tumba a {R} sobre la manta, a la sombra de las hayas. Desabrocha despacio lo que lleve, sin quitarlo del todo: de momento, el valle mira por las rendijas.", "tags": ["aire", "prenda"]},
+    {"id": "prfu-p2", "f": "perdidos", "temp": "seda", "t": "El pañuelo mojado", "x": "Moja un pañuelo en el arroyo y pásalo por el cuello y el pecho de {R}. Cada escalofrío, tu boca lo calienta en el mismo sitio.", "tags": ["aire", "hielo"]},
+    {"id": "prfu-p3", "f": "perdidos", "temp": "seda", "t": "El viento primero", "x": "Quítale a {R} la prenda de arriba y deja que el viento del valle haga el primer recorrido. El segundo, el de tus manos, más despacio.", "tags": ["aire", "prenda"]},
+    {"id": "prfu-p4", "f": "perdidos", "temp": "brasa", "t": "Más que el río", "x": "Desnuda a {R} sobre la manta y recorre su cuerpo con la boca mientras suenan el río y los pájaros. Que lo único que se oiga más que el río sea {R}.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "prfu-p5", "f": "perdidos", "temp": "brasa", "t": "Con los pies fuera", "x": "Si la pista está vacía y la furgo cerca, abrid la puerta grande y tumbaos dentro con los pies fuera, sin ropa. El resto lo decide {R}.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "prfu-p6", "f": "perdidos", "temp": "brasa", "t": "Hasta que el sol se esconda", "x": "Sin ropa y sin cartas: tu cuerpo y el de {R} sobre la manta hasta que el sol se esconda detrás del monte. Lo que pase, a su ritmo.", "tags": ["aire", "desnudez", "intimo"]},
+    {"id": "prfu-c1", "f": "cena", "para": "ambos", "t": "Mesa en la cama", "x": "Cenad en la cama de la furgo, con la puerta abierta al valle mientras quede luz. Regla: nadie come con sus manos, se da de comer a la otra persona.", "tags": ["comida"]},
+    {"id": "prfu-c2", "f": "cena", "para": "uno", "t": "Vivir en el valle", "x": "Cuéntale a {O} cómo sería vuestra vida si os quedarais a vivir en este valle: con detalle, y con muchas mañanas en la cama.", "tags": ["voz"]},
+    {"id": "prfu-c3", "f": "cena", "para": "uno", "t": "Constelaciones", "x": "Sin luces de pueblo cerca, el cielo se llena. Busca la constelación más fácil y dibújasela a {O} con el dedo en la espalda, por debajo de la ropa."},
+    {"id": "prfu-a1", "f": "alcoba", "temp": "seda", "t": "Prenda a prenda", "x": "Con solo la luz cálida encendida, desnuda a {R} despacio, en el poco espacio que hay. Cada prenda que quites, un beso donde estaba.", "tags": ["prenda", "desnudez"]},
+    {"id": "prfu-a2", "f": "alcoba", "temp": "seda", "t": "Al ritmo del río", "x": "Abrid un poco una ventana para oír el río. A su ritmo, recorre la espalda de {R} con las yemas de los dedos, de la nuca a la cintura, una y otra vez.", "tags": []},
+    {"id": "prfu-a3", "f": "alcoba", "temp": "seda", "t": "Piernas entrelazadas", "x": "Meteos bajo el edredón con las piernas entrelazadas. Durante una canción solo se mueven tus manos, y siempre por debajo.", "tags": []},
+    {"id": "prfu-a4", "f": "alcoba", "temp": "brasa", "t": "El techo bajo", "x": "En la furgo no cabe ponerse de pie: que {R} se tumbe y tú recorre su cuerpo con la boca, sin saltarte ningún rincón de los que te deje.", "tags": ["desnudez", "intimo"]},
+    {"id": "prfu-a5", "f": "alcoba", "temp": "brasa", "t": "Antes que el valle", "x": "Si despertáis antes que el valle, abrid la puerta un palmo para que entre la primera luz. Lo que empiece ahí, sin prisa y sin salir de la cama.", "tags": ["desnudez", "intimo"]},
+    {"id": "prfu-a6", "f": "alcoba", "temp": "brasa", "t": "Todos los cristales", "x": "Que se empañen todos los cristales de la furgo. Lo que hace falta para eso ya lo sabéis; el ritmo lo pone {R}.", "tags": ["desnudez", "intimo"]},
+    {"id": "prfu-p7", "f": "perdidos", "temp": "brasa", "t": "La puerta corredera", "tags": ["aire", "desnudez", "intimo"], "x": "Con la puerta corredera abierta a un prado sin nadie, {R} se tumba en el borde de la cama, sin ropa. Arrodíllate fuera, sobre la hierba, con tu boca entre sus piernas, hasta que te pida que pares."},
+    {"id": "prfu-a7", "f": "alcoba", "temp": "brasa", "t": "Cada cual en un extremo", "tags": ["solo", "desnudez"], "x": "En la cama de la furgo, cada cual en un extremo y sin ropa: tocaos mirándoos, sin tocar a la otra persona, hasta que {R} no aguante más y cruce la cama."}
+  ]
+}
