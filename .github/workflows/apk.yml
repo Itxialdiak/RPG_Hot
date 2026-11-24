@@ -28,11 +28,14 @@ jobs:
           node-version: 22
           cache: npm
           cache-dependency-path: app-android/package-lock.json
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 21
       - uses: android-actions/setup-android@v3
+        with:
+          # Por defecto instala también «tools», que ya no existe en las cmdline-tools nuevas.
+          packages: platform-tools
       - name: Instalar ffmpeg
         run: command -v ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
       - name: Caché de la música
