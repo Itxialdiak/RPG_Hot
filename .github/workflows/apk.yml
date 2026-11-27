@@ -1,5 +1,7 @@
 # Compila la APK de Android en la nube, sin instalar nada en tu ordenador.
-# Pestaña Actions → «APK de Android» → Run workflow. Al terminar, la APK está en «Artifacts».
+# Pestaña Actions → «APK de Android» → Run workflow. Al terminar, la APK está en «Artifacts»
+# y en Releases, con un enlace fijo para bajarla desde el móvil:
+#   https://github.com/<usuario>/<repositorio>/releases/download/apk/doble-llave.apk
 # La música (Kevin MacLeod, CC BY 4.0) se descarga de incompetech.com la primera vez y queda
 # en la caché de Actions: las siguientes compilaciones no vuelven a bajarla.
 name: APK de Android
@@ -14,6 +16,9 @@ on:
       - 'musica/**'
       - 'herramientas/musica.mjs'
       - '.github/workflows/apk.yml'
+
+permissions:
+  contents: write   # para publicar la APK en Releases
 
 jobs:
   apk:
@@ -57,3 +62,15 @@ jobs:
         with:
           name: doble-llave-apk
           path: app-android/android/app/build/outputs/apk/debug/app-debug.apk
+      - name: Publicar la APK para bajarla desde el móvil
+        if: github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          cp android/app/build/outputs/apk/debug/app-debug.apk doble-llave.apk
+          gh release delete apk --yes --cleanup-tag 2>/dev/null || true
+          gh release create apk doble-llave.apk \
+            --target "$GITHUB_SHA" \
+            --title "Doble Llave para Android" \
+            --notes "Desde el móvil, toca doble-llave.apk para descargarla y ábrela para instalarla. Compilada el $(date -u +%Y-%m-%d) desde ${GITHUB_SHA::7}; cada compilación sustituye a la anterior."

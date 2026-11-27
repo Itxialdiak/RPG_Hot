@@ -89,9 +89,9 @@ Si abrís el HTML directamente como archivo en el móvil, algunos navegadores no
 
 ### Opción A: en la nube, sin instalar nada (recomendada)
 
-1. Subid esta carpeta a un repositorio de GitHub (puede ser privado).
+1. Subid esta carpeta a un repositorio de GitHub. Si es privado, el enlace de Releases solo funciona con vuestra sesión iniciada.
 2. Pestaña **Actions → APK de Android → Run workflow**.
-3. Al terminar (unos 5 minutos; la primera vez algo más, porque descarga la música), descargad el artefacto `doble-llave-apk`: dentro está `app-debug.apk`, de unos 70 MB con la música.
+3. Al terminar (unos 5 minutos; la primera vez algo más, porque descarga la música), la APK queda publicada en **Releases** con un enlace fijo que se puede abrir directamente en el móvil, sin cuenta de GitHub y sin zip: `https://github.com/<usuario>/<repositorio>/releases/download/apk/doble-llave.apk` (unos 80 MB con la música). También está como artefacto `doble-llave-apk` en la ejecución de Actions, dentro de un zip.
 4. En el móvil, abrid el archivo y permitid «instalar aplicaciones de origen desconocido» para esa app.
 
 Cada vez que cambie `doble-llave.html`, `app-android/` o la música, la APK se vuelve a compilar sola. Todas salen firmadas con la misma clave de depuración del proyecto (`app-android/android/app/debug.keystore`, contraseña pública `android`), así que una APK nueva se instala encima de la anterior sin perder lo guardado.
